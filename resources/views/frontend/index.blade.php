@@ -8899,6 +8899,17 @@
                 </div>
             </div>
 
+
+            <?php
+
+                    $listGroupsShows = Cache::rememberForever('listGroupsShow'.$groups->id, function() use($groups){
+
+                         $listGroupsShow =   App\Models\groupProduct::select('name', 'link')->where('parent_id', $groups->id)->take(4)->get();
+
+                        return $listGroupsShow??'';
+                    });
+                ?>
+
             <div class="p-container custom-nav owl-carousel owl-theme owl-loaded owl-drag" id="js-holder-1064" data-id="1064">
                 <div class="owl-stage-outer">
                     <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1610px;">
