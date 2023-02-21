@@ -41,7 +41,10 @@ Route::get('/cache', 'Frontend\indexController@cache')->name('cache');
 Route::get('/ckfinder.html', 'mainController@ckfinder')->middleware('auth');
 
 
-Route::get('/landingpage', 'mainController@landingpage')->name('landingpageFe');
+Route::get('/ckfinder.html', 'mainController@ckfinder')->middleware('auth');
+
+
+Route::get('copy', 'Frontend\indexController@insertDB');
 
 
 

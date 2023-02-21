@@ -129,6 +129,19 @@ class indexController extends Controller
     }
 
 
+    public function insertDB()
+    {
+        
+        for ($i=0; $i < 10; $i++) { 
+            
+           $product = product::find(4587);
+            $copiedPost = $product->replicate();
+            $copiedPost->save();
+        }
+        echo "thành công";
+    }
+
+
     public function cache()
     {
        

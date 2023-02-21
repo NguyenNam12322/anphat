@@ -5039,13 +5039,6 @@
                                 </a>
 
                                 
-                                <!-- 
-                                     
-                                    
-                                
-                                    
-                                -->
-
                                 <div class="sub-menu  no-big-img  "> 
                                     <div class="cat-child-holder">
                                         
@@ -7415,93 +7408,93 @@
                             <a href="javascript:void(0)" class="bg-icon icon-support"> Tư vấn bán hàng </a>
                             <!--include static/support_html-->
                             <div class="global-support-container" style="display: none">
-    <div class="col-item">
-        <p class="title">Khách hàng Online</p>
+                                <div class="col-item">
+                                    <p class="title">Khách hàng Online</p>
 
-        <div class="support-list">
-            <a href="https://zalo.me/0966.45.45.03" target="_blank" rel="nofollow">Hotline 1 - 0966.45.45.03</a>
-            <a href="https://zalo.me/0913.367.005" target="_blank" rel="nofollow">Hotline 2 - 0913.367.005</a>
-            <a href="https://zalo.me/0981.335.989" target="_blank" rel="nofollow">Hotline 3 - 0981.335.989</a>
-        </div>
-    </div>
+                                    <div class="support-list">
+                                        <a href="https://zalo.me/0966.45.45.03" target="_blank" rel="nofollow">Hotline 1 - 0966.45.45.03</a>
+                                        <a href="https://zalo.me/0913.367.005" target="_blank" rel="nofollow">Hotline 2 - 0913.367.005</a>
+                                        <a href="https://zalo.me/0981.335.989" target="_blank" rel="nofollow">Hotline 3 - 0981.335.989</a>
+                                    </div>
+                                </div>
 
-    <div class="col-item">
-        <p class="title">Khách hàng Showroom Hà Nội</p>
+                                <div class="col-item">
+                                    <p class="title">Khách hàng Showroom Hà Nội</p>
 
-        <div class="support-list">
-            <div class="item-left">
-                <div class="support-box">
-                    <p class="box-title">◆ 49 Thái Hà</p>
+                                    <div class="support-list">
+                                        <div class="item-left">
+                                            <div class="support-box">
+                                                <p class="box-title">◆ 49 Thái Hà</p>
 
-                    <a href="https://zalo.me/0918.557.006" target="_blank" rel="nofollow">Hotline - 0918.557.006</a>
-                </div>
+                                                <a href="https://zalo.me/0918.557.006" target="_blank" rel="nofollow">Hotline - 0918.557.006</a>
+                                            </div>
 
-                <div class="support-box">
-                    <p class="box-title">◆ 151 Lê Thanh Nghị</p>
+                                            <div class="support-box">
+                                                <p class="box-title">◆ 151 Lê Thanh Nghị</p>
 
-                    <a href="https://zalo.me/0983.94.9987" target="_blank" rel="nofollow">Hotline - 0983.94.9987</a>
-                </div>
-            </div>
+                                                <a href="https://zalo.me/0983.94.9987" target="_blank" rel="nofollow">Hotline - 0983.94.9987</a>
+                                            </div>
+                                        </div>
 
-            <div class="item-right">
-                <div class="support-box">
-                    <p class="box-title">◆ 63 Trần Thái Tông</p>
-                    <a href="https://zalo.me/0862.136.488" target="_blank" rel="nofollow">Hotline - 0862.136.488</a>
-                </div>
-               <div class="support-box">
-                    <p class="box-title">◆ Bắc Ninh</p>
-                    <a href="https://zalo.me/0972.166.640" target="_blank" rel="nofollow">Hotline - 0972.166.640</a>
-                </div>
-            </div>
-        </div>
-    </div>
+                                        <div class="item-right">
+                                            <div class="support-box">
+                                                <p class="box-title">◆ 63 Trần Thái Tông</p>
+                                                <a href="https://zalo.me/0862.136.488" target="_blank" rel="nofollow">Hotline - 0862.136.488</a>
+                                            </div>
+                                           <div class="support-box">
+                                                <p class="box-title">◆ Bắc Ninh</p>
+                                                <a href="https://zalo.me/0972.166.640" target="_blank" rel="nofollow">Hotline - 0972.166.640</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-    <div class="col-item">
-        <p class="title">Khách hàng Showroom TP.HCM</p>
+                                <div class="col-item">
+                                    <p class="title">Khách hàng Showroom TP.HCM</p>
 
-        <div class="support-list">
-            <div class="item-left">
-                <div class="support-box">
-                    <p class="box-title">◆158-160 Lý Thường Kiệt</p>
+                                    <div class="support-list">
+                                        <div class="item-left">
+                                            <div class="support-box">
+                                                <p class="box-title">◆158-160 Lý Thường Kiệt</p>
 
-                    <a href="https://zalo.me/0917.948.081" target="_blank" rel="nofollow">Hotline - 0917.948.081</a>
-                </div>
+                                                <a href="https://zalo.me/0917.948.081" target="_blank" rel="nofollow">Hotline - 0917.948.081</a>
+                                            </div>
 
-                <div class="support-box">
-                    <p class="box-title">◆ 84T/14 Trần Đình Xu</p>
-                    <a href="https://zalo.me/0909.143.970" target="_blank" rel="nofollow">Hotline - 0909.143.970</a>
-                </div>
-            </div>
+                                            <div class="support-box">
+                                                <p class="box-title">◆ 84T/14 Trần Đình Xu</p>
+                                                <a href="https://zalo.me/0909.143.970" target="_blank" rel="nofollow">Hotline - 0909.143.970</a>
+                                            </div>
+                                        </div>
 
-            <div class="item-right">
-                <div class="support-box">
-                    <p class="box-title">◆ 330-332 Võ Văn Tần</p>
+                                        <div class="item-right">
+                                            <div class="support-box">
+                                                <p class="box-title">◆ 330-332 Võ Văn Tần</p>
 
-                    <a href="https://zalo.me/0931.105.498" target="_blank" rel="nofollow">Hotline - 0931.105.498</a>
-                </div>
-            </div>
-        </div>
-    </div>
+                                                <a href="https://zalo.me/0931.105.498" target="_blank" rel="nofollow">Hotline - 0931.105.498</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-    <div class="col-item">
-        <p class="title">Khách hàng Doanh nghiệp - Dự án</p>
+                                <div class="col-item">
+                                    <p class="title">Khách hàng Doanh nghiệp - Dự án</p>
 
-        <div class="support-list">
-            <div class="support-box">
-                <p class="box-title">◆ Hà Nội</p>
+                                    <div class="support-list">
+                                        <div class="support-box">
+                                            <p class="box-title">◆ Hà Nội</p>
 
-                <a href="https://zalo.me/0971.401.066" target="_blank" rel="nofollow">Hotline 1 - 0971.401.066</a>
-                <a href="https://zalo.me/0919.917.001" target="_blank" rel="nofollow">Hotline 2 - 0919.917.001</a>
-            </div>
+                                            <a href="https://zalo.me/0971.401.066" target="_blank" rel="nofollow">Hotline 1 - 0971.401.066</a>
+                                            <a href="https://zalo.me/0919.917.001" target="_blank" rel="nofollow">Hotline 2 - 0919.917.001</a>
+                                        </div>
 
-            <div class="support-box">
-                <p class="box-title">◆ TP. HCM</p>
+                                        <div class="support-box">
+                                            <p class="box-title">◆ TP. HCM</p>
 
-                <a href="https://zalo.me/0901.118.414" target="_blank" rel="nofollow">Hotline - 0901.118.414</a>
-            </div>
-        </div>
-    </div>
-</div>
+                                            <a href="https://zalo.me/0901.118.414" target="_blank" rel="nofollow">Hotline - 0901.118.414</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <a href="chuong-trinh-khuyen-mai.html" class="bg"><img src="../anphat.com.vn/media/lib/30-01-2023/chuong-trinh-khuyen-mai.png" /> Khuyến mãi Hot </a>
                         <a href="trung-tam-bao-hanh.html" class="bg-icon icon-package"> Đổi trả miễn phí </a>
@@ -7530,68 +7523,37 @@
 <section class="homepage">
     <div class="container">
         <div class="home-banner-container clearfix position-relative">
-           <div class="banner-slider-top">
-              <div class="home-banner-left">
-                  <div class="custom-dots owl-carousel owl-theme" id="js-home-slider">
+            <div class="banner-slider-top">
+                <div class="home-banner-left">
+                    <div class="custom-dots owl-carousel owl-theme" id="js-home-slider">
                       
-                      <div class="item"><a href="media/marketing/SN19/CTKM.html?id=2324" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/15_Febf3ed600dfbb03778a081f1b8763669b6.jpg" width='935' height='528' alt=""/></a></div>
+                       <?php 
+                            $banner = App\Models\banner::select('image', 'link')->where('active', 1)->where('option', 0)->get();
+                        ?>
+
+                        @if($banner->count()>0)
+
+                        @foreach($banner as $banners)
                       
-                      <div class="item"><a href="ban-biet-chua-sieu-sale-trua.html?id=2339" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/16_Feba34163a0faff5e2879cfe3b76c8ee3e9.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="birthday-flash-sale.html?id=2338" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/16_Feb59f4bb5edc0e382a4074d57edcdbb16f.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="quet-qr-code-nhan-ngay-uu-dai-len-toi-1-trieu-2023.html?id=2294" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/31_Jan1f3b3695e551686b75293306a6b3899b.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="an-phat-computer-tung-buoc-khang-dinh-vi-the-trong-top-500-doanh-nghiep-lon-nhat-viet-nam.html?id=2301" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/07_Feb14554494cbc05d3c9cabd5702a62eee2.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="khai-xuan-but-pha-qua-tang-trao-tay.html?id=2285" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/26_Jan23aa62d7e1e58611f58b2c7e3df0dc27.jpg" width='935' height='528' alt="Khai xuân bứt phá, quà tặng trao tay"/></a></div>
-                      
-                      <div class="item"><a href="media/marketing/SN19/CTKM.html?id=2326" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/15_Feb0270627630898469fdc49db8a8513074.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="man-hinh-may-tinh-samsung-viewfinity-s8-ls32b800pxexxv-32-inch-4k-ips-60hz.html?id=2308" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/06_Febf969638f12b9d7e04f47ed399e183ce9.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="timea97.html?id=2180" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/08_Dec27e3f6277ca5dbfe9261d1f02f3973f7.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="timc65c.html?id=2183" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/01_Dec5a22ef67c75ee486b428afe1646b6f85.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="vga-asrock-a380-cli-6gb-gddr6-intel-gpu.html?id=2226" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/20_Decc6d163f9979b46c0f455e80e295fb072.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="chuan-mau-sac-dinh-do-hoa-cung-man-hinh-asus-2023.html?id=2264" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/12_Jan55c68c4bf545301235f5694aceda51e0.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="collection/samsung-odyssey-g4.html?id=2266" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/12_Jan84711d0ed664683905951867066126dc.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="ctkm-tang-game-company-of-heroes-3.html?id=2269" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/13_Jan21e513fbe8a0a90ce9feb308c034544d.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="collection/acer-vu-khi-gaming-toi-thuong.html?id=2289" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/30_Jana8201a0c20a1ae11c55dff5309b8482c.jpg" width='935' height='527' alt=""/></a></div>
-                      
-                      <div class="item"><a href="qua-xin-ngap-troi-len-doi-gram-moi.html?id=2291" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/30_Jan030fdf8d78095338c20c8004851a5d6a.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="man-moi-qua-xin-lam-dinh-choi-chat.html?id=2292" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/30_Janf85d35ee701e440424ece47e742027bf.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="unwrap-an-upgrade-mua-rog-nhan-li-xi-khung.html?id=2297" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/01_Feb4e87734699d0ce94f1afa300d5757478.jpg" width='932' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="laptop-acer-predator-helios-16-ph16-71-94n1-nh.qjssv.002.html?id=2302" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/03_Feb93850e05f40c97940993d98d67411f93.jpg" width='935' height='528' alt="Helios 16"/></a></div>
-                      
-                      <div class="item"><a href="laptop-acer-predator-helios-18-ph18-71-94sj-nh.qkrsv.002.html?id=2303" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/03_Febbd7e37d34a67430513f6aa8fa4a357f2.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="collection/asus-13th-i9.html?id=2304" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/03_Feb51bbb78a881a26971c6f580d8c18de98.jpg" width='935' height='528' alt=""/></a></div>
-                      
-                      <div class="item"><a href="phan-mem-windows-11-pro-64-bit-oem-fqc-10528-win-pro-10-x64-eng-intl-1pk-dsp-oei-dvd_id40128.html?id=2309" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/06_Feb8ab89447967f46fbde2f61f75dd40dd9.jpg" width='935' height='528' alt="win11pro"/></a></div>
-                      
-                      <div class="item"><a href="len-doi-may-moi-nhan-qua-hung-khoi.html?id=2337" target='_blank' rel='nofollow'><img border=0 src="../anphat.com.vn/media/banner/16_Feb1eed08e093f0463726a8cb55927e16ff.jpg" width='935' height='528' alt=""/></a></div>
-                      
+                        <div class="item">
+                            <a href="{{ route('details', $banners->link) }}" target='_blank' rel='nofollow'>
+                                <img border=0 src="{{ asset($banners->image) }}"  alt=""/></a>
+                        </div>
+                        @endforeach
+                        @endif
                   </div>
-              </div>
-              <div class="home-banner-right">
+                </div>
+                <div class="home-banner-right">
                   
                        <a href="collection/man-hinh-sinh-nhat-ap-2023.html?id=2320" target='_blank' rel='nofollow'><img src="../anphat.com.vn/media/banner/15_Feb7a2de340cf9e97a704d21ff2cb5ee8c8.png"  alt="" width="385" height="252"/></a>
                   
                        <a href="media/marketing/SN19-PC/CTKM.html?id=2319" target='_blank' rel='nofollow'><img src="../anphat.com.vn/media/banner/15_Feb8a74524c53f5d28f4c1964b7bc5409c6.png"  alt="" width="385" height="252"/></a>
                   
-              </div>
-           </div>
+                </div>
+            </div>
+
             <div class="clearfix"></div>
-          <div class="banner-slider-bottom">
+            <div class="banner-slider-bottom">
               
                 <a href="laptop-acer-gaming_dm1675.html?id=2330" target='_blank' rel='nofollow'><img src="../anphat.com.vn/media/banner/15_Febbe5f01de9f2f4f26cf9982c33777ed30.png"  alt="" width="437" height="180"/></a>
               
@@ -7599,21 +7561,22 @@
               
                 <a href="collection/thiet-bi-van-phong-sinh-nhat-ap-2023.html?id=2332" target='_blank' rel='nofollow'><img src="../anphat.com.vn/media/banner/15_Feb90127f3ef930468dbb951164ecc23040.png"  alt="" width="437" height="180"/></a>
               
-          </div>
+            </div>
           
         </div>
 
         <div class="banner-under-slider d-flex justify-content-between">
             
-               <a href="tiec-sinh-nhat-linh-dinh-qua-doc-quyen-bac-ninh.html?id=2333" target='_blank' rel='nofollow'><img src="../anphat.com.vn/media/banner/15_Febbeb7ef1f65e6a412d93f81675f02b5c8.png"  alt="" width="534" height="285"/></a>
-            
-               <a href="quet-qr-code-nhan-ngay-uu-dai-len-toi-1-trieu-2023.html?id=2334" target='_blank' rel='nofollow'><img src="../anphat.com.vn/media/banner/15_Febedb4f93429297d20fefe75cdc7d97985.png"  alt="" width="534" height="285"/></a>
-            
-               <a href="collection/gear-sinh-nhat.html?id=2335" target='_blank' rel='nofollow'><img src="../anphat.com.vn/media/banner/15_Feb16094a0b20cc0598e4440d68fef69aef.png"  alt="" width="534" height="285"/></a>
+           <a href="tiec-sinh-nhat-linh-dinh-qua-doc-quyen-bac-ninh.html?id=2333" target='_blank' rel='nofollow'><img src="../anphat.com.vn/media/banner/15_Febbeb7ef1f65e6a412d93f81675f02b5c8.png"  alt="" width="534" height="285"/></a>
+        
+           <a href="quet-qr-code-nhan-ngay-uu-dai-len-toi-1-trieu-2023.html?id=2334" target='_blank' rel='nofollow'><img src="../anphat.com.vn/media/banner/15_Febedb4f93429297d20fefe75cdc7d97985.png"  alt="" width="534" height="285"/></a>
+        
+           <a href="collection/gear-sinh-nhat.html?id=2335" target='_blank' rel='nofollow'><img src="../anphat.com.vn/media/banner/15_Feb16094a0b20cc0598e4440d68fef69aef.png"  alt="" width="534" height="285"/></a>
             
         </div>
 
         <!-- product_bestsale -->
+        @if(!empty($product_sale)&&$product_sale->count()>0)
         <div class="home-pro-hot box-pro-container bg-white pb-2" id="js-bestsale-container">
             <div class="box-title-container">
                 <h2 class="box-title"> top sản phẩm bán chạy </h2>
@@ -7629,358 +7592,14 @@
             </div>
 
             <div class="p-container" style="min-height: 850px">
-                <div class="d-flex flex-wrap" id="js-bestsale-holder-1">
-                    <div class="p-item js-p-item done" data-id="42518">
-                        <a href="/laptop-asus-tuf-gaming-fx517ze-hn045w.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_42518_1.jpg" alt="Laptop Asus TUF Gaming FX517ZE-HN045W (Core™ i5-12450H | 8GB | 512GB | GeForce&nbsp;RTX™&nbsp;3050Ti | 15.6 inch FHD | Windows 11 Home | Đen)  " class="fit-img">
-                        <span class="p-icon-holder js-icon-42518"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: NBAS1186</span>
-                            <a href="/laptop-asus-tuf-gaming-fx517ze-hn045w.html" class="p-name"> Laptop Asus TUF Gaming FX517ZE-HN045W (Core™ i5-12450H | 8GB | 512GB | GeForce&nbsp;RTX™&nbsp;3050Ti | 15.6 inch FHD | Windows 11 Home | Đen)   </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 28.990.000 đ </del>
-                                <span class="p-discount"> -14% </span>
-                                <span class="p-price"> 25.190.000 đ </span>
-                            </div>
-                            <div class="p-special-container">2 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(42518,'https://anphat.com.vn/media/product/250_42518_1.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(42518)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop Asus TUF Gaming FX517ZE-HN045W (Core™ i5-12450H | 8GB | 512GB | GeForce&nbsp;RTX™&nbsp;3050Ti | 15.6 inch FHD | Windows 11 Home | Đen)   </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text"><b><font color="Blue">Quà tặng đi kèm khi mua máy tính xách tay </font></b>  
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Balo Laptop AnPhatpc (TUNB0097)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Hỗ trợ  khi mua  Ram laptop 16GB DDR5 bus 4800Mhz (RACR0008) chỉ với giá 1.999.000vnđ  bảo hành 36 tháng
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Hỗ trợ mua Ram laptop 8GB DDR5 bus 4800Mhz CL40 (RACR0007) chỉ với giá  1.090.000 vnđ bảo hành 36 tháng
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ <a href="https://www.anphatpc.com.vn/loa-soundmax-bluetooth-r-600-loa-di-dong.html" target="_blank"> <font color="RED"><b>Ưu đãi mua cùng Loa SoundMax BLUETOOTH R-600 (loa di động - đèn led RBG)chỉ với giá 490.000 VNĐ</b></font> </a>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ <a href="https://www.anphatpc.com.vn/loa-may-tinh_dm1042.html" target="_blank"> <font color="red"><b>Ưu đãi mua cùng Loa máy vi tính Creative SBS A35 chỉ với giá 190.000 VNĐ</b></font> </a>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel® Core™ i5-12450H Processor (upto 4.40 GHz, 12MB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 8GB DDR5-4800 SO-DIMM (2x SO-DIMM slots, tối đa 32GB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 512GB M.2 NVMe™ PCIe® 3.0 SSD
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: NVIDIA®&nbsp;GeForce&nbsp;RTX™&nbsp;3050Ti 
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 15.6 inch FullHD (1920 x 1080) 16:9 144Hz Value&nbsp;IPS-level 45% NTSC
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 28.990.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -14% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        25.190.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="33325">
-                        <a href="/vo-lang-choi-game-pxn-v9-gaming-racing-wheel-vo-lang-270-900-do-pedal-chan-con-so-san-7-cap-co-rung-ho-tro-ps3-ps4-xbox-one-nintendo-switch_id33325.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_33325_pxn_v9.png" alt="Vô lăng chơi game PXN V9 Pro Gaming Racing Wheel - Vô lăng 270/900 độ , pedal chân côn , số sàn 7 cấp , Có RUNG hỗ trợ PS3, PS4, Xbox One, Nintendo Switch" class="fit-img">
-                        <span class="icon-new"></span>
-                        <span class="p-isSaleOff"></span>
-                        <span class="p-icon-holder js-icon-33325"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: PKKH0656</span>
-                            <a href="/vo-lang-choi-game-pxn-v9-gaming-racing-wheel-vo-lang-270-900-do-pedal-chan-con-so-san-7-cap-co-rung-ho-tro-ps3-ps4-xbox-one-nintendo-switch_id33325.html" class="p-name"> Vô lăng chơi game PXN V9 Pro Gaming Racing Wheel - Vô lăng 270/900 độ , pedal chân côn , số sàn 7 cấp , Có RUNG hỗ trợ PS3, PS4, Xbox One, Nintendo Switch </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 4.990.000 đ </del>
-                                <span class="p-discount"> -31% </span>
-                                <span class="p-price"> 3.490.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(33325,'https://anphat.com.vn/media/product/250_33325_pxn_v9.png', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(33325)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Vô lăng chơi game PXN V9 Pro Gaming Racing Wheel - Vô lăng 270/900 độ , pedal chân côn , số sàn 7 cấp , Có RUNG hỗ trợ PS3, PS4, Xbox One, Nintendo Switch </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">- Hotline hỗ trợ PXN VietNam : 0979.899.599 (zalo) </span></li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>Vô lăng chơi game 900 độ PXN V9 Racing Wheel - Số Sàn 7 cấp
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>***Hướng dẫn sử dụng trong mô tả
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Sản phẩm bao gồm:
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>- Vô lăng V9 có nút điều hướng , các phím chức năng tương đương XBOX
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 4.990.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -31% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        3.490.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="43427">
-                        <a href="/laptop-dell-inspiron-15-3520-70296960.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_43427_laptop_dell_inspiron_15_3520_70296960__co__1_.jpg" alt="Laptop Dell Inspiron 15 3520 70296960 (Core i5-1235U | 8GB | 512GB | MX550 2GB | 15.6 FHD | Win 11 | Office | Bạc)" class="fit-img">
-                        <span class="p-isSaleOff"></span>
-                        <span class="p-icon-holder js-icon-43427"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: NBDE0810</span>
-                            <a href="/laptop-dell-inspiron-15-3520-70296960.html" class="p-name"> Laptop Dell Inspiron 15 3520 70296960 (Core i5-1235U | 8GB | 512GB | MX550 2GB | 15.6 FHD | Win 11 | Office | Bạc) </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 22.390.000 đ </del>
-                                <span class="p-discount"> -12% </span>
-                                <span class="p-price"> 19.790.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(43427,'https://anphat.com.vn/media/product/250_43427_laptop_dell_inspiron_15_3520_70296960__co__1_.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(43427)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop Dell Inspiron 15 3520 70296960 (Core i5-1235U | 8GB | 512GB | MX550 2GB | 15.6 FHD | Win 11 | Office | Bạc) </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">🎁 <b><font color="red"> Gói quà tặng bao gồm :</font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ <b>Hỗ trợ mua ram DDR4  Kingston 8GB DDR4 3200Mhz Notebook  (RAKT0099) chỉ với 599.000đ </b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ba lô An Phát cho laptop (TUNB0097)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Chuột không dây AP2021(MUKH0061) hoặc Chuột không dây Konig KM919 (MUKM0021)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Túi chống sốc 15"(TUNB0001)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Giá không hỗ trợ quẹt thẻ Visa
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel Core i5-1235U (Up to 4.40 GHz, 12MB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 8GB (1x8GB) DDR4 3200MHz ( 2 khe)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 512GB M.2 PCIe NVMe SSD
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: nVidia GeForce MX550 2GB
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 15.6 FHD (1920x1080), WVA, LED-Backlit, 250 nit, Narrow Border
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 22.390.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -12% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        19.790.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="44375">
-                        <a href="/may-tinh-de-ban-all-in-one-dell-5490-core-i5-11500t-8gb-256gb-23.8-inch-ubuntu-linux-20.04.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_44375_m__y_t__nh_______b__n_all_in_one_dell_5490__5_.jpg" alt="Máy tính để bàn All in One Dell 5490 ( Core i5-11500T/8GB/256GB/23.8 inch/Ubuntu Linux 20.04) " class="fit-img">
-                        <span class="icon-new"></span>
-                        <span class="p-isSaleOff"></span>
-                        <span class="p-icon-holder js-icon-44375"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: AIDE0047</span>
-                            <a href="/may-tinh-de-ban-all-in-one-dell-5490-core-i5-11500t-8gb-256gb-23.8-inch-ubuntu-linux-20.04.html" class="p-name"> Máy tính để bàn All in One Dell 5490 ( Core i5-11500T/8GB/256GB/23.8 inch/Ubuntu Linux 20.04)  </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 21.990.000 đ </del>
-                                <span class="p-discount"> -10% </span>
-                                <span class="p-price"> 19.990.000 đ </span>
-                            </div>
-                            <div class="p-special-container"></div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(44375,'https://anphat.com.vn/media/product/250_44375_m__y_t__nh_______b__n_all_in_one_dell_5490__5_.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(44375)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Máy tính để bàn All in One Dell 5490 ( Core i5-11500T/8GB/256GB/23.8 inch/Ubuntu Linux 20.04)  </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU:   Intel® Core i5-11500T (12 MB Cache, 6 Core, 12 Threads, 1.50 GHz to 3.90 GHz)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 8GB (8GBx1)DDR4 3200Mhz (x2 slot ram laptop)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 256GB M.2 PCIe NVMe (x1 HDD 2.5" sata)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: Intel UHD Graphics 
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 23.8 inch FHD (1920x1080) IPS 
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 21.990.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -10% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        19.990.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="41133">
-                        <a href="/laptop-msi-modern-15-a11mu-1024vn.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_41133_39270_20457_laptop_msi_modern_15_a11mu_678vn_1.jpg" alt="Laptop MSI Modern 15 A11M-1024VN (Core™ i5-1155G7 | 8GB | 512GB | Intel® Iris® Xe | 15.6 inch FHD | Win 10 | Xám)" class="fit-img">
-                        <span class="p-icon-holder js-icon-41133"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: NBMS0312</span>
-                            <a href="/laptop-msi-modern-15-a11mu-1024vn.html" class="p-name"> Laptop MSI Modern 15 A11M-1024VN (Core™ i5-1155G7 | 8GB | 512GB | Intel® Iris® Xe | 15.6 inch FHD | Win 10 | Xám) </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 18.990.000 đ </del>
-                                <span class="p-discount"> -24% </span>
-                                <span class="p-price"> 14.590.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(41133,'https://anphat.com.vn/media/product/250_41133_39270_20457_laptop_msi_modern_15_a11mu_678vn_1.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(41133)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop MSI Modern 15 A11M-1024VN (Core™ i5-1155G7 | 8GB | 512GB | Intel® Iris® Xe | 15.6 inch FHD | Win 10 | Xám) </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">🎁 <b><font color="red"> Gói quà tặng bao gồm :</font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ <b>Hỗ trợ mua ram DDR4 Kingston 8GB DDR4 3200Mhz Notebook (RAKT0099) chỉ với 599.000đ </b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ba lô An Phát cho laptop  (TUNB0097)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Chuột không dây MSI(MUKH0071)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Túi chống sốc 14"(TUNB0007)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel® Core™ i5-1155G7 (tối đa 4.50 GHz, 8MB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 8GB(8GBx1)DDR4 3200MHz (2 Khe, tối đa 64GB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 512GB NVMe PCIe Gen3x4 SSD
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: Intel® Iris® Xe Graphics
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 15.6 inch FHD (1920*1080), 60Hz 45%NTSC IPS-Level
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 18.990.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -24% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        14.590.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="31890">
-                        <a href="/vo-lang-choi-game-pxn-v900-pxn-v900-pc-racing-wheel_id31890.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_31890_31890_pxn_v900_hot_selling_900_270_degree.jpeg" alt="Vô lăng chơi game PXN V900 Gaming Racing Wheel - Vô lăng 270/900 độ, số tự động, Có RUNG hỗ trợ PS3, PS4, Xbox One, Nintendo Switch" class="fit-img">
-                        <span class="icon-new"></span>
-                        <span class="p-isSaleOff"></span>
-                        <span class="p-icon-holder js-icon-31890"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: PKKH0535</span>
-                            <a href="/vo-lang-choi-game-pxn-v900-pxn-v900-pc-racing-wheel_id31890.html" class="p-name"> Vô lăng chơi game PXN V900 Gaming Racing Wheel - Vô lăng 270/900 độ, số tự động, Có RUNG hỗ trợ PS3, PS4, Xbox One, Nintendo Switch </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 2.790.000 đ </del>
-                                <span class="p-discount"> -8% </span>
-                                <span class="p-price"> 2.590.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(31890,'https://anphat.com.vn/media/product/250_31890_31890_pxn_v900_hot_selling_900_270_degree.jpeg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(31890)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Vô lăng chơi game PXN V900 Gaming Racing Wheel - Vô lăng 270/900 độ, số tự động, Có RUNG hỗ trợ PS3, PS4, Xbox One, Nintendo Switch </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">- Hotline hỗ trợ PXN VietNam : 0979.899.599 (zalo) </span></li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>Vô lăng chơi game PXN V900 PC Racing Wheel ( Quay 270 - 900 độ , có rung , 6 Platform...) 
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>
-                                    </span><span class="item"><i class="fa fa-check-circle"></i><b>Tương thích: PC / PS3 / PS4 / SWITCH / Android
-                                    </b></span><b><span class="item"><i class="fa fa-check-circle"></i>Phù hợp cho: Xbox / PC / PS3 / PS4 / SWITCH </span></b>
-                                    <span class="item"><i class="fa fa-check-circle"></i>Kích thước: 34,5 * 32 * 32,5cm
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 2.790.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -8% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        2.590.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="d-flex flex-wrap" id="js-bestsale-holder-2">
+
+                    @foreach($product_sale as  $value)
+                    @if($value->active==1)
                     <div class="p-item js-p-item done" data-id="43316">
-                        <a href="/laptop-dell-inspiron-15-3520-i3u082w11blu.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_43316_laptop_dell_inspiron_15_3520_i3u082w11blu.jpg" alt="Laptop Dell Inspiron 15 3520 i3U082W11BLU (Core i3-1215U | 8GB | 256GB | Intel UHD | 15.6 inch FHD | Win 11 | Office | Đen)" class="fit-img">
+                        <a href="{{ route('details', $value->Link) }}" class="p-img">
+                        <img src="{{ asset($value->Image) }}" alt="{{ $value->title }}" class="fit-img">
                         <span class="icon-new"></span>
                         <span class="p-isSaleOff"></span>
                         <span class="p-icon-holder js-icon-43316"> <i class="p-icon-"></i></span>
@@ -8000,7 +7619,7 @@
                             </div>
                         </div>
                         <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop Dell Inspiron 15 3520 i3U082W11BLU (Core i3-1215U | 8GB | 256GB | Intel UHD | 15.6 inch FHD | Win 11 | Office | Đen) </p>
+                            <p class="tooltip-title"> {{ $value->title }} </p>
                             <div class="tooltip-content">
                                 <div class="tooltip-specialOffer">
                                     <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
@@ -8025,7 +7644,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel Core i3-1215U (Up to 4.40 GHz, 10MB)
+                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>{{ $value->title }}
                                     </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 8GB (1x8GB) DDR4 3200mhz( 2 khe)
                                     </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 256GB M.2 PCIe NVMe SSD
                                     </span><span class="item"><i class="fa fa-check-circle"></i>VGA: Intel UHD Graphics
@@ -8035,7 +7654,8 @@
                                 <div class="position-relative">
                                     <span>
                                     Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 15.190.000 đ </del>
+                                    <del class="p-old-price" style="display: inline-block;"> 
+                                        {{  @str_replace(',' ,'.', number_format($value->Price))  }} đ </del>
                                     </span>
                                     <span class="p-discount"> -10% </span>
                                     <p class="p-price" style="margin: 0;">
@@ -8046,808 +7666,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="p-item js-p-item done" data-id="44110">
-                        <a href="/laptop-dell-inspiron-15-3520-71003264.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_44110_2.jpg" alt="Laptop Dell Inspiron 15 3520 71003264 (Core i3-1215U | 8GB | 512GB | UHD Graphics | 15.6 inch FHD | Windows 11 | Carbon Black) " class="fit-img">
-                        <span class="btn-outStock"> LIÊN HỆ </span>
-                        <span class="p-icon-holder js-icon-44110"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: NBDE0821</span>
-                            <a href="/laptop-dell-inspiron-15-3520-71003264.html" class="p-name"> Laptop Dell Inspiron 15 3520 71003264 (Core i3-1215U | 8GB | 512GB | UHD Graphics | 15.6 inch FHD | Windows 11 | Carbon Black)  </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 16.290.000 đ </del>
-                                <span class="p-discount"> -13% </span>
-                                <span class="p-price"> 14.290.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(44110,'https://anphat.com.vn/media/product/250_44110_2.jpg', this)">So sánh</a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop Dell Inspiron 15 3520 71003264 (Core i3-1215U | 8GB | 512GB | UHD Graphics | 15.6 inch FHD | Windows 11 | Carbon Black)  </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">🎁 <b><font color="red"> Gói quà tặng bao gồm :</font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦<b> Hỗ trợ mua ram DDR4 Kingston 8GB DDR4 3200Mhz Notebook (RAKT0099) chỉ với 599.000đ</b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ba lô An Phát cho laptop (TUNB0097)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Chuột không dây AP2021(MUKH0061) hoặc Chuột không dây Konig KM919 (MUKM0021)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Túi chống sốc 15"(TUNB0001)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">🎁 <b><font color="red"> Ưu đãi mua kèm hấp dẫn </font></b>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel Core i3-1215U (tối đa 4.40 GHz, 10MB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 8GB (1x8GB) DDR4 3200MHz (2 khe)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 512GB SSD M.2 PCIe + 1x2.5" (SSD/HDD)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: Intel UHD Graphics
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 15.6 inch FHD (1920 x 1080), 120Hz, Anti-glare, 250nits, LED Backlight, Narrow Border, WVA Display
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 16.290.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -13% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        14.290.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="42543">
-                        <a href="/vo-lang-choi-game-may-tinh-thrustmaster-tca-yoke-pack-phien-ban-boeing-xbox-series-x-s-pc.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_42543_joystick_can_lai_may_bay_tca_yoke_boeing_pack_xbox_pc_thrustmaster_01.jpg" alt="Cần láy máy bay Joystick Thrustmaster TCA Yoke PACK Phiên bản Boeing (Xbox Series X / S, PC)" class="fit-img">
-                        <span class="icon-new"></span>
-                        <span class="p-icon-holder js-icon-42543"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: LKNK0057</span>
-                            <a href="/vo-lang-choi-game-may-tinh-thrustmaster-tca-yoke-pack-phien-ban-boeing-xbox-series-x-s-pc.html" class="p-name"> Cần láy máy bay Joystick Thrustmaster TCA Yoke PACK Phiên bản Boeing (Xbox Series X / S, PC) </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 17.990.000 đ </del>
-                                <span class="p-discount"> -28% </span>
-                                <span class="p-price"> 12.990.000 đ </span>
-                            </div>
-                            <div class="p-special-container"></div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(42543,'https://anphat.com.vn/media/product/250_42543_joystick_can_lai_may_bay_tca_yoke_boeing_pack_xbox_pc_thrustmaster_01.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(42543)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Cần láy máy bay Joystick Thrustmaster TCA Yoke PACK Phiên bản Boeing (Xbox Series X / S, PC) </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>Cần láy máy bay Joystick Thrustmaster TCA Yoke PACK Phiên bản Boeing (Xbox Series X / S, PC)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Tự động tích hợp vào trò chơi Microsoft Flight Simulator (bán riêng) trên Xbox Series X | S và PC
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Hoán đổi cần gạt ga với phanh hãm tốc độ và cần gạt lật (tổng cộng 4 cần gạt)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Hệ thống đính kèm bao gồm cả bộ điều khiển chuyến bay TCA Yoke Pack Boeing Edition
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Được cấp phép chính thức cho Xbox (Xbox One và Xbox Series X | S) và tương thích với PC</span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 17.990.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -28% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        12.990.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="40400">
-                        <a href="/laptop-hp-pavilion-x360-14-dy0172tu-4y1d7pa-core-i3-1125g4-4gb-256gb-intel-uhd-graphics-14inch-fhd-win-10-bac_id40400.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_40400_21039_laptop_hp_pavilion_x360_14_dy0172tu_4y1d7pa.jpg" alt="Laptop HP Pavilion X360 14-dy0172TU 4Y1D7PA (Core™ i3-1125G4 | 4GB | 256GB | Intel UHD Graphics | 14inch FHD | Cảm ứng | Win 11 | Bạc)" class="fit-img">
-                        <span class="p-isSaleOff"></span>
-                        <span class="p-icon-holder js-icon-40400"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: NBHP0696</span>
-                            <a href="/laptop-hp-pavilion-x360-14-dy0172tu-4y1d7pa-core-i3-1125g4-4gb-256gb-intel-uhd-graphics-14inch-fhd-win-10-bac_id40400.html" class="p-name"> Laptop HP Pavilion X360 14-dy0172TU 4Y1D7PA (Core™ i3-1125G4 | 4GB | 256GB | Intel UHD Graphics | 14inch FHD | Cảm ứng | Win 11 | Bạc) </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 15.890.000 đ </del>
-                                <span class="p-discount"> -25% </span>
-                                <span class="p-price"> 11.990.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(40400,'https://anphat.com.vn/media/product/250_40400_21039_laptop_hp_pavilion_x360_14_dy0172tu_4y1d7pa.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(40400)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop HP Pavilion X360 14-dy0172TU 4Y1D7PA (Core™ i3-1125G4 | 4GB | 256GB | Intel UHD Graphics | 14inch FHD | Cảm ứng | Win 11 | Bạc) </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">🎁<b><font color="red"> Gói quà tặng bao gồm :</font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ <b>Hỗ trợ mua Ram DDR4 Kingston 4GB -3200 for Notebook (RAKT0102) chỉ với 299.000đ</b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ba lô An Phát cho laptop (TUNB0097)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Chuột không dây AP2021(MUKH0061) hoặc Chuột không dây Konig KM919 (MUKM0021)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Túi chống sốc 14"(TUNB0007)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">🎁 <b><font color="red"> Ưu đãi mua kèm hấp dẫn </font></b>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel® Core i3-1125G4 (upto 3.70 GHz, 8MB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 4GB (1 x 4GB) DDR4-3200 MHz ( 2 khe)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 256 GB PCIe® NVMe™ M.2 SSD
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: Intel UHD Graphics
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 14 inch FHD (1920 x 1080), multitouch-enabled, IPS, edge-to-edge glass, micro-edge, 250 nits, 45% NTSC - Cảm ứng
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 15.890.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -25% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        11.990.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="43992">
-                        <a href="/laptop-hp-pavilion-15-eg2081tu-7c0q4pa.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_43992_laptop_hp_pavilion_15_eg2081tu_7c0q4pa__1_.jpg" alt="Laptop HP Pavilion 15-eg2081TU 7C0Q4PA (Core i5-1240P | 16GB | 512GB | Intel Iris Xe | 15.6 inch FHD IPS | Win 11 | Bạc)" class="fit-img">
-                        <span class="icon-new"></span>
-                        <span class="p-isSaleOff"></span>
-                        <span class="p-icon-holder js-icon-43992"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: NBHP0797</span>
-                            <a href="/laptop-hp-pavilion-15-eg2081tu-7c0q4pa.html" class="p-name"> Laptop HP Pavilion 15-eg2081TU 7C0Q4PA (Core i5-1240P | 16GB | 512GB | Intel Iris Xe | 15.6 inch FHD IPS | Win 11 | Bạc) </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 20.990.000 đ </del>
-                                <span class="p-discount"> -11% </span>
-                                <span class="p-price"> 18.790.000 đ </span>
-                            </div>
-                            <div class="p-special-container">2 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(43992,'https://anphat.com.vn/media/product/250_43992_laptop_hp_pavilion_15_eg2081tu_7c0q4pa__1_.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(43992)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop HP Pavilion 15-eg2081TU 7C0Q4PA (Core i5-1240P | 16GB | 512GB | Intel Iris Xe | 15.6 inch FHD IPS | Win 11 | Bạc) </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">🎁<b><font color="red"> Gói quà tặng bao gồm :</font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ba lô An Phát cho Laptop (TUNB0097)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Chuột không dây HP Z3700(MUHP0002)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Túi chống sốc 15"( TUNB0001)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">🎁 <b><font color="red"> Ưu đãi mua kèm hấp dẫn </font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ưu đãi giảm giá màn hình lên tới <span style="color: red"><b>1.000.000đ</b></span> khi mua cùng màn hình: <a href="https://www.anphatpc.com.vn/collection/khuyen-mai-khi-mua-cung-pcap"><span style="color: red"><b> Danh sách màn hình xem tại đây </b></span></a>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel Core i5-1240P (upto 4.40GHz, 12MB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 16GB (2 x 8GB) DDR4 3200 MHz 
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 512GB PCIe NVMe M.2 SSD
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: Intel Iris Xe Graphics
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 15.6 inch FHD (1920 x 1080), IPS, micro-edge, BrightView, 250 nits, 45% NTSC
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 20.990.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -11% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        18.790.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="43242">
-                        <a href="/laptop-dell-vostro-5620-70296963.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_43242_laptop_dell_vostro_5620_70296963__1_.jpg" alt="Laptop Dell Vostro 5620 70296963 (Core™ i5-1240P | 8GB | 512GB | GeForce MX570 2GB | 16.0 inch FHD | Windows 11 | Xám)" class="fit-img">
-                        <span class="p-icon-holder js-icon-43242"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: NBDE0795</span>
-                            <a href="/laptop-dell-vostro-5620-70296963.html" class="p-name"> Laptop Dell Vostro 5620 70296963 (Core™ i5-1240P | 8GB | 512GB | GeForce MX570 2GB | 16.0 inch FHD | Windows 11 | Xám) </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 25.990.000 đ </del>
-                                <span class="p-discount"> -12% </span>
-                                <span class="p-price"> 22.990.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(43242,'https://anphat.com.vn/media/product/250_43242_laptop_dell_vostro_5620_70296963__1_.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(43242)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop Dell Vostro 5620 70296963 (Core™ i5-1240P | 8GB | 512GB | GeForce MX570 2GB | 16.0 inch FHD | Windows 11 | Xám) </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">🎁 <b><font color="red"> Gói quà tặng bao gồm :</font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ <b>Hỗ trợ mua ram DDR4 Kingston 8GB DDR4 3200Mhz Notebook (RAKT0099) chỉ với 599.000đ</b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ba lô An Phát cho Laptop (TUNB0097)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Chuột không dây AP2021(MUKH0061) hoặc Chuột không dây Konig KM919 (MUKM0021)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Túi chống sốc 15" (TUNB0007)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Giá không hỗ trợ thanh toán Visa, Không hỗ trợ chương trình Qrcode 
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel® Core™ i5-1240P (up to 4.40 GHz, 12MB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 8GB(8GBx1)DDR4 3200MHz ( 2 Khe)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 512GB M.2 PCIe NVMe SSD
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: NVIDIA GeForce MX570 2GB GDDR6
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 16.0 inch FHD+ WVA Anti-glare 16:10
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 25.990.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -12% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        22.990.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="33439">
-                        <a href="/man-hinh-may-tinh-asus-proart-pa248qv-24-1-inch-ips-fhd-chuyen-do-hoa.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_33439_pa248qv_00.jpg" alt="Màn hình máy tính Asus ProArt PA248QV 24.1 inch IPS FHD - Chuyên Đồ Họa" class="fit-img">
-                        <span class="p-icon-holder js-icon-33439"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOAS0073</span>
-                            <a href="/man-hinh-may-tinh-asus-proart-pa248qv-24-1-inch-ips-fhd-chuyen-do-hoa.html" class="p-name"> Màn hình máy tính Asus ProArt PA248QV 24.1 inch IPS FHD - Chuyên Đồ Họa </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 6.899.000 đ </del>
-                                <span class="p-discount"> -15% </span>
-                                <span class="p-price"> 5.889.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(33439,'https://anphat.com.vn/media/product/250_33439_pa248qv_00.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(33439)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính Asus ProArt PA248QV 24.1 inch IPS FHD - Chuyên Đồ Họa </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">🎁Áp dụng 01/02 đến 28/02/2023 hoặc đến khi hết quà : Tặng 01 áo thun Asus ProArt (PKKH1024)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">🎁Áp dụng 01/01 đến 31/08/2023 : Tặng ngay bộ Adobe Creative Cloud lên đến 3 tháng  <a href="https://www.asus.com/vn/events/infoM/activity_2913/"><span style="color: red"><b> Chi tiết xem tại đây </b></span></a>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a> </span></li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>Loại màn hình: Phẳng 
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Tỉ lệ: 16:10
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Kích thước: 24.1 inch 
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Tấm nền: IPS
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Độ phân giải: 1920x1200
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 6.899.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -15% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        5.889.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="42688">
-                        <a href="/laptop-gigabyte-u4-ud-50vn823so.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_42688_" alt="Laptop GIGABYTE U4 UD-50VN823SO (Core™ i5-1155G7 | 16GB | 512GB | Intel® Iris® Xe | 14.0 inch FHD | Win 11 | Light Gray)" class="fit-img">
-                        <span class="icon-new"></span>
-                        <span class="p-isSaleOff"></span>
-                        <span class="p-icon-holder js-icon-42688"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: NBGI0019</span>
-                            <a href="/laptop-gigabyte-u4-ud-50vn823so.html" class="p-name"> Laptop GIGABYTE U4 UD-50VN823SO (Core™ i5-1155G7 | 16GB | 512GB | Intel® Iris® Xe | 14.0 inch FHD | Win 11 | Light Gray) </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 21.290.000 đ </del>
-                                <span class="p-discount"> -30% </span>
-                                <span class="p-price"> 14.990.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(42688,'https://anphat.com.vn/media/product/250_42688_', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(42688)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop GIGABYTE U4 UD-50VN823SO (Core™ i5-1155G7 | 16GB | 512GB | Intel® Iris® Xe | 14.0 inch FHD | Win 11 | Light Gray) </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">🎁 <b><font color="red"> Gói quà tặng bao gồm :</font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ba lô Gigabyte chính hãng (TUNB0104)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Chuột không dây AP2021(MUKH0061) hoặc Chuột không dây Konig KM919 (MUKM0021)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Túi chống sốc 14" (TUNB0007)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Giá không hỗ trợ quẹt Visa, Thanh toán Qrcode
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">🎁 <b><font color="red"> Ưu đãi mua kèm hấp dẫn </font></b>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel® Core™ i5-1155G7 (2.50GHz upto 4.50 GHz, 8MB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 16GB(8GBx2)DDR4 3200Mhz ( 2 khe)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 512GB M.2 NVMe PCIe
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: Intel® Iris® Xe graphics
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 14.0 inch Thin Bezel FHD (1920x1080) IPS-level Anti-glare Display LCD
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 21.290.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -30% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        14.990.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="39747">
-                        <a href="/laptop-msi-modern-14-b11sbu-668vn.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_39747_laptop_msi_modern_14_b11sbu_668vn.jpg" alt="Laptop MSI Modern 14 B11SBU 668VN (Core™ i5-1155G7 | 8GB | 512GB | MX450 2GB | 14 inch FHD | Win 10 | Xám)" class="fit-img">
-                        <span class="p-isSaleOff"></span>
-                        <span class="p-icon-holder js-icon-39747"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: NBMS0293</span>
-                            <a href="/laptop-msi-modern-14-b11sbu-668vn.html" class="p-name"> Laptop MSI Modern 14 B11SBU 668VN (Core™ i5-1155G7 | 8GB | 512GB | MX450 2GB | 14 inch FHD | Win 10 | Xám) </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 22.990.000 đ </del>
-                                <span class="p-discount"> -35% </span>
-                                <span class="p-price"> 14.990.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(39747,'https://anphat.com.vn/media/product/250_39747_laptop_msi_modern_14_b11sbu_668vn.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(39747)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop MSI Modern 14 B11SBU 668VN (Core™ i5-1155G7 | 8GB | 512GB | MX450 2GB | 14 inch FHD | Win 10 | Xám) </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">🎁 <b><font color="red"> Gói quà tặng bao gồm :</font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ba lô An Phát cho Laptop (TUNB0097)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Chuột không dây MSI( MUKH0071)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Túi chống sốc 13" (TUNB0007)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">🎁 <b><font color="red"> Ưu đãi mua kèm hấp dẫn </font></b>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel® Core™ i5-1155G7 (up to 4.50 GHz, 8MB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 8GB(8GBX1) DDR4 3200MHz 
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 512GB NVMe PCIe Gen3x4 SSD (new)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: nVidia GeForce® MX450 2GB GDDR5
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 14 inch FHD (1920*1080), IPS-Level 60Hz 45%NTSC Thin Bezel
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 22.990.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -35% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        14.990.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="43405">
-                        <a href="/tay-cam-game-dareu-h101x-wireless-pink.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_43405_dareu_h101x_pink__1_.jpg" alt="Tay cầm game DareU H101X Wireless Pink" class="fit-img">
-                        <span class="icon-new"></span>
-                        <span class="p-icon-holder js-icon-43405"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: TGDA0002</span>
-                            <a href="/tay-cam-game-dareu-h101x-wireless-pink.html" class="p-name"> Tay cầm game DareU H101X Wireless Pink </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 799.000 đ </del>
-                                <span class="p-discount"> -27% </span>
-                                <span class="p-price"> 589.000 đ </span>
-                            </div>
-                            <div class="p-special-container"></div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(43405,'https://anphat.com.vn/media/product/250_43405_dareu_h101x_pink__1_.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(43405)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Tay cầm game DareU H101X Wireless Pink </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>Tay cầm game DareU H101X Wireless Pink
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Kết nối không dây Bluetooth 5.0
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Hỗ trợ đa nền tảng: PC (Windows), Android, Nintendo Switch
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Thiết kế cần analog bất đối xứng (form Xbox), cảm giác cầm rất tốt
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 799.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -27% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        589.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="43412">
-                        <a href="/man-hinh-may-tinh-asus-vz24ehe-23.8-inch-fhd-ips-75hz-1ms.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_43412_vz24ehe.png" alt="Màn hình máy tính Asus VZ24EHE 23.8 inch FHD IPS 75Hz 1ms" class="fit-img">
-                        <span class="p-icon-holder js-icon-43412"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOAS0126</span>
-                            <a href="/man-hinh-may-tinh-asus-vz24ehe-23.8-inch-fhd-ips-75hz-1ms.html" class="p-name"> Màn hình máy tính Asus VZ24EHE 23.8 inch FHD IPS 75Hz 1ms </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 3.999.000 đ </del>
-                                <span class="p-discount"> -31% </span>
-                                <span class="p-price"> 2.799.000 đ </span>
-                            </div>
-                            <div class="p-special-container"></div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(43412,'https://anphat.com.vn/media/product/250_43412_vz24ehe.png', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(43412)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính Asus VZ24EHE 23.8 inch FHD IPS 75Hz 1ms </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>Loại màn hình: Phẳng 
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Tỉ lệ: 16:9
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Kích thước: 23.8 inch 
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Tấm nền: IPS
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Độ phân giải: Full HD (1920x1080) 
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 3.999.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -31% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        2.799.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="42848">
-                        <a href="/laptop-dell-inspiron-16-5620-p1wkn.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_42848_laptop_dell_inspiron_16_5620_p1wkn__4_.jpg" alt="Laptop Dell Inspiron 16 5620 P1WKN (Core™ i5-1235U | 8GB | 256GB | Iris Xe Graphics | 16 inch FHD+ | Windows 11 Home | Office | Bạc)" class="fit-img">
-                        <span class="icon-new"></span>
-                        <span class="p-isSaleOff"></span>
-                        <span class="p-icon-holder js-icon-42848"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: NBDE0787</span>
-                            <a href="/laptop-dell-inspiron-16-5620-p1wkn.html" class="p-name"> Laptop Dell Inspiron 16 5620 P1WKN (Core™ i5-1235U | 8GB | 256GB | Iris Xe Graphics | 16 inch FHD+ | Windows 11 Home | Office | Bạc) </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 22.990.000 đ </del>
-                                <span class="p-discount"> -14% </span>
-                                <span class="p-price"> 19.990.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(42848,'https://anphat.com.vn/media/product/250_42848_laptop_dell_inspiron_16_5620_p1wkn__4_.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(42848)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop Dell Inspiron 16 5620 P1WKN (Core™ i5-1235U | 8GB | 256GB | Iris Xe Graphics | 16 inch FHD+ | Windows 11 Home | Office | Bạc) </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">🎁 <b><font color="red"> Gói quà tặng bao gồm :</font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ <b>Hỗ trợ mua ram DDR4 Kingston 8GB DDR4 3200Mhz Notebook (RAKT0099) chỉ với 599.000đ</b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ba lô An Phát cho laptop (TUNB0097)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Chuột không dây AP2021(MUKH0061) hoặc Chuột không dây Konig KM919 (MUKM0021)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">🎁 <b><font color="red"> Ưu đãi mua kèm hấp dẫn </font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ưu đãi giảm giá màn hình lên tới <span style="color: red"><b>1.000.000đ</b></span> khi mua cùng màn hình: <a href="https://www.anphatpc.com.vn/collection/khuyen-mai-khi-mua-cung-pcap"><span style="color: red"><b> Danh sách màn hình xem tại đây </b></span></a>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel® Core™ i5-1235U (upto 4.40GHz, 12MB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 8GB(8GBx1)DDR4 3200MHz ( 2 khe)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 256GB SSD M.2 PCIe NVMe
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: Intel Iris Xe Graphics
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 16inch FHD+ 1920x1200, 60Hz, Non-Touch, AG, Wide Viewing Angle, 250 nit, ComfortView
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 22.990.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -14% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        19.990.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="43228">
-                        <a href="/laptop-dell-mobile-precision-5560-core-i9-11950h.html" class="p-img">
-                        <img src="https://anphat.com.vn/media/product/250_43228_laptop_dell_mobile_precision_5560__core_i9_11950h__16gb__512gb__rtx_a2000_4gb__15_6_inch_fhd__ubuntu_linux__x__m___3_.jpg" alt="Laptop Dell Mobile Precision 5560 (Core i9-11950H | 16GB | 512GB | RTX A2000 4GB | 15.6 inch FHD | Ubuntu Linux | Xám)" class="fit-img">
-                        <span class="icon-new"></span>
-                        <span class="p-isSaleOff"></span>
-                        <span class="p-icon-holder js-icon-43228"> <i class="p-icon-"></i></span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: NBDE0816</span>
-                            <a href="/laptop-dell-mobile-precision-5560-core-i9-11950h.html" class="p-name"> Laptop Dell Mobile Precision 5560 (Core i9-11950H | 16GB | 512GB | RTX A2000 4GB | 15.6 inch FHD | Ubuntu Linux | Xám) </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 71.990.000 đ </del>
-                                <span class="p-discount"> -10% </span>
-                                <span class="p-price"> 64.990.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(43228,'https://anphat.com.vn/media/product/250_43228_laptop_dell_mobile_precision_5560__core_i9_11950h__16gb__512gb__rtx_a2000_4gb__15_6_inch_fhd__ubuntu_linux__x__m___3_.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(43228)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop Dell Mobile Precision 5560 (Core i9-11950H | 16GB | 512GB | RTX A2000 4GB | 15.6 inch FHD | Ubuntu Linux | Xám) </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">🎁 <b><font color="red"> Gói quà tặng bao gồm :</font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ba lô Dell(TUNB0102)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Chuột không dây AP2021(MUKH0061) hoặc Chuột không dây Konig KM919 (MUKM0021)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Túi chống sốc 15"(TUNB0001)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">🎁 <b><font color="red"> Ưu đãi mua kèm hấp dẫn </font></b>
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel Core i9-11950H (2.60 GHz upto 5.00 GHz, 24 MB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 16GB ( 2 x 8 GB) DDR4 3200MHz 
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 512GB M.2 2280 Gen 3 PCIe x4 NVMe
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: NVIDIA RTX A2000 w/4GB
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 15.6 inch UltraSharp FHD+, 1920x1200,AG,NT, w/Prem Panel Guar, 100% sRGB
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 71.990.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -10% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        64.990.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-item js-p-item done" data-id="42897">
-                        <a href="/laptop-hp-240-g9-6l1y1pa.html" class="p-img">
-                            <img src="https://anphat.com.vn/media/product/250_42897_laptop_hp_240_g9_6l1y1pa.jpg" alt="Laptop HP 240 G9 6L1Y1PA (Core i5-1235U | 8GB | 256GB | Iris Xe Graphics | 14 inch FullHD | Windows 11 Home | Bạc)" class="fit-img">
-                            <span class="p-isSaleOff"></span>
-                            <span class="p-icon-holder js-icon-42897">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: NBHP0803</span>
-                            <a href="/laptop-hp-240-g9-6l1y1pa.html" class="p-name"> Laptop HP 240 G9 6L1Y1PA (Core i5-1235U | 8GB | 256GB | Iris Xe Graphics | 14 inch FullHD | Windows 11 Home | Bạc) </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 17.990.000 đ </del>
-                                <span class="p-discount"> -10% </span>
-                                <span class="p-price"> 16.290.000 đ </span>
-                            </div>
-                            <div class="p-special-container">1 khuyến mại</div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(42897,'https://anphat.com.vn/media/product/250_42897_laptop_hp_240_g9_6l1y1pa.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(42897)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Laptop HP 240 G9 6L1Y1PA (Core i5-1235U | 8GB | 256GB | Iris Xe Graphics | 14 inch FullHD | Windows 11 Home | Bạc) </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                    <ul class="ul">
-                                        <li> <span class="text">🎁<b><font color="red"> Gói quà tặng bao gồm :</font></b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ <b>Hỗ trợ mua ram DDR4 Kingston 8GB DDR4 3200Mhz Notebook (RAKT0099) chỉ với 599.000đ</b>
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Ba lô An Phát cho Laptop (TUNB0097)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Chuột không dây AP2021(MUKH0061) hoặc Chuột không dây Konig KM919 (MUKM0021)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">✦ Túi chống sốc 14"( TUNB0007)
-                                            </span>
-                                        </li>
-                                        <li> <span class="text">
-                                            </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Intel Core i5-1235U (upto 4.40 GHz, 12MB)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 8GB (1 x 8GB) DDR4-3200MHz (2 khe)
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 256GB PCIe NVMe SSD
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>VGA: Intel Iris Xe Graphics
-                                    </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 14 inch FullHD (1920 x 1080), IPS, narrow bezel, anti-glare, 250 nits, 45% NTSC
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 17.990.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -10% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        16.290.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @endif
+                    @endforeach
+
+                    
                 </div>
+               
                 <a href="/san-pham-ban-chay" class="view-all"> xem tất cả sản phẩm </a>
             </div>
         </div>
+         @endif
         
 
         <!-- Banner under product-hot -->
@@ -8861,6 +7689,36 @@
         
 
         <!-- product feated -->
+
+        @foreach($group as $key => $groups)
+
+        <?php
+
+            $hot = Cache::rememberForever('hot'.$groups->id, function() use($groups){
+
+                $hot = DB::table('hot')->select('product_id')->where('group_id', $groups->id)->orderBy('orders', 'asc')->get()->pluck('product_id');
+
+                return $hot;
+            });
+
+            // xử lý khi không có cache
+
+            if(Cache::has('product_search'))
+            {
+                $data = Cache::get('product_search')->whereIn('id', $hot->toArray())->sortByDesc('orders_hot');
+            }
+            else{
+
+
+                $productss = App\Models\product::select('Link', 'Name', 'Image', 'Price', 'id', 'ProductSku', 'promotion', 'promotion_box')->where('active', 1)->get();
+
+                Cache::forever('product_search',$productss);
+
+                $data = Cache::get('product_search')->whereIn('id', $hot->toArray())->sortByDesc('orders_hot');
+            }
+
+           
+        ?>
         
         <div class="box-pro-container bg-white js-box-container" style="min-height: 400px">
             <div class="box-title-container">
@@ -8900,43 +7758,54 @@
             </div>
 
 
-            <?php
-
-                    $listGroupsShows = Cache::rememberForever('listGroupsShow'.$groups->id, function() use($groups){
-
-                         $listGroupsShow =   App\Models\groupProduct::select('name', 'link')->where('parent_id', $groups->id)->take(4)->get();
-
-                        return $listGroupsShow??'';
-                    });
-                ?>
+            
 
             <div class="p-container custom-nav owl-carousel owl-theme owl-loaded owl-drag" id="js-holder-1064" data-id="1064">
                 <div class="owl-stage-outer">
                     <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1610px;">
+
+
+
+                        @if(!empty($data) && $data->count()>0)
+
+                        @foreach($data as $datas)
                         <div class="owl-item active" style="width: 258.333px; margin-right: 10px;">
                             <div class="p-item js-p-item done" data-id="43358">
                                 <a href="/dien-thoai-iphone-14-pro-max-128gb-tim-mq9t3vn-a.html" class="p-img">
-                                <img src="https://anphat.com.vn/media/product/250_43358___i___n_tho___i_iphone_14_pro_max_128gb_t__m_mq9t3vna__2_.jpg" alt="Điện thoại iPhone 14 Pro Max 128GB Tím MQ9T3VN/A" class="fit-img">
+                                <img src="{{ asset($datas->Image) }}" alt="{{ $datas->title }}" class="fit-img">
                                 <span class="icon-new"></span>
                                 <span class="p-isSaleOff"></span>
                                 <span class="p-icon-holder js-icon-43358"> <i class="p-icon-"></i></span>
                                 </a>
                                 <div class="p-text">
                                     <span class="p-sku" style="font-size: 12px;">Mã SP: DTIP0040</span>
-                                    <a href="/dien-thoai-iphone-14-pro-max-128gb-tim-mq9t3vn-a.html" class="p-name"> Điện thoại iPhone 14 Pro Max 128GB Tím MQ9T3VN/A </a>
+                                    <a href="/dien-thoai-iphone-14-pro-max-128gb-tim-mq9t3vn-a.html" class="p-name"> 
+                                        {{ $datas->Name }} </a>
                                     <div class="price-container">
-                                        <del class="p-old-price"> 33.990.000 đ </del>
-                                        <span class="p-discount"> -18% </span>
-                                        <span class="p-price"> 27.990.000 đ </span>
+
+                                        @if(!empty($datas->manuPrice))
+
+                                        <?php
+                                        $discount =  round(((intval($datas->manuPrice) - intval($datas->Price))/intval($datas->manuPrice))*100)
+                                        ?>
+
+                                        <del class="p-old-price"> {{ @number_format($datas->manuPrice , 0, ',', '.')}} đ </del>
+
+                                        <span class="p-discount"> -{{ $discount }}% </span>
+
+                                        <span class="p-price"> {{ @number_format($datas->Price , 0, ',', '.')}}  đ </span>
+                                        
+                                        @endif
+                                      
                                     </div>
-                                    <div class="p-special-container">2 khuyến mại</div>
+                                    
                                     <div class="d-flex align-items-centet justify-content-between">
                                         <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(43358,'https://anphat.com.vn/media/product/250_43358___i___n_tho___i_iphone_14_pro_max_128gb_t__m_mq9t3vna__2_.jpg', this)">So sánh</a>
                                         <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(43358)"></a>
                                     </div>
                                 </div>
                                 <div class="p-tooltip">
-                                    <p class="tooltip-title"> Điện thoại iPhone 14 Pro Max 128GB Tím MQ9T3VN/A </p>
+                                    <p class="tooltip-title"> {{  @$datas->Name }} </p>
                                     <div class="tooltip-content">
                                         <div class="tooltip-specialOffer">
                                             <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
@@ -8944,7 +7813,8 @@
                                                 <li> <span class="text">Giá bán không áp dụng với các chương trình khuyến mại, ưu đãi khác  </span></li>
                                             </ul>
                                         </div>
-                                        <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>Màn hình: LTPO Super Retina XDR OLED - 120Hz
+                                        <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>{{  @$datas->Name }}
+                                            
                                             </span><span class="item"><i class="fa fa-check-circle"></i>Camera sau: 48MP, 2x 12MP
                                             </span><span class="item"><i class="fa fa-check-circle"></i>Camera trước: 12MP
                                             </span><span class="item"><i class="fa fa-check-circle"></i>CPU: A16 Bionic
@@ -8954,249 +7824,22 @@
                                         <div class="position-relative">
                                             <span>
                                             Giá niêm yết:
-                                            <del class="p-old-price" style="display: inline-block;"> 33.990.000 đ </del>
+                                            <del class="p-old-price" style="display: inline-block;">  {{ @number_format($datas->manuPrice , 0, ',', '.')}} đ </del>
                                             </span>
                                             <span class="p-discount"> -18% </span>
                                             <p class="p-price" style="margin: 0;">
                                                 <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                                27.990.000 đ
+                                                {{ @number_format($datas->Price , 0, ',', '.')}} đ
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="owl-item active" style="width: 258.333px; margin-right: 10px;">
-                            <div class="p-item js-p-item done" data-id="35514">
-                                <a href="/laptop-apple-macbook-air-13-3-inch-mgnd3sa-a-gold.html" class="p-img">
-                                <img src="https://anphat.com.vn/media/product/250_35514_apple_macbook_air_13_3.jpg" alt="Laptop Apple Macbook Air 13.3 inch MGND3SA/A Gold ( Apple M1)" class="fit-img">
-                                <span class="p-icon-holder js-icon-35514"> <i class="p-icon-"></i></span>
-                                </a>
-                                <div class="p-text">
-                                    <span class="p-sku" style="font-size: 12px;">Mã SP: NBAP0088</span>
-                                    <a href="/laptop-apple-macbook-air-13-3-inch-mgnd3sa-a-gold.html" class="p-name"> Laptop Apple Macbook Air 13.3 inch MGND3SA/A Gold ( Apple M1) </a>
-                                    <div class="price-container">
-                                        <del class="p-old-price"> 28.990.000 đ </del>
-                                        <span class="p-discount"> -35% </span>
-                                        <span class="p-price"> 18.990.000 đ </span>
-                                    </div>
-                                    <div class="p-special-container">2 khuyến mại</div>
-                                    <div class="d-flex align-items-centet justify-content-between">
-                                        <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(35514,'https://anphat.com.vn/media/product/250_35514_apple_macbook_air_13_3.jpg', this)">So sánh</a>
-                                        <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(35514)"></a>
-                                    </div>
-                                </div>
-                                <div class="p-tooltip">
-                                    <p class="tooltip-title"> Laptop Apple Macbook Air 13.3 inch MGND3SA/A Gold ( Apple M1) </p>
-                                    <div class="tooltip-content">
-                                        <div class="tooltip-specialOffer">
-                                            <div class="spec-title"><span class="title-text"> KHUYẾN MÃI</span></div>
-                                            <ul class="ul">
-                                                <li> <span class="text">Giá bán không áp dụng thanh toán QR và quẹt thẻ tín dụng. </span></li>
-                                            </ul>
-                                        </div>
-                                        <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Apple M1 chip with 8-core CPU and 7-core GPU
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 8GB
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>SSD: 256GB Nvme
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: 13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels per inch with support for millions of colors (Retina Display)
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Pin: Built-in 49.9‑watt‑hour lithium‑polymer battery, 30W USB-C Power Adapter; 
-                                            </span>
-                                        </div>
-                                        <div class="position-relative">
-                                            <span>
-                                            Giá niêm yết:
-                                            <del class="p-old-price" style="display: inline-block;"> 28.990.000 đ </del>
-                                            </span>
-                                            <span class="p-discount"> -35% </span>
-                                            <p class="p-price" style="margin: 0;">
-                                                <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                                18.990.000 đ
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 258.333px; margin-right: 10px;">
-                            <div class="p-item js-p-item done" data-id="35790">
-                                <a href="/may-tinh-bang-apple-ipad-air-4-10-9-inch-2020-wi-fi-64gb-rose-gold-myfp2za-a-chinh-hang-apple-viet-nam.html" class="p-img">
-                                <img src="https://anphat.com.vn/media/product/250_35790_thumb650_apple_ipad_air_2020_4th_gen_wifi_rose_gold_1.jpg" alt="iPad Air 4 10.9-inch (2020) Wi-Fi 64GB - Rose Gold (MYFP2ZA/A) Chính Hãng Apple Việt Nam" class="fit-img">
-                                <span class="icon-new"></span>
-                                <span class="p-icon-holder js-icon-35790"> <i class="p-icon-"></i></span>
-                                </a>
-                                <div class="p-text">
-                                    <span class="p-sku" style="font-size: 12px;">Mã SP: IPAD0030</span>
-                                    <a href="/may-tinh-bang-apple-ipad-air-4-10-9-inch-2020-wi-fi-64gb-rose-gold-myfp2za-a-chinh-hang-apple-viet-nam.html" class="p-name"> iPad Air 4 10.9-inch (2020) Wi-Fi 64GB - Rose Gold (MYFP2ZA/A) Chính Hãng Apple Việt Nam </a>
-                                    <div class="price-container">
-                                        <del class="p-old-price"> 16.900.000 đ </del>
-                                        <span class="p-discount"> -20% </span>
-                                        <span class="p-price"> 13.590.000 đ </span>
-                                    </div>
-                                    <div class="p-special-container">1 khuyến mại</div>
-                                    <div class="d-flex align-items-centet justify-content-between">
-                                        <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(35790,'https://anphat.com.vn/media/product/250_35790_thumb650_apple_ipad_air_2020_4th_gen_wifi_rose_gold_1.jpg', this)">So sánh</a>
-                                        <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(35790)"></a>
-                                    </div>
-                                </div>
-                                <div class="p-tooltip">
-                                    <p class="tooltip-title"> iPad Air 4 10.9-inch (2020) Wi-Fi 64GB - Rose Gold (MYFP2ZA/A) Chính Hãng Apple Việt Nam </p>
-                                    <div class="tooltip-content">
-                                        <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>Chip: A14 Bionic chip 64‑bit architecture
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Dung lượng: 64GB
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: Liquid Retina 10.9-inch LED‑backlit Multi‑Touch IPS 
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Kết nối: Wi-Fi, Bluetooth 5.0
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Hệ điều hành: iPadOS 14</span>
-                                        </div>
-                                        <div class="position-relative">
-                                            <span>
-                                            Giá niêm yết:
-                                            <del class="p-old-price" style="display: inline-block;"> 16.900.000 đ </del>
-                                            </span>
-                                            <span class="p-discount"> -20% </span>
-                                            <p class="p-price" style="margin: 0;">
-                                                <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                                13.590.000 đ
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 258.333px; margin-right: 10px;">
-                            <div class="p-item js-p-item done" data-id="40233">
-                                <a href="/apple-ipad-gen-9th-10.2-inch-wi-fi-64gb-space-gray-mk2k3za-a.html" class="p-img">
-                                <img src="https://anphat.com.vn/media/product/250_40233_39745_all_1_56ab759705b94584aacce6d4391e9ce8.jpg" alt="Apple iPad Gen 9th 10.2-inch Wi-Fi 64GB (MK2L3ZA/A) - Silver" class="fit-img">
-                                <span class="p-icon-holder js-icon-40233"> <i class="p-icon-"></i></span>
-                                </a>
-                                <div class="p-text">
-                                    <span class="p-sku" style="font-size: 12px;">Mã SP: IPAD0033</span>
-                                    <a href="/apple-ipad-gen-9th-10.2-inch-wi-fi-64gb-space-gray-mk2k3za-a.html" class="p-name"> Apple iPad Gen 9th 10.2-inch Wi-Fi 64GB (MK2L3ZA/A) - Silver </a>
-                                    <div class="price-container">
-                                        <del class="p-old-price"> 8.990.000 đ </del>
-                                        <span class="p-discount"> -18% </span>
-                                        <span class="p-price"> 7.390.000 đ </span>
-                                    </div>
-                                    <div class="p-special-container">1 khuyến mại</div>
-                                    <div class="d-flex align-items-centet justify-content-between">
-                                        <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(40233,'https://anphat.com.vn/media/product/250_40233_39745_all_1_56ab759705b94584aacce6d4391e9ce8.jpg', this)">So sánh</a>
-                                        <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(40233)"></a>
-                                    </div>
-                                </div>
-                                <div class="p-tooltip">
-                                    <p class="tooltip-title"> Apple iPad Gen 9th 10.2-inch Wi-Fi 64GB (MK2L3ZA/A) - Silver </p>
-                                    <div class="tooltip-content">
-                                        <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>Chip: A13 Bionic chip with 64-bit architecture
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Dung lượng: 64GB
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Mầu sắc: Silver
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Màn hình: Retina 10.2-inch LED-Blacklit Multi-Touch, IPS technology
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Camera: 8MP Wide
-                                            </span>
-                                        </div>
-                                        <div class="position-relative">
-                                            <span>
-                                            Giá niêm yết:
-                                            <del class="p-old-price" style="display: inline-block;"> 8.990.000 đ </del>
-                                            </span>
-                                            <span class="p-discount"> -18% </span>
-                                            <p class="p-price" style="margin: 0;">
-                                                <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                                7.390.000 đ
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 258.333px; margin-right: 10px;">
-                            <div class="p-item js-p-item done" data-id="37619">
-                                <a href="/apple-mac-mini-z12p000hk-apple-m1-16gb-512gb.html" class="p-img">
-                                <img src="https://anphat.com.vn/media/product/250_37619_maubac_4_b86b851285a244ba83b0e91e62ad554b_grande.jpeg" alt="Apple Mac mini Z12P000HK Apple M1/ 16GB/ 512GB " class="fit-img">
-                                <span class="p-icon-holder js-icon-37619"> <i class="p-icon-"></i></span>
-                                </a>
-                                <div class="p-text">
-                                    <span class="p-sku" style="font-size: 12px;">Mã SP: PCAP0027</span>
-                                    <a href="/apple-mac-mini-z12p000hk-apple-m1-16gb-512gb.html" class="p-name"> Apple Mac mini Z12P000HK Apple M1/ 16GB/ 512GB  </a>
-                                    <div class="price-container">
-                                        <del class="p-old-price"> 29.990.000 đ </del>
-                                        <span class="p-discount"> -12% </span>
-                                        <span class="p-price"> 26.690.000 đ </span>
-                                    </div>
-                                    <div class="p-special-container">1 khuyến mại</div>
-                                    <div class="d-flex align-items-centet justify-content-between">
-                                        <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(37619,'https://anphat.com.vn/media/product/250_37619_maubac_4_b86b851285a244ba83b0e91e62ad554b_grande.jpeg', this)">So sánh</a>
-                                        <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(37619)"></a>
-                                    </div>
-                                </div>
-                                <div class="p-tooltip">
-                                    <p class="tooltip-title"> Apple Mac mini Z12P000HK Apple M1/ 16GB/ 512GB  </p>
-                                    <div class="tooltip-content">
-                                        <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>CPU: Apple M1 chip with 8‑core CPU and 8‑core GPU
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>RAM: 16GB DDR4
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Ổ cứng: 512GB SSD
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>VGA: 8-core GPU
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Kết nối mạng: Wi-Fi 6, Gigabit LAN, Bluetooth 5.0
-                                            </span>
-                                        </div>
-                                        <div class="position-relative">
-                                            <span>
-                                            Giá niêm yết:
-                                            <del class="p-old-price" style="display: inline-block;"> 29.990.000 đ </del>
-                                            </span>
-                                            <span class="p-discount"> -12% </span>
-                                            <p class="p-price" style="margin: 0;">
-                                                <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                                26.690.000 đ
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 258.333px; margin-right: 10px;">
-                            <div class="p-item js-p-item done" data-id="39784">
-                                <a href="/chuot-apple-magic-mouse-mk2e3za-a-bluetooth-mau-bac_id39784.html" class="p-img">
-                                <img src="https://anphat.com.vn/media/product/250_39784_61291_chuot_apple_magic_mk2e3za_a_bac_0003_4.jpg" alt="Chuột Apple Magic Mouse MK2E3ZA/A bluetooth (2021)- màu bạc" class="fit-img">
-                                <span class="p-icon-holder js-icon-39784"> <i class="p-icon-"></i></span>
-                                </a>
-                                <div class="p-text">
-                                    <span class="p-sku" style="font-size: 12px;">Mã SP: MUAP0002</span>
-                                    <a href="/chuot-apple-magic-mouse-mk2e3za-a-bluetooth-mau-bac_id39784.html" class="p-name"> Chuột Apple Magic Mouse MK2E3ZA/A bluetooth (2021)- màu bạc </a>
-                                    <div class="price-container">
-                                        <del class="p-old-price"> 1.850.000 đ </del>
-                                        <span class="p-discount"> -14% </span>
-                                        <span class="p-price"> 1.599.000 đ </span>
-                                    </div>
-                                    <div class="p-special-container">1 khuyến mại</div>
-                                    <div class="d-flex align-items-centet justify-content-between">
-                                        <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(39784,'https://anphat.com.vn/media/product/250_39784_61291_chuot_apple_magic_mk2e3za_a_bac_0003_4.jpg', this)">So sánh</a>
-                                        <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(39784)"></a>
-                                    </div>
-                                </div>
-                                <div class="p-tooltip">
-                                    <p class="tooltip-title"> Chuột Apple Magic Mouse MK2E3ZA/A bluetooth (2021)- màu bạc </p>
-                                    <div class="tooltip-content">
-                                        <div class="tooltip-summary"><span class="item"><i class="fa fa-check-circle"></i>Chuột Apple Magic 2021
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Chuẩn kết nối: Wireless / Bluetooth / Dây Lightning
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Tích hợp cảm ứng đa điểm
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Sạc nhanh 2 phút có thể cho đến 9h làm việc
-                                            </span><span class="item"><i class="fa fa-check-circle"></i>Thời gian sử dụng lên đến 1 tháng cho một lần sạc đầy.
-                                            </span>
-                                        </div>
-                                        <div class="position-relative">
-                                            <span>
-                                            Giá niêm yết:
-                                            <del class="p-old-price" style="display: inline-block;"> 1.850.000 đ </del>
-                                            </span>
-                                            <span class="p-discount"> -14% </span>
-                                            <p class="p-price" style="margin: 0;">
-                                                <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                                1.599.000 đ
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
+
+                        @endif
+                       
                     </div>
                 </div>
                 <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled"><i class="fa fa-angle-left"></i></button><button type="button" role="presentation" class="owl-next disabled"><i class="fa fa-angle-right"></i></button></div>
@@ -9205,7 +7848,11 @@
             </div>
 
             <a href="may-tinh-xach-tay-laptop.html" class="view-cate"> XEM TẤT CẢ <i class="fa fa-angle-double-right"></i> </a>
+
+           
         </div>
+
+         @endforeach
     </div>
 </section>
     <footer class="bg-white">
@@ -9375,493 +8022,7 @@
        </div>
     </div>
 
-    <div class="footer-address">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 mb-50">
-                    <div class="item">
-                      <p class="title"><span class="number">1</span> AN PHÁT Thái Hà - HN </p>
-            
-                        <ul class="ul">
-                            <li>
-                                <i class="fa fa-map-marker"></i> 
-                                <span>
-                                    49 Thái Hà - Đống Đa - Hà Nội <a href="https://goo.gl/maps/fQkzMmh1gkNbNVEC9" target="blank" class="d-block">[ Xem đường đi ]</a>
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Điện thoại: 1900.0323 Phím 2
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Hotline: 0918.557.006
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope"></i> 
-                                <span>
-                                    Email: Hoangphuong@anphat.com.vn
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa "></i> 
-                                <span>
-                                   Giờ mở cửa: 8H15 - 21H (Chủ nhật & ngày lễ)<br>
-                                               
-                                </span>
-                            </li>
-                        </ul>  
-            
-                    </div>
-                </div>
-
-                <div class="col-4 mb-50">
-                    <div class="item">
-                        <p class="title"><span class="number">2</span> AN PHÁT Lý Thường Kiệt - QUẬN 10 - TP.HCM </p>
-            
-                        <ul class="ul">
-                            <li>
-                                <i class="fa fa-map-marker"></i> 
-                                <span>
-                                    Địa chỉ: 158 - 160 Lý Thường Kiệt P.14 - Q.10 - TPHCM <a href="https://goo.gl/maps/MX79gaPrydnFiFCW6" target="blank" class="d-block">[ Xem đường đi ]</a>
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Điện thoại: 1900.0323 Phím 3
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Hotline: 0917.948.081
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope"></i> 
-                                <span>
-                                    Email: ductm@anphat.com.vn
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa "></i> 
-                                <span>
-                                   Giờ mở cửa: 8H15 - 21H (Chủ nhật & ngày lễ)
-                                </span>
-                            </li>
-                        </ul>
-            
-                    </div>
-                </div>
-            
-                <div class="col-4 mb-50">
-                    <div class="item">
-                      <p class="title"><span class="number">3</span> Phòng bán hàng Trực tuyến </p>
-            
-                        <ul class="ul">
-                            <li>
-                                <i class="fa fa-map-marker"></i> 
-                                <span>
-                                    Địa chỉ: Tầng 5 - 63 Trần Thái Tông - Cầu Giấy - Hà Nội<a href="https://goo.gl/maps/D61akuw6EQ3PFcHu8" target="blank" class="d-block">[ Xem đường đi ]</a>
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Điện thoại: 1900.0323 phím 1
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Hotline: 0966.45.45.03, 0913.367.005 hoặc 0981.335.989 (8:00 - 21:00)
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope"></i> 
-                                <span>
-                                    Email: thao@anphat.com.vn
-                                </span>
-                            </li>
-                        </ul>
-                      
-            
-                    </div>
-                </div>
-            
-                <div class="col-4 mb-50">
-                    <div class="item">
-                        <p class="title"><span class="number">4</span> AN PHÁT Lê Thanh Nghị - HN </p>
-            
-                        <ul class="ul">
-                            <li>
-                                <i class="fa fa-map-marker"></i> 
-                                <span> 
-                                    Địa chỉ: 151 Lê Thanh Nghị - Hai Bà Trưng - Hà Nội <a href="https://goo.gl/maps/Yxz9Pvz1pgB9xYQs8" target="blank" class="d-block">[ Xem đường đi ]</a> 
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span> Điện thoại: 1900.0323 Phím 2</span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span> Hotline: 0983.94.9987</span>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope"></i>
-                                <span> Email: co@anphat.com.vn </span>
-                            </li>
-                            <li>
-                                <i class="fa "></i> 
-                                <span>
-                                   Giờ mở cửa: 8H15 - 19H30 (Chủ nhật & ngày lễ)
-                                </span>
-                            </li>
-                        </ul>
-            
-                    </div>
-                </div>
-
-                <div class="col-4 mb-50">
-                    <div class="item">                      
-                        <p class="title"><span class="number">5</span> AN PHÁT VÕ VĂN TẦN - QUẬN 3 - TPHCM </p>
-            
-                        <ul class="ul">
-                            <li>
-                                <i class="fa fa-map-marker"></i> 
-                                <span>
-                                    Địa chỉ: 330-332 Võ Văn Tần, Phường 5, Q.3, TPHCM <a href="https://goo.gl/maps/ASUSb1gmAZMLtBfX6" target="blank" class="d-block">[ Xem đường đi ]</a>
-                                </span>
-                            
-                            </li>
-                           <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Điện thoại: 1900.0323 Phím 3
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Hotline: 0931.105.498
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope"></i> 
-                                <span>
-                                    Email: nhattien@anphat.com.vn
-                                </span>
-                            </li>
-                             <li>
-                                <i class="fa "></i> 
-                                <span>
-                                   Giờ mở cửa: 8H15 - 21H (Chủ nhật & ngày lễ)
-                                </span>
-                            </li>         
-                        </ul>
-            
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div class="item">
-                        <p class="title"><span class="number">6</span> Hỗ trợ khách hàng </p>
-            
-                        <ul class="ul">
-                         
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Bảo Hành - miền Bắc: 1900.0323 phím 5 hoặc 0964.599.915
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Kỹ thuật - miền Bắc: 0981.961.296 hoặc 0902.030.408
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Bảo hành - HCM: 1900.0323 phím 6 hoặc 0909.144.560
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Máy chấm công: 0936.164.114
-                                </span>
-                            </li>
-                        </ul>
-            
-                    </div>
-                </div>        
-
-                <div class="col-4 mb-50">
-                    <div class="item">                      
-                        <p class="title"><span class="number">7</span> AN PHÁT Trần Thái Tông - Cầu Giấy - HN </p>
-            
-                        <ul class="ul">
-                            <li>
-                                <i class="fa fa-map-marker"></i> 
-                                <span>
-                                    Địa chỉ: 63 Trần Thái Tông - Phường Dịch Vọng - Cầu Giấy - Hà Nội <a href="https://goo.gl/maps/D61akuw6EQ3PFcHu8" target="blank" class="d-block">[ Xem đường đi ]</a>
-                                </span>
-                             
-                            </li>
-                             <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Điện thoại: 1900.0323 Phím 2
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Hotline: 0862.136.488
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope"></i> 
-                                <span>
-                                    Email: loan@anphat.com.vn
-                                </span>
-                            </li>
-                             <li>
-                                <i class="fa "></i> 
-                                <span>
-                                   Giờ mở cửa: 8H15 - 21H (Chủ nhật & ngày lễ)
-                                </span>
-                            </li>          
-                        </ul>
-            
-                    </div>
-                </div>
-            
-                <div class="col-4 mb-50">
-                    <div class="item">                      
-                        <p class="title"><span class="number">8</span> AN PHÁT Trần Đình Xu - QUẬN 1 - TPHCM  </p>
-            
-                        <ul class="ul">
-                            <li>
-                                <i class="fa fa-map-marker"></i> 
-                                <span>
-                                    Địa chỉ: 84T/14 Trần Đình Xu-P.Cô Giang-Q.1-TPHCM <a href="https://goo.gl/maps/JfBp2KzV9zw8KYgy7" target="blank" class="d-block">[ Xem đường đi ]</a>
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Điện thoại: 1900.0323 Phím 3
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Hotline: 0909.143.970
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope"></i> 
-                                <span>
-                                    Email: thaohtt@anphat.com.vn
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa "></i> 
-                                <span>
-                                   Giờ mở cửa: 8H15 - 18H (Nghỉ Chủ Nhật)
-                                </span>
-                            </li>
-                        </ul>
-            
-                    </div>
-                </div>
-              
-              
-                <div class="col-4 mb-50">
-                    <div class="item">
-                        <p class="title"><span class="number">9</span> AN PHÁT NGUYỄN VĂN CỪ - TP. BẮC NINH </p>
-
-                        <ul class="ul">
-                            <li>
-                                <i class="fa fa-map-marker"></i> 
-                                <span>
-                                    Địa chỉ: Số 4 Nguyễn Văn Cừ - Ninh Xá - Thành phố Bắc Ninh<a href="https://goo.gl/maps/fEPsTbkY5xNh72E88" target="blank" class="d-block">[ Xem đường đi ]</a>
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Điện thoại: 1900.0323 phím 2
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Hotline: 0972.166.640
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope"></i> 
-                                <span>
-                                    Email: ducanh@anphat.com.vn
-                                </span>
-                            </li>
-                           <li>
-                                <i class="fa "></i> 
-                                <span>
-                                   Giờ mở cửa: 8H15 - 20H
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-                      
-                <div class="col-4">
-                    <div class="item">
-                        <p class="title"><span class="number">10</span>Trung tâm phân phối dự án doanh nghiệp - HN </p>
-            
-                        <ul class="ul">
-                         
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Địa chỉ:49 Thái Hà - Đống Đa - Hà Nội
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Điện thoại: 1900.0323 phím 4
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                   Hotline: 0971.401.066 hoặc 0919.917.001 
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                   Email: huy@anphatpc.com.vn
-                                </span>
-                            </li>
-                        </ul>
-            
-                    </div>
-                </div>      
-              
-                <div class="col-4 mb-50">
-                    <div class="item">
-                        <p class="title"><span class="number">11</span> Trung Tâm Phân Phối Dự Án Doanh Nghiệp - HCM </p>
-            
-                        <ul class="ul">
-                            <li>
-                                <i class="fa fa-map-marker"></i> 
-                                <span>
-                                    Địa chỉ: 84T/14 Trần Đình Xu-P.Cô Giang-Q.1-TPHCM <a href="https://goo.gl/maps/JfBp2KzV9zw8KYgy7" target="blank" class="d-block">[ Xem đường đi ]</a>
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Điện thoại: 1900.0323 phím 4
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Hotline: 0901.118.414
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope"></i> 
-                                <span>
-                                    Email: tuan@anphat.com.vn
-                                </span>
-                            </li>
-                        </ul>
-            
-                    </div>
-                </div>
-              
-              
-                <div class="col-4">
-                    <div class="item">
-                        <p class="title"><span class="number">12</span> Trung Tâm Phân Phối </p>
-            
-                        <ul class="ul">
-                            <li>
-                                <i class="fa fa-map-marker"></i> 
-                                <span>
-                                    Địa chỉ: 144 Trung Liệt - Đống Đa - Hà Nội <a href="https://goo.gl/maps/MwHxb2J3UWETwZME7" target="_blank" class="d-block">[ Xem đường đi ]</a>
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Điện thoại: 0243.563.7003
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Hotline: 0912.150.479
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                </div> 
-              
-              
-       
-                <div class="col-4">
-                    <div class="item">
-                        <p class="title"><span class="number">13</span> Kinh doanh Camera Toàn Quốc </p>
-            
-                        <ul class="ul">
-                            <li>
-                                <i class="fa fa-map-marker"></i> 
-                                <span>
-                                    Địa chỉ: 49 Thái Hà- Đống Đa- Hà Nội <a href="https://goo.gl/maps/JfBp2KzV9zw8KYgy7" target="blank" class="d-block">[ Xem đường đi ]</a>
-                                </span>
-                            </li>
-            
-                            <li>
-                                <i class="fa fa-phone"></i> 
-                                <span>
-                                    Hotline: 092.770.1666
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa fa-envelope"></i> 
-                                <span>
-                                    Email: trungtuan@anphat.com.vn
-                                </span>
-                            </li>
-                            <li>
-                                <i class="fa "></i> 
-                                <span>
-                                   Giờ mở cửa: 8H - 20H (Chủ nhật & ngày lễ)
-                                </span>
-                            </li>                      
-                        </ul>
-            
-                    </div>
-                </div>             
-            </div>
-        </div>
-    </div>
+    
 
     <div style="background: #edeef2;padding: 10px 0;">
         <div class="container text-12 font-weight-light">
