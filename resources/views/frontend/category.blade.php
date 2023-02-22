@@ -77,65 +77,12 @@
             fbq('init', '1948743558614697');
             fbq('track', 'PageView');
         </script>
-        <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1948743558614697&amp;ev=PageView&amp;noscript=1"
-            /></noscript>
-        <!-- End Facebook Pixel Code -->
-        <!-- Fb + Google code -->
-        <script>
-            (function() {
-            var _fbq = window._fbq || (window._fbq = []);
-            if (!_fbq.loaded) {
-            var fbds = document.createElement('script');
-            fbds.async = true;
-            fbds.src = '../connect.facebook.net/en_US/fbds.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(fbds, s);
-            _fbq.loaded = true;
-            }
-            _fbq.push(['addPixelId', '1462431280697971']);
-            })();
-            window._fbq = window._fbq || [];
-            window._fbq.push(['track', 'PixelInitialized', {}]);
-        </script>
+
+      
         <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1462431280697971&amp;ev=PixelInitialized" /></noscript>
         <meta http-equiv="content-language" content="vi" />
         <link rel="alternate" href="index.html" hreflang="vi-vn" />
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-5WT5HWH');
-        </script>
-        <!-- End Google Tag Manager -->
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WT5HWH"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYCVCXJJ26"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            
-            gtag('config', 'G-CYCVCXJJ26');
-        </script>
-        <!-- Google Tag Manager AMD -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-T594R78');
-        </script>
-        <!-- End Google Tag Manager -->
-        <!-- Google Tag Manager (noscript) AMD -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T594R78"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-        <!-- End Fb + Google Code -->
-        <script> window.dataLayer = window.dataLayer || []; </script>
+       
         <script>
             dataLayer.push({
                 'uid': {
@@ -157,34 +104,10 @@
             });
         </script>    
     </head>
-    <body 
-        >
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6MCKXT"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5F5HSFN"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-        <script>
-            window.fbAsyncInit = function() {
-              FB.init({
-                appId      : '173939288101609',
-                xfbml      : true,
-                version    : 'v11.0'
-              });
-              FB.AppEvents.logPageView();
-            };
-            
-            (function(d, s, id){
-               var js, fjs = d.getElementsByTagName(s)[0];
-               if (d.getElementById(id)) {return;}
-               js = d.createElement(s); js.id = id;
-               js.src = "../connect.facebook.net/en_US/sdk.js";
-               fjs.parentNode.insertBefore(js, fjs);
-             }(document, 'script', 'facebook-jssdk'));
-        </script>
+
+
+    <body>
+       
         <div class="popup-common" id="popup-lien-he" style="display: none;">
             <div class="title-popup"><span>Liên hệ với chúng tôi</span><i class="close" onclick="closePopup()">x</i></div>
             <div class="content-popup">
@@ -4627,10 +4550,7 @@
                 <!-- filter -->
                 <div class="product-filter-container bg-white position-relative">
                     <p class="title text-20"> BỘ LỌC </p>
-                    <!-- aaaaaa Array
-                        (
-                        )
-                        1 -->
+                   
                     <div class="filter-box overflow-hidden" id="js-filter-height">
                         <table>
                             <!-- brand -->
@@ -4739,12 +4659,12 @@
                             </tr>
                         </table>
                     </div>
-                    <a href="javascript:void(0)" class="button-show-filter blue" id="js-show-filter"> 
+                    <!-- <a href="javascript:void(0)" class="button-show-filter blue" id="js-show-filter"> 
                     Xem tất cả <i class="fa fa-angle-double-down"></i>
                     </a>
                     <a href="javascript:void(0)" class="button-show-filter blue" id="js-hide-filter"> 
                     Thu gọn <i class="fa fa-angle-double-up"></i>
-                    </a>
+                    </a> -->
                 </div>
                 <!-- end filter -->
                 <div class="product-list-container bg-white">
@@ -4756,8 +4676,7 @@
                                 <a href="dell-workstation_dm1453d4b4.html?sort=new" > Mới nhất </a> 
                                 <a href="dell-workstation_dm1453fdac.html?sort=price-asc" > Giá tăng dần </a> 
                                 <a href="dell-workstation_dm1453716f.html?sort=price-desc" > Giá giảm dần </a> 
-                                <a href="dell-workstation_dm145349de.html?sort=view" > Lượt xem </a> 
-                                <a href="dell-workstation_dm14538b48.html?sort=rating" > Đánh giá </a> 
+                                
                                 <a href="dell-workstation_dm1453099b.html?sort=name" > Tên A->Z </a> 
                             </div>
                             <div class="choose-price-holder">
@@ -4770,61 +4689,44 @@
                         <span style="display: block;width: 100%;text-align: right;margin-top: 10px;color: #f00;font-weight: 600;display: none;" id="js-filter-note"></span>
                     </div>
                     <div class="p-list-container d-flex flex-wrap">
-                        
-                        <div class='p-item  js-p-item' data-id="42828">
-                            <a href="may-tinh-tram-dell-precision-3660-tower-70287694-i7-12700-16gb-1tb-dvdrw-t1000-4gb-kb_m-300w-psu-win-11-pro-3yr.html" class="p-img">
-                                <img data-src="https://anphat.com.vn/media/product/250_42828_workstations_precision_3660_gall.jpg" alt="Máy tính trạm Dell Precision 3660 Tower 70287694 (i7-12700/ 16GB/ 1TB/ DVDRW/ T1000 4GB/ KB_M/ 300W PSU/ Win 11 Pro/ 3Yr)" class="fit-img lazy" />
-                                <span class="p-isSaleOff"></span>
-                                <span class="p-icon-holder js-icon-42828">
-                                    <!-- // icon promotion -->
-                                </span>
+
+                        @if(isset($data) && $data->count()>0)
+
+                        @foreach($data as $value)
+                        <div class="p-item  js-p-item done" data-id="41201">
+                            <a href="{{ route('details', $value->Link) }}" class="p-img">
+                            <img data-src="{{ asset($value->Image) }}" alt="{{  $value->Name }}" class="fit-img lazy loaded" src="{{ asset($value->Image) }}" data-was-processed="true">
+                            <!-- <span class="icon-new"></span> -->
+                            <span class="p-isSaleOff"></span>
+                            <span class="p-icon-holder js-icon-41201"> <i class="p-icon-"></i></span>
                             </a>
                             <div class="p-text">
-                                <span class="p-sku" style="font-size: 12px;">Mã SP: WSDE0104 </span>
-                                <a href="may-tinh-tram-dell-precision-3660-tower-70287694-i7-12700-16gb-1tb-dvdrw-t1000-4gb-kb_m-300w-psu-win-11-pro-3yr.html" class="p-name">
-                                    <h3>Máy tính trạm Dell Precision 3660 Tower 70287694 (i7-12700/ 16GB/ 1TB/ DVDRW/ T1000 4GB/ KB_M/ 300W PSU/ Win 11 Pro/ 3Yr)</h3>
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: {{ $value->ProductSku }} </span>
+                                <a href="{{ route('details', $value->Link) }}" class="p-name">
+                                    <h3>{{ $value->Name }}</h3>
                                 </a>
                                 <div class="price-container">
-                                    <del class="p-old-price"> 42.690.000 đ </del>
-                                    <span class="p-discount"> -3% </span>
+                                    @if(!empty($datas->manuPrice))
+
+                                    <?php
+                            
+                                        $discount =  round(((intval($value->manuPrice) - intval($value->Price))/intval($value->manuPrice))*100)
+                                    ?>
+                                    <del class="p-old-price"> {{ @number_format($datas->manuPrice , 0, ',', '.')}}  đ </del>
+                                    <span class="p-discount"> -{{ $discount }}%  </span>
+                                    @endif
+
+
                                     <span class="p-price">
-                                    41.650.000 đ
+                                    {{  @str_replace(',' ,'.', number_format($value->Price))  }} đ
                                     </span>
                                 </div>
-                                <div class="d-flex align-items-centet justify-content-between">
-                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(42828,'../anphat.com.vn/media/product/250_42828_workstations_precision_3660_gall.jpg', this)">So sánh</a>
-                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(42828)"></a>
-                                </div>
+                               
                             </div>
-                            <div class="p-tooltip">
-                                <p class="tooltip-title"> Máy tính trạm Dell Precision 3660 Tower 70287694 (i7-12700/ 16GB/ 1TB/ DVDRW/ T1000 4GB/ KB_M/ 300W PSU/ Win 11 Pro/ 3Yr) </p>
-                                <div class="tooltip-content">
-                                    <div class="tooltip-summary" style="white-space: unset">
-                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>CPU: CPU Intel® Core™ i7-12700 (Up To 4.90 GHz, 12 Nhân 20 Luồng, 25M Cache)
-                                        </span>
-                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>RAM: 16GB( 2x8GB) DDR5 4400MHz UDIMM non-ECC memory (x4 slot) (lắp ram RAKM0058)
-                                        </span>
-                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Ổ cứng: 1TB 7200rpm SATA 3.5" HDD (x1 HDD 3.5" sata + x1 SSD M2 PICE NVME)
-                                        </span>
-                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>VGA: Nvidia T1000 4GB, 4x mDP to DP adapter
-                                        </span>
-                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Ổ đĩa: DVDRW
-                                        </span>
-                                    </div>
-                                    <div class="position-relative">
-                                        <span>
-                                        Giá niêm yết:
-                                        <del class="p-old-price" style="display: inline-block;"> 42.690.000 đ </del>
-                                        </span>
-                                        <span class="p-discount"> -3% </span>
-                                        <p class="p-price" style="margin: 0;">
-                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                            41.650.000 đ
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                           
                         </div>
+                        @endforeach
+                        @endif      
                         
                     </div>
                     <!-- paging -->

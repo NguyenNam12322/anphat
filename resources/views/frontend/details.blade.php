@@ -7887,8 +7887,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
 
                 <div class="product-spec-group mb-4 font-300">
-                    <div class="item-content position-relative"> <table style="width: 100%;" border="1">
-<tbody>
+                    <div class="item-content position-relative"> 
+                        <!-- <table style="width: 100%;" border="1"> -->
+<!-- <tbody>
 <tr>
 <td style="width: 373.5pt; padding: .75pt .75pt .75pt .75pt;" colspan="2" width="498">
 <p style="line-height: normal;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><strong><span style="color: black;">M&ocirc; tả&nbsp;chi tiết</span></strong><span style="color: black;">&nbsp;</span><a href="https://www.anphatpc.com.vn/man-hinh-vi-tinh_dm1052.html"><strong>M&agrave;n h&igrave;nh vi t&iacute;nh</strong></a></span></p>
@@ -8038,8 +8039,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p style="line-height: normal;"><span style="font-size: 10pt; color: black; font-family: arial, helvetica, sans-serif;">C&aacute;p nguồn</span></p>
 </td>
 </tr>
-</tbody>
-</table> </div>
+</tbody> -->
+<!-- </table>  -->
+</div>
 
                     
                     <a href="javascript:void(0)" class="blue item-button" data-fancybox data-src="#pro-spec"> XEM THÊM THÔNG SỐ <i class="fa fa-angle-double-down"></i></a>
@@ -8053,11 +8055,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <!-- pro-info-center -->
             <div class="pro-info-center">
-                <h1 class="pro-name js-product-name"> Màn hình máy tính Dahua DHI-LM24-A200 23.6 inch FHD VA </h1>
+                <h1 class="pro-name js-product-name"> {{ $data->Name }} </h1>
 
                 <div style="border-bottom: 1px solid #edeef2;margin-bottom: 7px;padding-bottom: 3px;font-size: 13px;">
                     <span>
-                        <b>Mã SP: </b><span class="js-product-sku">MODH0006</span>
+                        <b>Mã SP: </b><span class="js-product-sku">{{  $data->ProductSku }}</span>
                     </span>
 
                     <span style="margin-left: 20px;">
@@ -8543,54 +8545,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <b style="color:red;display: inline-block;">Mua hàng Online toàn quốc: <br> (Hotline: 1900.0323 - Phím 1)</b>
                     </p>
                                                        
-                    <b class="d-block mb-1"> Hiện đang có tại showroom: </b>
-
-                    <div class="store-address font-500" id="js-in-stock">
-                        <b class="d-block" style="color: #000">* Showroom miền Bắc:</b>
-
-                        <div class="mb-2" id="js-mien-bac">
-                            
-                            <a href="https://goo.gl/maps/fQkzMmh1gkNbNVEC9" target="_blank" class="blue">
-                                <span>
-                                    49 Thái Hà – P. Trung Liệt – Q. Đống Đa – Hà Nội<br>
-                                    (Hotline: 0918.557.006)
-                                </span>
-                            </a> 
-                            
-                                                        
-                            
-
-                             
-
-                            
-                            <a href="https://goo.gl/maps/cswMmzHFxzR3h5zN6" target="_blank" class="blue">
-                                <span>
-                                    04 Nguyễn Văn Cừ - Ninh Xá - Bắc Ninh <br>
-                                    (Hotline: 0972.166.640)
-                                </span>
-                            </a> 
-                             
-                            
-                            
-                            <a href="#" target="_blank" class="blue">
-                                <span>
-                                    Kho tổng - Hà Nội<br> (Hotline: 0966.454.503)
-                                </span>
-                            </a> 
-                            
-
-                        </div>
-
-                        <b class="d-block" style="color: #000">* Showroom miền Nam:</b>
-                        <div id="js-mien-nam">
-                            
-
-                             
-                          
-                            
-                        </div>
-                    </div>
-
+                   
                     <div id="js-out-stock" style="display: none;font-weight: bold;">
                         Kho hàng: <span class="red">Liên hệ</span>
                     </div>
