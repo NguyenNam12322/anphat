@@ -300,15 +300,30 @@ class categoryController extends Controller
                    
                     $limit = 12;
 
-                   
-                    $data = cache()->remember('data_'.$id_cate.'_'.$page, 100, function () use($Group_product, $limit, $page){
+                    // khi bấm lọc trên button sẽ lấy giá trị để sắp xếp 
 
-                        $data = product::whereIn('id', $Group_product)->where('active', 1)->orderBy('sale_order', 'desc')->limit($limit)->offset(($page - 1) * $limit)->get();
+                    $sort  = @$_GET['sort'];
 
-                        return $data;
+                    $action = @$_GET['action'];
 
-                    });  
-                        
+
+                    if(!empty($sort) && !empty($action)){
+
+
+                        $data = product::whereIn('id', $Group_product)->where('active', 1)->orderBy($sort, $action)->limit($limit)->offset(($page - 1) * $limit)->get();
+
+                    }
+                    else{
+
+                        $data = cache()->remember('data_'.$id_cate.'_'.$page, 100, function () use($Group_product, $limit, $page){
+
+                            $data = product::whereIn('id', $Group_product)->where('active', 1)->orderBy('sale_order', 'desc')->limit($limit)->offset(($page - 1) * $limit)->get();
+
+                            return $data;
+
+                        });  
+                    
+                    }   
                 
                     $numberdata = cache()->remember('numberdata'.$id_cate, 100, function () use($Group_product){
 
@@ -329,7 +344,7 @@ class categoryController extends Controller
 
             }
 
-           $filter =  cache()->remember('group_product_id__'.$parent_cate_id, 1000, function () use($parent_cate_id){
+            $filter =  cache()->remember('group_product_id__'.$parent_cate_id, 1000, function () use($parent_cate_id){
 
                 $filter = filter::where('group_product_id', $parent_cate_id)->select('name', 'id')->get()??'';
 
@@ -521,6 +536,8 @@ class categoryController extends Controller
         
        return redirect(route('details', $slug));
     }
+
+
 
 
     public function get_Group_Product($id){
