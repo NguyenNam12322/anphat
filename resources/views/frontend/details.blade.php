@@ -49,8 +49,8 @@
                 </div>
                 <a href="javascript:void(0)" class="box-gallery d-block text-center blue text-12" id="box-open-gallery" onclick="openBoxGallery(this);" data-id="anh_sp">
                     <i class="fa fa-search-plus"></i> 
-                    <p class="m-0 d-inline-block"> Phóng to  Hình sản phẩm </p>
-                    <span class="count js-dots" style="color: #222;">1 / 7</span> 
+                    <!-- <p class="m-0 d-inline-block"> Phóng to  Hình sản phẩm </p>
+                    <span class="count js-dots" style="color: #222;">1 / 7</span>  -->
                 </a>
                 <!-- box dieu huong -->
                 <!--  
@@ -62,10 +62,7 @@
                     </span>
                     <span class="name"> Hình sản phẩm </span>
                     </a>
-                    <a href="javascript:void(0)" class="video" onclick="openVideoBox()" data-name="Video" data-key="video">
-                    <span class="img"> <i class="fa fa-play-circle"></i> </span>
-                    <span class="name"> Video </span>
-                    </a>
+                    
                     <a href="javascript:void(0)" class="blue text-center" data-fancybox="" data-src="#pro-spec">
                     <i class="fa fa-exclamation-circle d-block" style="transform: rotate(180deg);"></i>
                     Xem thông số kỹ thuật
@@ -506,6 +503,40 @@
                     <b class="d-block mb-2"> 
                     Bảo hành: 36 Tháng, chế độ bảo hành 1 đổi 1 trong 12 tháng đầu 
                     </b>
+                </div>
+
+                <div class="pro_info-price-container">
+                    
+                    <div class="spec-count" id="js-promotion-price-countdown">
+           
+        </div>
+                    
+                  
+                    <table>
+                            @if(!empty($datas->manuPrice))
+                            
+                            <tbody><tr>
+                                <td width="135px" class="font-500"> Giá niêm yết: </td>
+                                <td> 
+                                    <del style="color: #888888;" class="font-500"> {{ @number_format($datas->manuPrice , 0, ',', '.')}} đ </del>
+                                </td>
+                            </tr>
+
+                            @endif
+                            
+
+                            <tr>
+                                <td width="135px" class="font-500"> Giá {{ !empty($datas->manuPrice)?'khuyến mại':'' }} : </td>
+                                <td>
+                                    <b style="color: #ce0707" class="text-18 js-pro-total-price" data-price="6689000">
+                                        {{ @number_format($datas->Price , 0, ',', '.')}}đ 
+                                      
+                                    </b>
+                                    
+                                </td>
+                            </tr>
+        
+                    </tbody></table>
                 </div>
 
                 <!-- <div class="pro-special-offer-container">
