@@ -282,7 +282,7 @@
                         </a>
                     </div>
 
-                    <div class="item clearfix">
+                    <!-- <div class="item clearfix">
                         <a href="dang-nhap.html" title="Tài khoản"><i class="icon icon-user"></i></a>
 
                         <div class="icon-text m-0 text-12">
@@ -291,7 +291,7 @@
                             <a href="dang-nhap.html" class="d-block"> Đăng nhập </a>
                             
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="item clearfix">
                         <a href="{{ route('cart')  }}" class="d-block position-relative" title="Giỏ hàng của bạn">

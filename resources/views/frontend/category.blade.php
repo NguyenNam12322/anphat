@@ -8,7 +8,7 @@
         <div id="breadcrumb">
             <ol class="ul clearfix" itemscope itemtype="http://schema.org/BreadcrumbList">
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <a href="index.html" itemprop="item" class="nopad-l">
+                    <a href="{{ route('homeFe') }}" itemprop="item" class="nopad-l">
                     <span itemprop="name"><span style="font-size: 0px">Home</span><i class="icon icon-home"></i></span>
                     </a>  
                     <meta itemprop="position" content="1" />
@@ -19,7 +19,7 @@
                     </a>
                     <meta itemprop="position" content="2" />
                 </li>
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+               <!--  <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                     <a href="may-tinh-workstation-may-tram_dm1469.html" itemprop="item" class="nopad-l">
                     <span itemprop="name">Máy trạm Workstation</span>
                     </a>
@@ -30,17 +30,17 @@
                     <span itemprop="name">Dell Workstation</span>
                     </a>
                     <meta itemprop="position" content="4" />
-                </li>
+                </li> -->
             </ol>
         </div>
         <!--  -->
         <!-- filter -->
         <div class="product-filter-container bg-white position-relative">
-            <p class="title text-20"> BỘ LỌC </p>
+            <!-- <p class="title text-20"> BỘ LỌC </p> -->
            
             <div class="filter-box overflow-hidden" id="js-filter-height">
-                <table>
-                    <!-- brand -->
+               <!--  <table>
+                    
                     <tr class="js-filter-row">
                         <td width="190px"> <b>Hãng sản xuất</b> </td>
                         <td>
@@ -54,7 +54,7 @@
                             </a> 
                         </td>
                     </tr>
-                    <!-- attribute -->
+                    
                     <tr class="js-filter-row">
                         <td width="190"> <b> Bộ vi xử lý </b> </td>
                         <td>
@@ -71,7 +71,7 @@
                             </a> 
                         </td>
                     </tr>
-                    <!-- attribute -->
+                    
                     <tr class="js-filter-row">
                         <td width="190"> <b> Dung lượng RAM </b> </td>
                         <td>
@@ -88,7 +88,7 @@
                             </a> 
                         </td>
                     </tr>
-                    <!-- attribute -->
+                    
                     <tr class="js-filter-row">
                         <td width="190"> <b> Dung lượng ổ cứng </b> </td>
                         <td>
@@ -105,7 +105,7 @@
                             </a> 
                         </td>
                     </tr>
-                    <!-- attribute -->
+                    
                     <tr class="js-filter-row">
                         <td width="190"> <b> Dung lượng VGA </b> </td>
                         <td>
@@ -123,7 +123,7 @@
                             </a> 
                         </td>
                     </tr>
-                    <!-- attribute -->
+                    
                     <tr class="js-filter-row">
                         <td width="190"> <b> Hệ điều hành </b> </td>
                         <td>
@@ -144,7 +144,7 @@
                             </a> 
                         </td>
                     </tr>
-                </table>
+                </table> -->
             </div>
             <!-- <a href="javascript:void(0)" class="button-show-filter blue" id="js-show-filter"> 
             Xem tất cả <i class="fa fa-angle-double-down"></i>
