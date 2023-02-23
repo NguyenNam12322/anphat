@@ -221,5 +221,10 @@ class indexController extends Controller
         echo "thanh cong";
     }
 
+    public function Cart()
+    {
+        return view('cart.cart');
+    }
+
      
 }

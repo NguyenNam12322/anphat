@@ -43,11 +43,7 @@ Route::get('/ckfinder.html', 'mainController@ckfinder')->middleware('auth');
 
 Route::get('/ckfinder.html', 'mainController@ckfinder')->middleware('auth');
 
-
 Route::get('copy', 'Frontend\indexController@insertDB');
-
-
-
 
 Route::get('/sale', 'mainController@sale')->name('sale-home');
 
@@ -65,6 +61,9 @@ Route::redirect('.env', 'https://www.24h.com.vn/');
 
 
 Route::get('/lien-he', 'mainController@lienhe');
+
+Route::get('cart/index', 'Frontend\indexController@Cart')->name('cart');
+
 
 
 Route::get('/so-sanh-sp','productController@sosanh')->middleware('throttle:60')->name('so-sanh');
@@ -135,6 +134,8 @@ Route::post('filter-search-client', 'Frontend\filterController@filter')->name('c
 
 Route::get('searchquery', 'productController@search')->name('test');
 
+
+
 Route::get('page/{slug}', 'Frontend\categoryController@pageView')->name('page_cd');
 
 
@@ -146,7 +147,7 @@ Auth::routes(['verify' => true]);
 
 // Route::get('/home', 'HomeController@index');
 
-Route::post('add-cart', 'AjaxController@addProductToCart')->name('cart');
+Route::post('add-cart', 'AjaxController@addProductToCart')->name('addCart');
 
 Route::post('add-cart-fast', 'AjaxController@addCartFast')->name('addcartfast');
 

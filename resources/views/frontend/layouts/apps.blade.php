@@ -19,13 +19,9 @@
     <meta http-equiv="content-language" content="vi-vn" />
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for" href="product.rss" />
     
-    
-        
         <link rel="canonical" href="index.html" >
         
     
-  
-  
     <meta name="robots" content="index,follow" />
     <meta content="DOCUMENT" name="RESOURCE-TYPE" />
     <link rel="shortcut icon" href="{{ asset('template/anphat_2020v2/images/favicon.png')}}" type="image/x-icon" />
@@ -50,8 +46,8 @@
     <!-- <meta property="fb:app_id" content="2624938551090448" /> -->
     <!--<meta property="fb:admins" content="1451935009"/> -->
     
-    <meta name='dmca-site-verification' content='bDY1NUdNZFVUSHdIQkxyUmpTN252U2R5QXh1QURmMy9SR1dUWWV5RGNRST01' />
-    <meta name="ahrefs-site-verification" content="e3047d0674b9c7d820a1657a22271b38d8324ae84a57a565456a0c663a09b4ff">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+ 
     
     <!-- <link rel="stylesheet" href="/template/anphat_2020v2/script/style.css?v=4" type="text/css"/> -->
 
@@ -59,6 +55,7 @@
     <link rel="stylesheet" href="{{ asset('template/anphat_2020v2/script/lib_2020.css')}} " type="text/css"/>
     <link rel="stylesheet" href="{{ asset('template/anphat_2020v2/script/web_pc_2020f9fa.css?v=28.12.2022.12')}}" type="text/css"/>
   <link rel="stylesheet" href="{{ asset('template/anphat_2020v2/script/icon_marketing5e1f.css?v=2')}}" type="text/css"/>
+
     <!-- End CSS giao diện 10/2020 -->
 
   
@@ -108,6 +105,15 @@
 
 
 </style>
+
+<?php
+    $cart = Gloudemans\Shoppingcart\Facades\Cart::content();
+    $number_cart = count($cart);
+   
+ ?>   
+
+
+@stack('style')
 
 
 
@@ -208,12 +214,12 @@
                     </p>
                 </div>
 
-                <div class="text-title">
+               <!--  <div class="text-title">
                     <a href="sieu-thi-gan-nhat.html" class="map-title" > <i class="fa fa-map-marker text-16 pr-1"></i> Hệ thống Showroom </a>
                     <a href="https://www.youtube.com/c/AnPhatComputerpc" class="icon-video"> Video </a>
                     <a href="tin-tuc.html" class="icon-news"> Tin tức </a>
                     <a href="tra-bao-hanh.html" class="icon-print"> Tra cứu bảo hành </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -225,54 +231,16 @@
                 <h1 class="m-0">
                 <a href="{{ route('homeFe') }}" class="logo"> 
                     <img src="../anphat.com.vn/media/banner/logo_logo-web-t4.png" alt="An Phát" class="logo-img"/> 
-                    <img data-src="{{ asset('/template/anphat_2020v2/images/logo-icon.png')}}" alt="An Phát" class="logo-img-fixed lazy"/>
+                    <img data-src="../anphat.com.vn/media/banner/logo_logo-web-t4.png" alt="An Phát" class="logo-img-fixed lazy"/>
                 </a>
                 </h1>
 
                 <!-- search -->
                 <div class="header-search">
-                    <form method="get" action="https://www.anphatpc.com.vn/tim" enctype="multipart/form-data" class="clearfix search-form bg-white">
-                        <select name="scat_id">
-                            <option value="">Tất cả danh mục</option>
-                            
-                            <option value="395">Laptop - Tablet - Mobile</option>
-                            
-                            <option value="394">Máy tính - Máy chủ</option>
-                            
-                            <option value="2553">PCAP Máy Tính An Phát</option>
-                            
-                            <option value="1064">Apple</option>
-                            
-                            <option value="400">Máy in - TB Văn Phòng</option>
-                            
-                            <option value="1253">Linh Kiện Máy Tính</option>
-                            
-                            <option value="1052">Màn Hình Máy Tính</option>
-                            
-                            <option value="1255">Gaming Gear</option>
-                            
-                            <option value="1321">GameNet</option>
-                            
-                            <option value="2551">Thiết bị lưu trữ, USB, thẻ nhớ</option>
-                            
-                            <option value="393">Loa, Tai Nghe, Webcam, Tivi</option>
-                            
-                            <option value="1214">Camera</option>
-                            
-                            <option value="397">Cooling, Tản nhiệt</option>
-                            
-                            <option value="399">Thiết Bị Mạng</option>
-                            
-                            <option value="2112">Phụ Kiện Laptop, PC, Khác</option>
-                            
-                            <option value="2187">Xe Đạp Điện, Smart Home</option>
-                            
-                            <option value="2279">Buồng Chơi Game Giả Lập</option>
-                            
-                        </select>
-                
+                    <form method="get" action="{{ route('search-product-frontend') }}" enctype="multipart/form-data" class="clearfix search-form bg-white">
+                        
                         <div class="searh-form-container">
-                            <input type="text" id="js-search" class="text_search" value="" name="q" placeholder="Tìm kiếm sản phẩm..." autocomplete="off">
+                            <input type="text" id="js-search" class="text_search" value="" name="key" placeholder="Tìm kiếm sản phẩm..." autocomplete="off" id="tags">
                             <button type="submit" class="submit-search">
                                 <i class="fa fa-search" ></i> Tìm kiếm
                             </button>
@@ -328,9 +296,9 @@
                     </div>
 
                     <div class="item clearfix">
-                        <a href="cart.html" class="d-block position-relative" title="Giỏ hàng của bạn">
+                        <a href="{{ route('cart')  }}" class="d-block position-relative" title="Giỏ hàng của bạn">
                             <i class="icon icon-cart mr-0"></i>
-                            <span class="js-cart-count cart-count"> 0</span>
+                            <span class="js-cart-count cart-count"> {{  $number_cart }}</span>
                         </a>
                     </div>
                 </div>
@@ -365,12 +333,12 @@
                         </div>
                     </div>
 
-                    <div class="menu-text-right d-flex align-items-center justify-content-between font-weight-light text-13">
+                    <!-- <div class="menu-text-right d-flex align-items-center justify-content-between font-weight-light text-13">
                         <a href="san-pham-da-xem.html" target="_blank" class="header-history"> Sản phẩm bạn đã xem </a>
                         <a href="deal.html" class="bg-icon icon-flash"> Flash sale </a>
                         <div class="header-support-container" style="line-height: 38px;">
                             <a href="javascript:void(0)" class="bg-icon icon-support"> Tư vấn bán hàng </a>
-                            <!--include static/support_html-->
+                         
                             <div class="global-support-container" style="display: none">
                                 <div class="col-item">
                                     <p class="title">Khách hàng Online</p>
@@ -463,7 +431,7 @@
                         <a href="chuong-trinh-khuyen-mai.html" class="bg"><img src="../anphat.com.vn/media/lib/30-01-2023/chuong-trinh-khuyen-mai.png" /> Khuyến mãi Hot </a>
                         <a href="trung-tam-bao-hanh.html" class="bg-icon icon-package"> Đổi trả miễn phí </a>
                         <a href="giao-hang.html" class="bg-icon icon-delivery"> Miễn phí vận chuyển </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -737,55 +705,55 @@
         }
     }
 
-    $(document).ready(function(){
-        getProductMarketingIcon('.js-p-item');
+    // $(document).ready(function(){
+    //     getProductMarketingIcon('.js-p-item');
 
-        tooltip();
+    //     tooltip();
         
-        _run_search();
+    //     _run_search();
   
-        var lazyLoadInstance = new LazyLoad({
-            elements_selector: ".lazy"
-        });
+    //     var lazyLoadInstance = new LazyLoad({
+    //         elements_selector: ".lazy"
+    //     });
         
-        showCartSummary(".js-cart-count")
+    //     showCartSummary(".js-cart-count")
         
-        $('#js-gotop').click(function() {
-            $('body,html').animate({scrollTop:0},800);
-        });
+    //     $('#js-gotop').click(function() {
+    //         $('body,html').animate({scrollTop:0},800);
+    //     });
 
-        $(".p-order-status").each(function(){
-            var left = $(this).attr("data-left");
-            var total = $(this).attr("data-total");
-            var percent = 0;
-            if(total > 0) percent = Math.ceil(left/total * 100);
+    //     $(".p-order-status").each(function(){
+    //         var left = $(this).attr("data-left");
+    //         var total = $(this).attr("data-total");
+    //         var percent = 0;
+    //         if(total > 0) percent = Math.ceil(left/total * 100);
 
-            $(this).find(".bg-count-left").css("width",percent+"%");
-            $(this).find(".icon-order-status").css("left",percent+"%");
+    //         $(this).find(".bg-count-left").css("width",percent+"%");
+    //         $(this).find(".icon-order-status").css("left",percent+"%");
 
-            if(percent < 40 && 1 < 2) $(this).find(".text").css("right","10px");
-        });
+    //         if(percent < 40 && 1 < 2) $(this).find(".text").css("right","10px");
+    //     });
 
-        $(window).scroll(function() {
-            menu_fixed();
+    //     $(window).scroll(function() {
+    //         menu_fixed();
 
-            if($(this).scrollTop() > 300) {
-                $('.icon-fixed-right-group').addClass("active");
-            } else {
-                $('.icon-fixed-right-group').removeClass("active");
-            }
+    //         if($(this).scrollTop() > 300) {
+    //             $('.icon-fixed-right-group').addClass("active");
+    //         } else {
+    //             $('.icon-fixed-right-group').removeClass("active");
+    //         }
             
-            if(isOnScreen($('footer')) && $('footer').hasClass('loaded')==false){
+    //         if(isOnScreen($('footer')) && $('footer').hasClass('loaded')==false){
 
-                global_getTopNews("#js-top-art-1");
-                global_tinkhuyenmai("#js-top-art-2");
+    //             global_getTopNews("#js-top-art-1");
+    //             global_tinkhuyenmai("#js-top-art-2");
 
-                $('footer').addClass('loaded');
-            }  
+    //             $('footer').addClass('loaded');
+    //         }  
   
-        });
+    //     });
 
-    })
+    // })
 
 
     $(document).ajaxStop(function(){
@@ -802,6 +770,51 @@
 </script>
 
 <script>
+
+
+    function addToCart(id) {
+            
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+    
+        $.ajax({
+            type: 'POST',
+            url: "{{ route('addcartfast') }}",
+            data: {
+                product_id: id,
+                gift_check:$('#gift_checked').val()
+                   
+            },
+            beforeSend: function() {
+               
+                $('.loader').show();
+
+            },
+            success: function(result){
+
+                console.log(result);
+
+                numberProductCart = $(".cart-count").text();
+
+
+                number = parseInt(numberProductCart)+1;
+
+               
+                alert('thêm sản phẩm vào giỏ hàng thành công');
+
+              
+                $('.cart-count').text(number);
+
+                
+            }
+        });
+        
+    }
+
+    
     function addProduct(product_id) {
         var product_prop = {
             quantity: 1 ,
@@ -1721,6 +1734,8 @@
   data-width="450"
   data-show-faces="true">
 </div>
+
+@stack('js')
   
 
   
@@ -1743,7 +1758,3 @@
     
   </body>
 
-  
-<!-- Load time: 0.353 seconds  / 10 mb-->
-<!-- Powered by HuraStore 7.4.6, Released: 17-July-2020 / Website: www.hurasoft.vn -->
-        

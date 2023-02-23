@@ -25,7 +25,7 @@ class orderController extends Controller
     {
         $host = request()->getHttpHost();
 
-        if($host === env('APP_DOMAIN')){
+        
 
             $cart  = Cart::content();
 
@@ -114,11 +114,8 @@ class orderController extends Controller
             Session::flash('success', 'Mua thành công sản phẩm!'); 
 
             return redirect('/');
-        }
-        else{
-
-            return abort('403');
-        }
+       
+        
     }
 
     public function orderList()

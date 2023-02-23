@@ -319,17 +319,17 @@
                 <!-- button -->
                 <div class="pro-button-container d-flex flex-wrap text-center justify-content-between">
                     <!-- Button Mua hàng -->
-                    <a href="javascript:void(0)" class="w-100 btn-buyNow js-buy-now" onclick="addConfigToShoppingCart(41446,0,1,'/cart')">
+                    <a href="javascript:void(0)" class="w-100 btn-buyNow js-buy-now" onclick="addToCartRedirect({{ $data->id }})">
                     <b class="d-block text-18 font-500"> ĐẶT MUA NGAY </b>
                     <span class="text-12 d-block"> Nhanh chóng, thuận tiện </span>
                     </a>
-                    <a href="javascript:void(0)" class="btn-addCart blue order-1 js-addCart" onclick="addConfigToShoppingCart(41446,0,1);showCartSummary('.js-cart-count');">
-                    <b class="d-block text-18 font-500"> CHO VÀO GIỎ </b>
+                    <a href="javascript:void(0)" class="btn-addCart blue order-1 js-addCart" onclick="addToCart({{ $data->id }})">
+                    <b class="d-block text-18 font-500" > CHO VÀO GIỎ </b>
                     <span class="text-12 d-block"> Mua tiếp sản phẩm khác </span>
                     </a>
                     <!-- End Button Mua hàng -->
                     <!-- Button trả góp -->
-                    <a href="https://www.anphatpc.com.vn/mua-tra-gop.html" class="btn-payinstall order-0" target="_blank">
+                    <a href="javascript:void(0)" class="btn-payinstall order-0">
                     <b class="d-block text-18 font-500"> MUA TRẢ GÓP </b>
                     <span class="text-12 d-block"> Thủ tục đơn giản </span>
                     </a>
@@ -385,7 +385,7 @@
                 </div>
             </div>
         </div>
-        <div class="pro-video-art-container d-flex justify-content-between">
+        <div class="pro-video-art-container d-flex justify-content-between container">
             <div class="item item-left  h-100">
                 <div class="pro-comment-container bg-white d-none">
                     <p class="title"> ĐÁNH GIÁ VÀ NHẬN XÉT </p>
@@ -536,1794 +536,1797 @@
                 </div> -->
         </div>
         <!-- Sp tương tự - cùng hãng - liên quan -->
-        <div class="product-related-container bg-white">
-            <div class="pro-tab-title clearfix">
-                <a href="javascript:void(0)" data-id="js-tab-1" class="js-tab-title"> SẢN PHẨM TƯƠNG TỰ </a>
-                <a href="javascript:void(0)" data-id="js-tab-2" class="js-tab-title"> SẢN PHẨM CÙNG HÃNG </a>
-                <a href="javascript:void(0)" data-id="js-tab-3" class="js-tab-title"> SẢN PHẨM LIÊN QUAN </a>
-            </div>
-            <div class="pro-tab-items">
-                <!-- SẢN PHẨM TƯƠNG TỰ-->
-                <div class="custom-nav owl-carousel owl-theme js-product-carousel product-tab-item" id="js-tab-1">
-                    <div class='p-item  js-p-item' data-id="44412">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-e-dra-egm24f75-24-inch-fhd-ips-75hz.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_44412_m__n_h__nh_m__y_t__nh_e_dra_egm24f75_24_inch_fhd_ips_75hz_ap_9_.jpg" alt="Màn hình máy tính E-DRA EGM24F75 24 inch FHD IPS 75Hz" class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-44412">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOED0004 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-e-dra-egm24f75-24-inch-fhd-ips-75hz.html" class="p-name">
-                                <h3>Màn hình máy tính E-DRA EGM24F75 24 inch FHD IPS 75Hz</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 2.499.000 đ </del>
-                                <span class="p-discount"> -21% </span>
-                                <span class="p-price">
-                                1.999.000 đ
+
+        <div class="container">
+            <div class="product-related-container bg-white">
+                <div class="pro-tab-title clearfix">
+                    <a href="javascript:void(0)" data-id="js-tab-1" class="js-tab-title"> SẢN PHẨM TƯƠNG TỰ </a>
+                    <a href="javascript:void(0)" data-id="js-tab-2" class="js-tab-title"> SẢN PHẨM CÙNG HÃNG </a>
+                    <a href="javascript:void(0)" data-id="js-tab-3" class="js-tab-title"> SẢN PHẨM LIÊN QUAN </a>
+                </div>
+                <div class="pro-tab-items">
+                    <!-- SẢN PHẨM TƯƠNG TỰ-->
+                    <div class="custom-nav owl-carousel owl-theme js-product-carousel product-tab-item" id="js-tab-1">
+                        <div class='p-item  js-p-item' data-id="44412">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-e-dra-egm24f75-24-inch-fhd-ips-75hz.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_44412_m__n_h__nh_m__y_t__nh_e_dra_egm24f75_24_inch_fhd_ips_75hz_ap_9_.jpg" alt="Màn hình máy tính E-DRA EGM24F75 24 inch FHD IPS 75Hz" class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-44412">
+                                    <!-- // icon promotion -->
                                 </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(44412,'https://anphat.com.vn/media/product/250_44412_m__n_h__nh_m__y_t__nh_e_dra_egm24f75_24_inch_fhd_ips_75hz_ap_9_.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(44412)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính E-DRA EGM24F75 24 inch FHD IPS 75Hz </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
-                                    </div>
-                                    <ul class="ul">
-                                        <li>
-                                            <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ
-                                            <a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> 
-                                            <font color="DodgerBlue">Xem chi tiết</font> 
-                                            </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình
-                                            <a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> 
-                                            <font color="DodgerBlue">Xem chi tiết</font> 
-                                            </a>
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 23.8 inch 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920x1080)
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 2.499.000 đ </del>
-                                    </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MOED0004 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-e-dra-egm24f75-24-inch-fhd-ips-75hz.html" class="p-name">
+                                    <h3>Màn hình máy tính E-DRA EGM24F75 24 inch FHD IPS 75Hz</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 2.499.000 đ </del>
                                     <span class="p-discount"> -21% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        1.999.000 đ
-                                    </p>
+                                    <span class="p-price">
+                                    1.999.000 đ
+                                    </span>
+                                </div>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(44412,'https://anphat.com.vn/media/product/250_44412_m__n_h__nh_m__y_t__nh_e_dra_egm24f75_24_inch_fhd_ips_75hz_ap_9_.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(44412)"></a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="44317">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p24v-g5-64w18aa-23.8-inch-fhd-va-75-hz.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_44317_m__n_h__nh_m__y_t__nh_hp_p24v_g5_64w18aa_23_8_inch_fhd_va_75_hz__1_.jpg" alt="Màn hình máy tính HP P24v G5 64W18AA 23.8 inch FHD-75 Hz" class="fit-img lazy" />
-                            <span class="icon-new"></span>
-                            <span class="p-icon-holder js-icon-44317">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOHP0121 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p24v-g5-64w18aa-23.8-inch-fhd-va-75-hz.html" class="p-name">
-                                <h3>Màn hình máy tính HP P24v G5 64W18AA 23.8 inch FHD-75 Hz</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 4.299.000 đ </del>
-                                <span class="p-discount"> -16% </span>
-                                <span class="p-price">
-                                3.649.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(44317,'https://anphat.com.vn/media/product/250_44317_m__n_h__nh_m__y_t__nh_hp_p24v_g5_64w18aa_23_8_inch_fhd_va_75_hz__1_.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(44317)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính HP P24v G5 64W18AA 23.8 inch FHD-75 Hz </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính E-DRA EGM24F75 24 inch FHD IPS 75Hz </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <li>
+                                                <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ
+                                                <a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> 
+                                                <font color="DodgerBlue">Xem chi tiết</font> 
+                                                </a>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình
+                                                <a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> 
+                                                <font color="DodgerBlue">Xem chi tiết</font> 
+                                                </a>
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
                                     </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 23.8 inch 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920x1080)
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 2.499.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -21% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            1.999.000 đ
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 23.8 inch 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: VA
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920 x 1080)
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 4.299.000 đ </del>
-                                    </span>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="44317">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p24v-g5-64w18aa-23.8-inch-fhd-va-75-hz.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_44317_m__n_h__nh_m__y_t__nh_hp_p24v_g5_64w18aa_23_8_inch_fhd_va_75_hz__1_.jpg" alt="Màn hình máy tính HP P24v G5 64W18AA 23.8 inch FHD-75 Hz" class="fit-img lazy" />
+                                <span class="icon-new"></span>
+                                <span class="p-icon-holder js-icon-44317">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MOHP0121 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p24v-g5-64w18aa-23.8-inch-fhd-va-75-hz.html" class="p-name">
+                                    <h3>Màn hình máy tính HP P24v G5 64W18AA 23.8 inch FHD-75 Hz</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 4.299.000 đ </del>
                                     <span class="p-discount"> -16% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        3.649.000 đ
-                                    </p>
+                                    <span class="p-price">
+                                    3.649.000 đ
+                                    </span>
+                                </div>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(44317,'https://anphat.com.vn/media/product/250_44317_m__n_h__nh_m__y_t__nh_hp_p24v_g5_64w18aa_23_8_inch_fhd_va_75_hz__1_.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(44317)"></a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="39028">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dell-p2422h-23.8-inch-fhd-ips.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_39028_dell_p2422h_3_900x.jpg" alt="Màn hình máy tính Dell P2422H 23.8 inch FHD IPS " class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-39028">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MODE0140 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dell-p2422h-23.8-inch-fhd-ips.html" class="p-name">
-                                <h3>Màn hình máy tính Dell P2422H 23.8 inch FHD IPS </h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 6.099.000 đ </del>
-                                <span class="p-discount"> -13% </span>
-                                <span class="p-price">
-                                5.339.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(39028,'https://anphat.com.vn/media/product/250_39028_dell_p2422h_3_900x.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(39028)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính Dell P2422H 23.8 inch FHD IPS  </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính HP P24v G5 64W18AA 23.8 inch FHD-75 Hz </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
                                     </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 23.8 inch 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: VA
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920 x 1080)
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 4.299.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -16% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            3.649.000 đ
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 23.8 inch 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: Full HD (1920x1080) 
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 6.099.000 đ </del>
-                                    </span>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="39028">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dell-p2422h-23.8-inch-fhd-ips.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_39028_dell_p2422h_3_900x.jpg" alt="Màn hình máy tính Dell P2422H 23.8 inch FHD IPS " class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-39028">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MODE0140 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dell-p2422h-23.8-inch-fhd-ips.html" class="p-name">
+                                    <h3>Màn hình máy tính Dell P2422H 23.8 inch FHD IPS </h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 6.099.000 đ </del>
                                     <span class="p-discount"> -13% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        5.339.000 đ
-                                    </p>
+                                    <span class="p-price">
+                                    5.339.000 đ
+                                    </span>
+                                </div>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(39028,'https://anphat.com.vn/media/product/250_39028_dell_p2422h_3_900x.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(39028)"></a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="37123">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-asus-proart-pa247cv-23.8-inch-fhd-ips-chuyen-do-hoa.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_37123_m__n_h__nh_m__y_t__nh_asus_proart_pa247cv_23_8_inch_fhd_ips___chuy__n_______h___a.jpg" alt="Màn hình máy tính Asus ProArt PA247CV 23.8 inch FHD IPS - chuyên đồ họa" class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-37123">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOAS0098 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-asus-proart-pa247cv-23.8-inch-fhd-ips-chuyen-do-hoa.html" class="p-name">
-                                <h3>Màn hình máy tính Asus ProArt PA247CV 23.8 inch FHD IPS - chuyên đồ họa</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 7.999.000 đ </del>
-                                <span class="p-discount"> -21% </span>
-                                <span class="p-price">
-                                6.399.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(37123,'https://anphat.com.vn/media/product/250_37123_m__n_h__nh_m__y_t__nh_asus_proart_pa247cv_23_8_inch_fhd_ips___chuy__n_______h___a.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(37123)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính Asus ProArt PA247CV 23.8 inch FHD IPS - chuyên đồ họa </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính Dell P2422H 23.8 inch FHD IPS  </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
                                     </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">🎁Áp dụng 06/01 đến 28/02/2023 hoặc đến khi hết quà : Tặng đèn bảo vệ mắt gắn màn hình: </span><a href="https://www.asus.com/vn/events/infoM/activity_ChuanDoHoa/"><span style="color: red"><b> Đăng ký tại đây </span></a></b>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">🎁Áp dụng 01/02 đến 28/02/2023 hoặc đến khi hết quà : Tặng 01 áo thun Asus ProArt (PKKH1024)
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">🎁Áp dụng 01/01 đến 31/08/2023 : Tặng ngay bộ Adobe Creative Cloud lên đến 3 tháng  <a href="https://www.asus.com/vn/events/infoM/activity_2913/"><span style="color: red"><b> Chi tiết xem tại đây </span></a></b>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                
-                                            </li>
-                                            
-                                            <li>
-                                                
-                                            </li>
-                                            
-                                            <li>
-                                                
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> 🎁Áp dụng 06/01 đến 28/02/2023 hoặc đến khi hết quà : Tặng đèn bảo vệ mắt gắn màn hình: </span><a href="https://www.asus.com/vn/events/infoM/activity_ChuanDoHoa/"><span style="color: red"><b> Đăng ký tại đây </span></a></b>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> 🎁Áp dụng 01/02 đến 28/02/2023 hoặc đến khi hết quà : Tặng 01 áo thun Asus ProArt (PKKH1024)
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                        </li>
-                                        <!--3-->
-                                        <li>
-                                        </li>
-                                        <!--4-->
-                                        <li>
-                                        </li>
-                                        <!--5-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;"> ... 
-                                        <li>
-                                    </ul>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 23.8 inch 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: Full HD (1920x1080) 
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 6.099.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -13% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            5.339.000 đ
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 23.8 inch 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920x1080)
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 7.999.000 đ </del>
-                                    </span>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="37123">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-asus-proart-pa247cv-23.8-inch-fhd-ips-chuyen-do-hoa.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_37123_m__n_h__nh_m__y_t__nh_asus_proart_pa247cv_23_8_inch_fhd_ips___chuy__n_______h___a.jpg" alt="Màn hình máy tính Asus ProArt PA247CV 23.8 inch FHD IPS - chuyên đồ họa" class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-37123">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MOAS0098 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-asus-proart-pa247cv-23.8-inch-fhd-ips-chuyen-do-hoa.html" class="p-name">
+                                    <h3>Màn hình máy tính Asus ProArt PA247CV 23.8 inch FHD IPS - chuyên đồ họa</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 7.999.000 đ </del>
                                     <span class="p-discount"> -21% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        6.399.000 đ
-                                    </p>
+                                    <span class="p-price">
+                                    6.399.000 đ
+                                    </span>
+                                </div>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(37123,'https://anphat.com.vn/media/product/250_37123_m__n_h__nh_m__y_t__nh_asus_proart_pa247cv_23_8_inch_fhd_ips___chuy__n_______h___a.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(37123)"></a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="34818">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-viewsonic-vx2718-pc-mhd-27-inch-fhd-cong.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_34818_54636_vx2718__4_.png" alt="Màn hình máy tính Viewsonic VX2718-PC-MHD 27 inch FHD Cong Gaming 165Hz" class="fit-img lazy" />
-                            <span class="btn-outStock"> LIÊN HỆ </span>        
-                            <span class="p-icon-holder js-icon-34818">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOVI0044 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-viewsonic-vx2718-pc-mhd-27-inch-fhd-cong.html" class="p-name">
-                                <h3>Màn hình máy tính Viewsonic VX2718-PC-MHD 27 inch FHD Cong Gaming 165Hz</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 6.499.000 đ </del>
-                                <span class="p-discount"> -24% </span>
-                                <span class="p-price">
-                                4.999.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(34818,'https://anphat.com.vn/media/product/250_34818_54636_vx2718__4_.png', this)">So sánh</a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính Viewsonic VX2718-PC-MHD 27 inch FHD Cong Gaming 165Hz </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính Asus ProArt PA247CV 23.8 inch FHD IPS - chuyên đồ họa </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">🎁Áp dụng 06/01 đến 28/02/2023 hoặc đến khi hết quà : Tặng đèn bảo vệ mắt gắn màn hình: </span><a href="https://www.asus.com/vn/events/infoM/activity_ChuanDoHoa/"><span style="color: red"><b> Đăng ký tại đây </span></a></b>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">🎁Áp dụng 01/02 đến 28/02/2023 hoặc đến khi hết quà : Tặng 01 áo thun Asus ProArt (PKKH1024)
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">🎁Áp dụng 01/01 đến 31/08/2023 : Tặng ngay bộ Adobe Creative Cloud lên đến 3 tháng  <a href="https://www.asus.com/vn/events/infoM/activity_2913/"><span style="color: red"><b> Chi tiết xem tại đây </span></a></b>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    
+                                                </li>
+                                                
+                                                <li>
+                                                    
+                                                </li>
+                                                
+                                                <li>
+                                                    
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> 🎁Áp dụng 06/01 đến 28/02/2023 hoặc đến khi hết quà : Tặng đèn bảo vệ mắt gắn màn hình: </span><a href="https://www.asus.com/vn/events/infoM/activity_ChuanDoHoa/"><span style="color: red"><b> Đăng ký tại đây </span></a></b>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> 🎁Áp dụng 01/02 đến 28/02/2023 hoặc đến khi hết quà : Tặng 01 áo thun Asus ProArt (PKKH1024)
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                            </li>
+                                            <!--3-->
+                                            <li>
+                                            </li>
+                                            <!--4-->
+                                            <li>
+                                            </li>
+                                            <!--5-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;"> ... 
+                                            <li>
+                                        </ul>
                                     </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 23.8 inch 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920x1080)
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 7.999.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -21% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            6.399.000 đ
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Cong
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 27 inch 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: VA Technology
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: Full HD (1920x1080) 
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 6.499.000 đ </del>
-                                    </span>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="34818">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-viewsonic-vx2718-pc-mhd-27-inch-fhd-cong.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_34818_54636_vx2718__4_.png" alt="Màn hình máy tính Viewsonic VX2718-PC-MHD 27 inch FHD Cong Gaming 165Hz" class="fit-img lazy" />
+                                <span class="btn-outStock"> LIÊN HỆ </span>        
+                                <span class="p-icon-holder js-icon-34818">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MOVI0044 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-viewsonic-vx2718-pc-mhd-27-inch-fhd-cong.html" class="p-name">
+                                    <h3>Màn hình máy tính Viewsonic VX2718-PC-MHD 27 inch FHD Cong Gaming 165Hz</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 6.499.000 đ </del>
                                     <span class="p-discount"> -24% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        4.999.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="35531">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-viewsonic-va2732-h-27-inch-fhd-ips.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_35531_va2732_h_f02_pc_h.jpg" alt="Màn hình máy tính Viewsonic VA2732-H 27 inch FHD IPS " class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-35531">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOVI0048 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-viewsonic-va2732-h-27-inch-fhd-ips.html" class="p-name">
-                                <h3>Màn hình máy tính Viewsonic VA2732-H 27 inch FHD IPS </h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 4.999.000 đ </del>
-                                <span class="p-discount"> -35% </span>
-                                <span class="p-price">
-                                3.299.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(35531,'https://anphat.com.vn/media/product/250_35531_va2732_h_f02_pc_h.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(35531)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính Viewsonic VA2732-H 27 inch FHD IPS  </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
-                                    </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình Phẳng
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 27 inch 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: Full HD (1920x1080) 
+                                    <span class="p-price">
+                                    4.999.000 đ
                                     </span>
                                 </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 4.999.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -35% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        3.299.000 đ
-                                    </p>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(34818,'https://anphat.com.vn/media/product/250_34818_54636_vx2718__4_.png', this)">So sánh</a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="44067">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p22-g5-64x86aa-21.5-inch-fhd-ips.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_44067_c08223043.png" alt="Màn hình máy tính HP P22 G5 64X86AA 21.5 inch FHD IPS" class="fit-img lazy" />
-                            <span class="icon-new"></span>
-                            <span class="p-icon-holder js-icon-44067">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOHP0122 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p22-g5-64x86aa-21.5-inch-fhd-ips.html" class="p-name">
-                                <h3>Màn hình máy tính HP P22 G5 64X86AA 21.5 inch FHD IPS</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 3.999.000 đ </del>
-                                <span class="p-discount"> -28% </span>
-                                <span class="p-price">
-                                2.899.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(44067,'https://anphat.com.vn/media/product/250_44067_c08223043.png', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(44067)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính HP P22 G5 64X86AA 21.5 inch FHD IPS </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
-                                    </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a> </span>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 21.5 inch 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920 x 1080)
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 3.999.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -28% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        2.899.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="35200">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p22v-g4-21.5-inch-fhd-9tt53aa.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_35200_b45cd11876917dd1e7691590d6324174.jpg" alt="Màn hình máy tính HP P22v G4 21.5 inch FHD (9TT53AA)" class="fit-img lazy" />
-                            <span class="btn-outStock"> LIÊN HỆ </span>        
-                            <span class="p-icon-holder js-icon-35200">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOHP0093 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p22v-g4-21.5-inch-fhd-9tt53aa.html" class="p-name">
-                                <h3>Màn hình máy tính HP P22v G4 21.5 inch FHD (9TT53AA)</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 3.890.000 đ </del>
-                                <span class="p-discount"> -27% </span>
-                                <span class="p-price">
-                                2.849.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(35200,'https://anphat.com.vn/media/product/250_35200_b45cd11876917dd1e7691590d6324174.jpg', this)">So sánh</a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính HP P22v G4 21.5 inch FHD (9TT53AA) </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
-                                    </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a> </span>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Phẳng
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 21.5 inch 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: TN 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920 x 1080)
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 3.890.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -27% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        2.849.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="35533">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p24-g4-1a7e5aa-23-8-inch-fhd-ips.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_35533_thumb650_hp_p24_g4_1a7e5aa_1.png" alt="Màn hình máy tính HP P24 G4 1A7E5AA 23.8 inch FHD IPS " class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-35533">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOHP0096 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p24-g4-1a7e5aa-23-8-inch-fhd-ips.html" class="p-name">
-                                <h3>Màn hình máy tính HP P24 G4 1A7E5AA 23.8 inch FHD IPS </h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 5.099.000 đ </del>
-                                <span class="p-discount"> -26% </span>
-                                <span class="p-price">
-                                3.799.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(35533,'https://anphat.com.vn/media/product/250_35533_thumb650_hp_p24_g4_1a7e5aa_1.png', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(35533)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính HP P24 G4 1A7E5AA 23.8 inch FHD IPS  </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
-                                    </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình Phẳng
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 23.8 inch 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: Full HD (1920x1080) 
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 5.099.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -26% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        3.799.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="42650">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-samsung-viewfinity-s8-ls27b800pxexxv-27-inch-4k-ips-60hz-usc-c-rj45.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_42650_m__n_h__nh_m__y_t__nh_samsung_viewfinity_s8_27_inch_4k_ips_60hz_ls27b800pxexxv___5_.jpg" alt="Màn hình máy tính Samsung ViewFinity S8 LS27B800PXEXXV 27 inch 4k IPS 60Hz USC-C RJ45" class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-42650">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOSS0148 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-samsung-viewfinity-s8-ls27b800pxexxv-27-inch-4k-ips-60hz-usc-c-rj45.html" class="p-name">
-                                <h3>Màn hình máy tính Samsung ViewFinity S8 LS27B800PXEXXV 27 inch 4k IPS 60Hz USC-C RJ45</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 14.999.000 đ </del>
-                                <span class="p-discount"> -34% </span>
-                                <span class="p-price">
-                                9.999.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(42650,'https://anphat.com.vn/media/product/250_42650_m__n_h__nh_m__y_t__nh_samsung_viewfinity_s8_27_inch_4k_ips_60hz_ls27b800pxexxv___5_.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(42650)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính Samsung ViewFinity S8 LS27B800PXEXXV 27 inch 4k IPS 60Hz USC-C RJ45 </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
-                                    </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: màn hình phẳng
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 27 inch 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền:IPS 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: UHD(3840 x 2160) 
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 14.999.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -34% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        9.999.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- SẢN PHẨM CÙNG HÃNG -->
-                <div class="custom-nav owl-carousel owl-theme js-product-carousel product-tab-item " id="js-tab-2">
-                    <div class='p-item  js-p-item' data-id="41450">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhi-lm27-a200-27-inch-fhd-va.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_41450_41446_dhi_lm24_a200.jpg" alt="Màn hình máy tính Dahua DHI-LM27-A200 27 inch FHD VA" class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-41450">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MODH0007 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhi-lm27-a200-27-inch-fhd-va.html" class="p-name">
-                                <h3>Màn hình máy tính Dahua DHI-LM27-A200 27 inch FHD VA</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 3.999.000 đ </del>
-                                <span class="p-discount"> -28% </span>
-                                <span class="p-price">
-                                2.899.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(41450,'https://anphat.com.vn/media/product/250_41450_41446_dhi_lm24_a200.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(41450)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính Dahua DHI-LM27-A200 27 inch FHD VA </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
-                                    </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:09
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 27 inch
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: VA 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920 x 1080) 
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 3.999.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -28% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        2.899.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="30902">
-                        <a href="https://www.anphatpc.com.vn/camera-dahua-dh-hac-b2a21p.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_30902_camera_dahua_dh_hac_b2a21p_1.jpg" alt="Camera Dahua DH-HAC-B2A21P  " class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-30902">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0254 </span>
-                            <a href="https://www.anphatpc.com.vn/camera-dahua-dh-hac-b2a21p.html" class="p-name">
-                                <h3>Camera Dahua DH-HAC-B2A21P    </h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 675.000 đ </del>
-                                <span class="p-discount"> -12% </span>
-                                <span class="p-price">
-                                599.000 đ
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(30902,'https://anphat.com.vn/media/product/250_30902_camera_dahua_dh_hac_b2a21p_1.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(30902)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Camera Dahua DH-HAC-B2A21P     </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải 2.0Megapixel cảm biến CMOS kích thước 1/2.7"", 30fps@1080P
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Thời gian thực không trễ hình, độ nhạy sáng tối thiểu  0.04Lux/F1.85, 0Lux IR on, chế độ ngày đêm(ICR), tự động cân bằng trắng (AWB),tự động bù tín hiệu ảnh (AGC), bù sáng(BLC), Chống nhiễu (2D-DNR),
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tầm xa hồng ngoại 20m với công nghệ hồng ngoại thông minh
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Thiết kế mới nhỏ gọn, thẩm mỹ, dễ dàng lắp đặt
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Ống kính cố định 3.6mm, chuẩn kháng nước IP67, vỏ kim loại. </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 675.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -12% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        599.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="30910">
-                        <a href="https://www.anphatpc.com.vn/dau-ghi-hinh-dahua-dh-xvr1a08.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_30910_dahua_dh_xvr1a08_1.png" alt="Đầu ghi hình Dahua DH-XVR1A08 " class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-30910">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0260 </span>
-                            <a href="https://www.anphatpc.com.vn/dau-ghi-hinh-dahua-dh-xvr1a08.html" class="p-name">
-                                <h3>Đầu ghi hình Dahua DH-XVR1A08  </h3>
-                            </a>
-                            <div class="price-container">
-                                <span class="p-price">
-                                1.350.000 đ
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(30910,'https://anphat.com.vn/media/product/250_30910_dahua_dh_xvr1a08_1.png', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(30910)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Đầu ghi hình Dahua DH-XVR1A08  </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Đầu ghi hình 8 kênh, hỗ trợ camera HDCVI/Analog/IP/TVI/AHD, chuẩn nén hình ảnh H.264, độ phân giải 1080N/720P/960H/D1(1-25fps)
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ ghi hình tất cả các kênh 1080N, cổng ra tín hiệu video đồng thời HDMI/VGA, hỗ trợ xem lại 4/8 kênh đồng thời với chế độ tìm kiếm thông minh
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ kết nối nhiều nhãn hiệu camera IP(8+2) hỗ trợ lên đến camera 2MP đầu 4 kênh và 5MP đầu 8, với chuẩn tương tích Onvif 16.12, hỗ trợ 1 ổ cứng 6TB, 2 cổng usb 2.0, 1 cổng mạng RJ45(100M), hỗ trợ điều kiển quay quét 3D thông minh với giao thức Dahua
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ xem lại và trực tiếp qua mạng máy tính, thiết bị di động, hỗ trợ cấu hình thông minh qua P2P,  Hỗ trợ Camera tích hợp Mic ghi âm tất cả các kênh, 1 cổng audio vào ra hỗ trợ đàm thoại hai chiều, chế độ chia màn hình 1/4 đối với đầu 4 cổng và 1/4/8/9 đối với đầu 8 cổng , quản lý đồng thời 128 tài khoản kết nối, điện áp DC 12V/1.5A công suất không ổ cứng 10W
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Môi trường làm việc -10 ~ 55 độ C, kích thước 197mm×192mm×41mm, trọng lượng không ổ cứng 1KG. Chất liệu kim loại" </span>
-                                </div>
-                                <div class="position-relative">
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        1.350.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="41655">
-                        <a href="https://www.anphatpc.com.vn/camera-dahua-dh-hac-hfw1200tp-s5-2mp-ngoai-troi.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_41655_" alt="Camera Dahua DH-HAC-HFW1200TP-S5 2MP ngoài trời" class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-41655">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0887 </span>
-                            <a href="https://www.anphatpc.com.vn/camera-dahua-dh-hac-hfw1200tp-s5-2mp-ngoai-troi.html" class="p-name">
-                                <h3>Camera Dahua DH-HAC-HFW1200TP-S5 2MP ngoài trời</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 899.000 đ </del>
-                                <span class="p-discount"> -46% </span>
-                                <span class="p-price">
-                                489.000 đ
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(41655,'https://anphat.com.vn/media/product/250_41655_', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(41655)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Camera Dahua DH-HAC-HFW1200TP-S5 2MP ngoài trời </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Camera hỗ trợ HDCVI/HDTVI/AHD/ANALOG, tích hợp OSD
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải 2Megapixel, cảm biến CMOS 1/2.7" 25/30fps@1080P(1920×1080), cho phân giải HD trên đường truyền analog.
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Thời gian thực không trễ hình, độ nhạy sáng tối thiểu 0.02Lux@F1.85(0Lux IR LED on), chế độ ngày đêm(ICR), tự động cân bằng trắng (AWB), tự động bù tín hiệu ảnh (AGC), bù sáng(BLC), chống nhiễu (3D-DNR), tầm xa hồng ngoại 30m với công nghệ hồng ngoại thông minh
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Ống kính cố định 3.6mm, chuẩn ngâm nước IP67,  điện áp DC12V, công suất 3,6W. 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Chất liệu vỏ kim loại, môi trường làm việc từ -30°C~+60°C, khoảng cách truyền tải trên cáp đồng trục lên đến 500m với cáp 75-3 ôm,kích thước 176mm×72.4mm×72.5mm  trọng lượng 0.46KG </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 899.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -46% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        489.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="41978">
-                        <a href="https://www.anphatpc.com.vn/dau-ghi-hinh-camera-ip-4-kenh-dahua-nvr2104hs-4ks2.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_41978______u_ghi_h__nh_camera_ip_4_k__nh_dahua_nvr2104hs_4ks2.jpg" alt="Đầu ghi hình camera IP 4 kênh DAHUA NVR2104HS-4KS2" class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-41978">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0194 </span>
-                            <a href="https://www.anphatpc.com.vn/dau-ghi-hinh-camera-ip-4-kenh-dahua-nvr2104hs-4ks2.html" class="p-name">
-                                <h3>Đầu ghi hình camera IP 4 kênh DAHUA NVR2104HS-4KS2</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 3.180.000 đ </del>
-                                <span class="p-discount"> -50% </span>
-                                <span class="p-price">
-                                1.590.000 đ
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(41978,'https://anphat.com.vn/media/product/250_41978______u_ghi_h__nh_camera_ip_4_k__nh_dahua_nvr2104hs_4ks2.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(41978)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Đầu ghi hình camera IP 4 kênh DAHUA NVR2104HS-4KS2 </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Chuẩn nén hình ảnh: H.265/H.264.
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hai luồng dữ liệu hỗ trợ hiển thị 1CH 8MP và 4CH 1080P.
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Băng thông đầu vào tối đa là 80Mbps.
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ camera có độ phân giải lên đến 8 Megapixel.
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tương thích với tín hiệu ngõ ra: HDMI/VGA.
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 3.180.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -50% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        1.590.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="30904">
-                        <a href="https://www.anphatpc.com.vn/camera-dahua-dh-hac-hdw1200mp-s4_id30904.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_30904_camera_dahua_dh_hac_hdw1200mp_s4_1.jpg" alt="Camera Dahua DH-HAC-HDW1200MP-S4  " class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-30904">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0249 </span>
-                            <a href="https://www.anphatpc.com.vn/camera-dahua-dh-hac-hdw1200mp-s4_id30904.html" class="p-name">
-                                <h3>Camera Dahua DH-HAC-HDW1200MP-S4    </h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 889.000 đ </del>
-                                <span class="p-discount"> -45% </span>
-                                <span class="p-price">
-                                489.000 đ
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(30904,'https://anphat.com.vn/media/product/250_30904_camera_dahua_dh_hac_hdw1200mp_s4_1.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(30904)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Camera Dahua DH-HAC-HDW1200MP-S4   </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Camera hỗ trợ HDCVI/HDTVI/AHD/ANALOG, tích hợp OSD
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải 2.0Megapixel cảm biến CMOS 1/2.7"" 25/30fps@1080P(1920×1080)
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Cho phân giải HD trên đường truyền analog, thời gian thực không trễ hình
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>• Độ nhạy sáng tối thiểu 0.02Lux/F1,85, 0Lux IR on, chế độ ngày đêm(ICR), tự động cân bằng trắng (AWB),tự động bù tín hiệu ảnh(AGC), bù sáng(BLC), chống nhiễu (3D-DNR), tầm xa hồng ngoại 30m với công nghệ hồng ngoại thông minh
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Ống kính cố định 3.6mm, chuẩn ngâm nước IP67,  điện áp DC12V, công suất 3,3W
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 889.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -45% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        489.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="36355">
-                        <a href="https://www.anphatpc.com.vn/camera-ip-hong-ngoai-2mp-dahua-dh-ipc-hfw1230sp-s4.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_36355_3212e477c13110a54cb65cca6c0a28f6.jpg" alt="Camera IP hồng ngoại 2MP Dahua DH-IPC-HFW1230SP-S4" class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-36355">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0281 </span>
-                            <a href="https://www.anphatpc.com.vn/camera-ip-hong-ngoai-2mp-dahua-dh-ipc-hfw1230sp-s4.html" class="p-name">
-                                <h3>Camera IP hồng ngoại 2MP Dahua DH-IPC-HFW1230SP-S4</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 1.449.000 đ </del>
-                                <span class="p-discount"> -39% </span>
-                                <span class="p-price">
-                                890.000 đ
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(36355,'https://anphat.com.vn/media/product/250_36355_3212e477c13110a54cb65cca6c0a28f6.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(36355)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Camera IP hồng ngoại 2MP Dahua DH-IPC-HFW1230SP-S4 </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải 2 Megapixel cảm biến CMOS 1/2.7”, Max 25/30fps@1080P
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ mã hóa 2 luồng với định dạng H.265 và H.264
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Chế độ ngày đêm (ICR), Chống ngược sáng DWDR, tự động cân bằng trắng (AWB), tự động bù tín hiệu ảnh (AGC), bù sáng (BLC), chống nhiễu (3D-DNR), tầm xa hồng ngoại 30m với công nghệ hồng ngoại thông minh
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ xem hình bằng nhiều công cụ: Web, phần mềm CMS (DSS/PSS) và DMSS
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Ống kính cố định 3.6mm, chuẩn tương thích Onvif 2.4, chuẩn chống nước IP67,  điện áp DC12V hoặc PoE (802.3af), công suất 5,5W </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 1.449.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -39% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        890.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="41424">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhi-lm22-a200-21.45-inch-fhd-va.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_41424_" alt="Màn hình máy tính Dahua DHI-LM22-A200 21.45 inch FHD VA" class="fit-img lazy" />
-                            <span class="icon-new"></span>
-                            <span class="p-icon-holder js-icon-41424">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MODH0005 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhi-lm22-a200-21.45-inch-fhd-va.html" class="p-name">
-                                <h3>Màn hình máy tính Dahua DHI-LM22-A200 21.45 inch FHD VA</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 2.599.000 đ </del>
-                                <span class="p-discount"> -29% </span>
-                                <span class="p-price">
-                                1.869.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                2 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(41424,'https://anphat.com.vn/media/product/250_41424_', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(41424)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính Dahua DHI-LM22-A200 21.45 inch FHD VA </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
-                                    </div>
-                                    <ul class="ul">
-                                        <!--0-->
-                                        <li>
-                                            <span class="text" style="white-space: pre-line;">🎁 Giá Cực Sốc dành riêng cho chi nhánh Băc Ninh: Từ 10/02/2023 đến hết ngày 28/2/2023 giá  chỉ còn <b><font color ="red"> 1.699.000đ </font></b>.</span>
-                                        </li>
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">🎁Áp dụng từ 01/02 đến 28/02/2023 : Giảm thêm 100.000 VNĐ khi mua cùng PC bất kỳ hoặc Laptop 
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính Viewsonic VX2718-PC-MHD 27 inch FHD Cong Gaming 165Hz </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
                                                 
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
                                             </li>
-                                            
-                                            --->
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> 🎁Áp dụng từ 01/02 đến 28/02/2023 : Giảm thêm 100.000 VNĐ khi mua cùng PC bất kỳ hoặc Laptop 
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                            <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--3-->
-                                        <li>
-                                        </li>
-                                        <!--4-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;"> ... 
-                                        <li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:09
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 21.45 inch 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: VA
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920 x 1080) 
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 2.599.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -29% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        1.869.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="41465">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhl32-s200-31.5-inch-fhd-va-gaming.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_41465_ytuu.jpg" alt="Màn hình máy tính Dahua DHL32-S200 31.5 inch FHD VA Gaming" class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-41465">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MODH0008 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhl32-s200-31.5-inch-fhd-va-gaming.html" class="p-name">
-                                <h3>Màn hình máy tính Dahua DHL32-S200 31.5 inch FHD VA Gaming</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 9.999.000 đ </del>
-                                <span class="p-discount"> -31% </span>
-                                <span class="p-price">
-                                6.999.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(41465,'https://anphat.com.vn/media/product/250_41465_ytuu.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(41465)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính Dahua DHL32-S200 31.5 inch FHD VA Gaming </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
                                     </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:09
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 31.5 inch
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: VA 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920 x 1080) 
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 9.999.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -31% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        6.999.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="36356">
-                        <a href="https://www.anphatpc.com.vn/camera-ip-hong-ngoai-2mp-dahua-dh-ipc-hdw1230sp-s4.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_36356_24579adb95d5561eb07e013d9318d0bc.jpg" alt="Camera IP hồng ngoại 2MP Dahua DH-IPC-HDW1230SP-S4" class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-36356">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0282 </span>
-                            <a href="https://www.anphatpc.com.vn/camera-ip-hong-ngoai-2mp-dahua-dh-ipc-hdw1230sp-s4.html" class="p-name">
-                                <h3>Camera IP hồng ngoại 2MP Dahua DH-IPC-HDW1230SP-S4</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 1.449.000 đ </del>
-                                <span class="p-discount"> -39% </span>
-                                <span class="p-price">
-                                890.000 đ
-                                </span>
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(36356,'https://anphat.com.vn/media/product/250_36356_24579adb95d5561eb07e013d9318d0bc.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(36356)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Camera IP hồng ngoại 2MP Dahua DH-IPC-HDW1230SP-S4 </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải 2 Megapixel cảm biến CMOS 1/2.7”, Max 25/30fps@1080P
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ mã hóa 2 luồng với định dạng H.265 và H.264
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Chế độ ngày đêm (ICR), Chống ngược sáng DWDR, tự động cân bằng trắng (AWB), tự động bù tín hiệu ảnh (AGC), bù sáng (BLC), chống nhiễu (3D-DNR), tầm xa hồng ngoại 30m với công nghệ hồng ngoại thông minh
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ xem hình bằng nhiều công cụ: Web, phần mềm CMS (DSS/PSS) và DMSS
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Ống kính cố định 3.6mm, chuẩn tương thích Onvif 2.4, chuẩn chống nước IP67,  điện áp DC12V hoặc PoE (802.3af), công suất 5,5W </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 1.449.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -39% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        890.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- SẢN PHẨM LIÊN QUAN - cùng giá-->
-                <div class="custom-nav owl-carousel owl-theme js-product-carousel product-tab-item " id="js-tab-3">
-                    <div class='p-item  js-p-item' data-id="44412">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-e-dra-egm24f75-24-inch-fhd-ips-75hz.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_44412_m__n_h__nh_m__y_t__nh_e_dra_egm24f75_24_inch_fhd_ips_75hz_ap_9_.jpg" alt="Màn hình máy tính E-DRA EGM24F75 24 inch FHD IPS 75Hz" class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-44412">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOED0004 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-e-dra-egm24f75-24-inch-fhd-ips-75hz.html" class="p-name">
-                                <h3>Màn hình máy tính E-DRA EGM24F75 24 inch FHD IPS 75Hz</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 2.499.000 đ </del>
-                                <span class="p-discount"> -21% </span>
-                                <span class="p-price">
-                                1.999.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(44412,'https://anphat.com.vn/media/product/250_44412_m__n_h__nh_m__y_t__nh_e_dra_egm24f75_24_inch_fhd_ips_75hz_ap_9_.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(44412)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính E-DRA EGM24F75 24 inch FHD IPS 75Hz </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Cong
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 27 inch 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: VA Technology
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: Full HD (1920x1080) 
+                                        </span>
                                     </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
-                                </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 23.8 inch 
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920x1080)
-                                    </span>
-                                </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 2.499.000 đ </del>
-                                    </span>
-                                    <span class="p-discount"> -21% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        1.999.000 đ
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='p-item  js-p-item' data-id="23462">
-                        <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-aoc-e2070swn-195.html" class="p-img">
-                            <img data-src="https://anphat.com.vn/media/product/250_23462_produto_aoc_1_serie_70_f_90_mh.jpg" alt="Màn hình máy tính AOC E2070SWN 19.5''" class="fit-img lazy" />
-                            <span class="p-icon-holder js-icon-23462">
-                                <!-- // icon promotion -->
-                            </span>
-                        </a>
-                        <div class="p-text">
-                            <span class="p-sku" style="font-size: 12px;">Mã SP: MOAO0033 </span>
-                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-aoc-e2070swn-195.html" class="p-name">
-                                <h3>Màn hình máy tính AOC E2070SWN 19.5''</h3>
-                            </a>
-                            <div class="price-container">
-                                <del class="p-old-price"> 2.799.000 đ </del>
-                                <span class="p-discount"> -27% </span>
-                                <span class="p-price">
-                                2.050.000 đ
-                                </span>
-                            </div>
-                            <div class="p-special-container">
-                                1 khuyến mại
-                            </div>
-                            <div class="d-flex align-items-centet justify-content-between">
-                                <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(23462,'https://anphat.com.vn/media/product/250_23462_produto_aoc_1_serie_70_f_90_mh.jpg', this)">So sánh</a>
-                                <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(23462)"></a>
-                            </div>
-                        </div>
-                        <div class="p-tooltip">
-                            <p class="tooltip-title"> Màn hình máy tính AOC E2070SWN 19.5'' </p>
-                            <div class="tooltip-content">
-                                <div class="tooltip-specialOffer">
-                                    <div class="spec-title">
-                                        <span class="title-text"> KHUYẾN MÃI</span>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 6.499.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -24% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            4.999.000 đ
+                                        </p>
                                     </div>
-                                    <ul class="ul">
-                                        <!---                  
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                            </li>
-                                            
-                                            <li>
-                                                <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                                            </li>
-                                            
-                                            --->
-                                        <!--0-->
-                                        <li>
-                                            <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--1-->
-                                        <li>
-                                            <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                                            </span>
-                                        </li>
-                                        <!--2-->
-                                        <li>
-                                        </li>
-                                        <li style="padding-left: 30px;font-size: 20px;">
-                                        <li>
-                                    </ul>
                                 </div>
-                                <div class="tooltip-summary" style="white-space: unset">
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 19,5" Wide Screen 170/160 (CR≥10)
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: 1600×900@60Hz
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ sáng (Max): 200 cd/m2;
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền : TN
-                                    </span>
-                                    <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Góc nhìn (Ngang/Dọc) :90/50 º
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="35531">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-viewsonic-va2732-h-27-inch-fhd-ips.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_35531_va2732_h_f02_pc_h.jpg" alt="Màn hình máy tính Viewsonic VA2732-H 27 inch FHD IPS " class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-35531">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MOVI0048 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-viewsonic-va2732-h-27-inch-fhd-ips.html" class="p-name">
+                                    <h3>Màn hình máy tính Viewsonic VA2732-H 27 inch FHD IPS </h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 4.999.000 đ </del>
+                                    <span class="p-discount"> -35% </span>
+                                    <span class="p-price">
+                                    3.299.000 đ
                                     </span>
                                 </div>
-                                <div class="position-relative">
-                                    <span>
-                                    Giá niêm yết:
-                                    <del class="p-old-price" style="display: inline-block;"> 2.799.000 đ </del>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(35531,'https://anphat.com.vn/media/product/250_35531_va2732_h_f02_pc_h.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(35531)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính Viewsonic VA2732-H 27 inch FHD IPS  </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
+                                    </div>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình Phẳng
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 27 inch 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: Full HD (1920x1080) 
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 4.999.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -35% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            3.299.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="44067">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p22-g5-64x86aa-21.5-inch-fhd-ips.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_44067_c08223043.png" alt="Màn hình máy tính HP P22 G5 64X86AA 21.5 inch FHD IPS" class="fit-img lazy" />
+                                <span class="icon-new"></span>
+                                <span class="p-icon-holder js-icon-44067">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MOHP0122 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p22-g5-64x86aa-21.5-inch-fhd-ips.html" class="p-name">
+                                    <h3>Màn hình máy tính HP P22 G5 64X86AA 21.5 inch FHD IPS</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 3.999.000 đ </del>
+                                    <span class="p-discount"> -28% </span>
+                                    <span class="p-price">
+                                    2.899.000 đ
                                     </span>
+                                </div>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(44067,'https://anphat.com.vn/media/product/250_44067_c08223043.png', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(44067)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính HP P22 G5 64X86AA 21.5 inch FHD IPS </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a> </span>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
+                                    </div>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 21.5 inch 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920 x 1080)
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 3.999.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -28% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            2.899.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="35200">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p22v-g4-21.5-inch-fhd-9tt53aa.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_35200_b45cd11876917dd1e7691590d6324174.jpg" alt="Màn hình máy tính HP P22v G4 21.5 inch FHD (9TT53AA)" class="fit-img lazy" />
+                                <span class="btn-outStock"> LIÊN HỆ </span>        
+                                <span class="p-icon-holder js-icon-35200">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MOHP0093 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p22v-g4-21.5-inch-fhd-9tt53aa.html" class="p-name">
+                                    <h3>Màn hình máy tính HP P22v G4 21.5 inch FHD (9TT53AA)</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 3.890.000 đ </del>
                                     <span class="p-discount"> -27% </span>
-                                    <p class="p-price" style="margin: 0;">
-                                        <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
-                                        2.050.000 đ
-                                    </p>
+                                    <span class="p-price">
+                                    2.849.000 đ
+                                    </span>
+                                </div>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(35200,'https://anphat.com.vn/media/product/250_35200_b45cd11876917dd1e7691590d6324174.jpg', this)">So sánh</a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính HP P22v G4 21.5 inch FHD (9TT53AA) </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a> </span>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
+                                    </div>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Phẳng
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 21.5 inch 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: TN 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920 x 1080)
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 3.890.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -27% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            2.849.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="35533">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p24-g4-1a7e5aa-23-8-inch-fhd-ips.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_35533_thumb650_hp_p24_g4_1a7e5aa_1.png" alt="Màn hình máy tính HP P24 G4 1A7E5AA 23.8 inch FHD IPS " class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-35533">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MOHP0096 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-hp-p24-g4-1a7e5aa-23-8-inch-fhd-ips.html" class="p-name">
+                                    <h3>Màn hình máy tính HP P24 G4 1A7E5AA 23.8 inch FHD IPS </h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 5.099.000 đ </del>
+                                    <span class="p-discount"> -26% </span>
+                                    <span class="p-price">
+                                    3.799.000 đ
+                                    </span>
+                                </div>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(35533,'https://anphat.com.vn/media/product/250_35533_thumb650_hp_p24_g4_1a7e5aa_1.png', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(35533)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính HP P24 G4 1A7E5AA 23.8 inch FHD IPS  </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
+                                    </div>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình Phẳng
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 23.8 inch 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: Full HD (1920x1080) 
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 5.099.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -26% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            3.799.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="42650">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-samsung-viewfinity-s8-ls27b800pxexxv-27-inch-4k-ips-60hz-usc-c-rj45.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_42650_m__n_h__nh_m__y_t__nh_samsung_viewfinity_s8_27_inch_4k_ips_60hz_ls27b800pxexxv___5_.jpg" alt="Màn hình máy tính Samsung ViewFinity S8 LS27B800PXEXXV 27 inch 4k IPS 60Hz USC-C RJ45" class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-42650">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MOSS0148 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-samsung-viewfinity-s8-ls27b800pxexxv-27-inch-4k-ips-60hz-usc-c-rj45.html" class="p-name">
+                                    <h3>Màn hình máy tính Samsung ViewFinity S8 LS27B800PXEXXV 27 inch 4k IPS 60Hz USC-C RJ45</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 14.999.000 đ </del>
+                                    <span class="p-discount"> -34% </span>
+                                    <span class="p-price">
+                                    9.999.000 đ
+                                    </span>
+                                </div>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(42650,'https://anphat.com.vn/media/product/250_42650_m__n_h__nh_m__y_t__nh_samsung_viewfinity_s8_27_inch_4k_ips_60hz_ls27b800pxexxv___5_.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(42650)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính Samsung ViewFinity S8 LS27B800PXEXXV 27 inch 4k IPS 60Hz USC-C RJ45 </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
+                                    </div>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: màn hình phẳng
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 27 inch 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền:IPS 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: UHD(3840 x 2160) 
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 14.999.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -34% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            9.999.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SẢN PHẨM CÙNG HÃNG -->
+                    <div class="custom-nav owl-carousel owl-theme js-product-carousel product-tab-item " id="js-tab-2">
+                        <div class='p-item  js-p-item' data-id="41450">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhi-lm27-a200-27-inch-fhd-va.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_41450_41446_dhi_lm24_a200.jpg" alt="Màn hình máy tính Dahua DHI-LM27-A200 27 inch FHD VA" class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-41450">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MODH0007 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhi-lm27-a200-27-inch-fhd-va.html" class="p-name">
+                                    <h3>Màn hình máy tính Dahua DHI-LM27-A200 27 inch FHD VA</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 3.999.000 đ </del>
+                                    <span class="p-discount"> -28% </span>
+                                    <span class="p-price">
+                                    2.899.000 đ
+                                    </span>
+                                </div>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(41450,'https://anphat.com.vn/media/product/250_41450_41446_dhi_lm24_a200.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(41450)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính Dahua DHI-LM27-A200 27 inch FHD VA </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
+                                    </div>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:09
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 27 inch
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: VA 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920 x 1080) 
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 3.999.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -28% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            2.899.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="30902">
+                            <a href="https://www.anphatpc.com.vn/camera-dahua-dh-hac-b2a21p.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_30902_camera_dahua_dh_hac_b2a21p_1.jpg" alt="Camera Dahua DH-HAC-B2A21P  " class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-30902">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0254 </span>
+                                <a href="https://www.anphatpc.com.vn/camera-dahua-dh-hac-b2a21p.html" class="p-name">
+                                    <h3>Camera Dahua DH-HAC-B2A21P    </h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 675.000 đ </del>
+                                    <span class="p-discount"> -12% </span>
+                                    <span class="p-price">
+                                    599.000 đ
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(30902,'https://anphat.com.vn/media/product/250_30902_camera_dahua_dh_hac_b2a21p_1.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(30902)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Camera Dahua DH-HAC-B2A21P     </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải 2.0Megapixel cảm biến CMOS kích thước 1/2.7"", 30fps@1080P
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Thời gian thực không trễ hình, độ nhạy sáng tối thiểu  0.04Lux/F1.85, 0Lux IR on, chế độ ngày đêm(ICR), tự động cân bằng trắng (AWB),tự động bù tín hiệu ảnh (AGC), bù sáng(BLC), Chống nhiễu (2D-DNR),
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tầm xa hồng ngoại 20m với công nghệ hồng ngoại thông minh
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Thiết kế mới nhỏ gọn, thẩm mỹ, dễ dàng lắp đặt
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Ống kính cố định 3.6mm, chuẩn kháng nước IP67, vỏ kim loại. </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 675.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -12% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            599.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="30910">
+                            <a href="https://www.anphatpc.com.vn/dau-ghi-hinh-dahua-dh-xvr1a08.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_30910_dahua_dh_xvr1a08_1.png" alt="Đầu ghi hình Dahua DH-XVR1A08 " class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-30910">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0260 </span>
+                                <a href="https://www.anphatpc.com.vn/dau-ghi-hinh-dahua-dh-xvr1a08.html" class="p-name">
+                                    <h3>Đầu ghi hình Dahua DH-XVR1A08  </h3>
+                                </a>
+                                <div class="price-container">
+                                    <span class="p-price">
+                                    1.350.000 đ
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(30910,'https://anphat.com.vn/media/product/250_30910_dahua_dh_xvr1a08_1.png', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(30910)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Đầu ghi hình Dahua DH-XVR1A08  </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Đầu ghi hình 8 kênh, hỗ trợ camera HDCVI/Analog/IP/TVI/AHD, chuẩn nén hình ảnh H.264, độ phân giải 1080N/720P/960H/D1(1-25fps)
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ ghi hình tất cả các kênh 1080N, cổng ra tín hiệu video đồng thời HDMI/VGA, hỗ trợ xem lại 4/8 kênh đồng thời với chế độ tìm kiếm thông minh
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ kết nối nhiều nhãn hiệu camera IP(8+2) hỗ trợ lên đến camera 2MP đầu 4 kênh và 5MP đầu 8, với chuẩn tương tích Onvif 16.12, hỗ trợ 1 ổ cứng 6TB, 2 cổng usb 2.0, 1 cổng mạng RJ45(100M), hỗ trợ điều kiển quay quét 3D thông minh với giao thức Dahua
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ xem lại và trực tiếp qua mạng máy tính, thiết bị di động, hỗ trợ cấu hình thông minh qua P2P,  Hỗ trợ Camera tích hợp Mic ghi âm tất cả các kênh, 1 cổng audio vào ra hỗ trợ đàm thoại hai chiều, chế độ chia màn hình 1/4 đối với đầu 4 cổng và 1/4/8/9 đối với đầu 8 cổng , quản lý đồng thời 128 tài khoản kết nối, điện áp DC 12V/1.5A công suất không ổ cứng 10W
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Môi trường làm việc -10 ~ 55 độ C, kích thước 197mm×192mm×41mm, trọng lượng không ổ cứng 1KG. Chất liệu kim loại" </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            1.350.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="41655">
+                            <a href="https://www.anphatpc.com.vn/camera-dahua-dh-hac-hfw1200tp-s5-2mp-ngoai-troi.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_41655_" alt="Camera Dahua DH-HAC-HFW1200TP-S5 2MP ngoài trời" class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-41655">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0887 </span>
+                                <a href="https://www.anphatpc.com.vn/camera-dahua-dh-hac-hfw1200tp-s5-2mp-ngoai-troi.html" class="p-name">
+                                    <h3>Camera Dahua DH-HAC-HFW1200TP-S5 2MP ngoài trời</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 899.000 đ </del>
+                                    <span class="p-discount"> -46% </span>
+                                    <span class="p-price">
+                                    489.000 đ
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(41655,'https://anphat.com.vn/media/product/250_41655_', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(41655)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Camera Dahua DH-HAC-HFW1200TP-S5 2MP ngoài trời </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Camera hỗ trợ HDCVI/HDTVI/AHD/ANALOG, tích hợp OSD
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải 2Megapixel, cảm biến CMOS 1/2.7" 25/30fps@1080P(1920×1080), cho phân giải HD trên đường truyền analog.
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Thời gian thực không trễ hình, độ nhạy sáng tối thiểu 0.02Lux@F1.85(0Lux IR LED on), chế độ ngày đêm(ICR), tự động cân bằng trắng (AWB), tự động bù tín hiệu ảnh (AGC), bù sáng(BLC), chống nhiễu (3D-DNR), tầm xa hồng ngoại 30m với công nghệ hồng ngoại thông minh
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Ống kính cố định 3.6mm, chuẩn ngâm nước IP67,  điện áp DC12V, công suất 3,6W. 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Chất liệu vỏ kim loại, môi trường làm việc từ -30°C~+60°C, khoảng cách truyền tải trên cáp đồng trục lên đến 500m với cáp 75-3 ôm,kích thước 176mm×72.4mm×72.5mm  trọng lượng 0.46KG </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 899.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -46% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            489.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="41978">
+                            <a href="https://www.anphatpc.com.vn/dau-ghi-hinh-camera-ip-4-kenh-dahua-nvr2104hs-4ks2.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_41978______u_ghi_h__nh_camera_ip_4_k__nh_dahua_nvr2104hs_4ks2.jpg" alt="Đầu ghi hình camera IP 4 kênh DAHUA NVR2104HS-4KS2" class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-41978">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0194 </span>
+                                <a href="https://www.anphatpc.com.vn/dau-ghi-hinh-camera-ip-4-kenh-dahua-nvr2104hs-4ks2.html" class="p-name">
+                                    <h3>Đầu ghi hình camera IP 4 kênh DAHUA NVR2104HS-4KS2</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 3.180.000 đ </del>
+                                    <span class="p-discount"> -50% </span>
+                                    <span class="p-price">
+                                    1.590.000 đ
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(41978,'https://anphat.com.vn/media/product/250_41978______u_ghi_h__nh_camera_ip_4_k__nh_dahua_nvr2104hs_4ks2.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(41978)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Đầu ghi hình camera IP 4 kênh DAHUA NVR2104HS-4KS2 </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Chuẩn nén hình ảnh: H.265/H.264.
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hai luồng dữ liệu hỗ trợ hiển thị 1CH 8MP và 4CH 1080P.
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Băng thông đầu vào tối đa là 80Mbps.
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ camera có độ phân giải lên đến 8 Megapixel.
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tương thích với tín hiệu ngõ ra: HDMI/VGA.
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 3.180.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -50% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            1.590.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="30904">
+                            <a href="https://www.anphatpc.com.vn/camera-dahua-dh-hac-hdw1200mp-s4_id30904.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_30904_camera_dahua_dh_hac_hdw1200mp_s4_1.jpg" alt="Camera Dahua DH-HAC-HDW1200MP-S4  " class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-30904">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0249 </span>
+                                <a href="https://www.anphatpc.com.vn/camera-dahua-dh-hac-hdw1200mp-s4_id30904.html" class="p-name">
+                                    <h3>Camera Dahua DH-HAC-HDW1200MP-S4    </h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 889.000 đ </del>
+                                    <span class="p-discount"> -45% </span>
+                                    <span class="p-price">
+                                    489.000 đ
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(30904,'https://anphat.com.vn/media/product/250_30904_camera_dahua_dh_hac_hdw1200mp_s4_1.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(30904)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Camera Dahua DH-HAC-HDW1200MP-S4   </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Camera hỗ trợ HDCVI/HDTVI/AHD/ANALOG, tích hợp OSD
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải 2.0Megapixel cảm biến CMOS 1/2.7"" 25/30fps@1080P(1920×1080)
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Cho phân giải HD trên đường truyền analog, thời gian thực không trễ hình
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>• Độ nhạy sáng tối thiểu 0.02Lux/F1,85, 0Lux IR on, chế độ ngày đêm(ICR), tự động cân bằng trắng (AWB),tự động bù tín hiệu ảnh(AGC), bù sáng(BLC), chống nhiễu (3D-DNR), tầm xa hồng ngoại 30m với công nghệ hồng ngoại thông minh
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Ống kính cố định 3.6mm, chuẩn ngâm nước IP67,  điện áp DC12V, công suất 3,3W
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 889.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -45% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            489.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="36355">
+                            <a href="https://www.anphatpc.com.vn/camera-ip-hong-ngoai-2mp-dahua-dh-ipc-hfw1230sp-s4.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_36355_3212e477c13110a54cb65cca6c0a28f6.jpg" alt="Camera IP hồng ngoại 2MP Dahua DH-IPC-HFW1230SP-S4" class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-36355">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0281 </span>
+                                <a href="https://www.anphatpc.com.vn/camera-ip-hong-ngoai-2mp-dahua-dh-ipc-hfw1230sp-s4.html" class="p-name">
+                                    <h3>Camera IP hồng ngoại 2MP Dahua DH-IPC-HFW1230SP-S4</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 1.449.000 đ </del>
+                                    <span class="p-discount"> -39% </span>
+                                    <span class="p-price">
+                                    890.000 đ
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(36355,'https://anphat.com.vn/media/product/250_36355_3212e477c13110a54cb65cca6c0a28f6.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(36355)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Camera IP hồng ngoại 2MP Dahua DH-IPC-HFW1230SP-S4 </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải 2 Megapixel cảm biến CMOS 1/2.7”, Max 25/30fps@1080P
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ mã hóa 2 luồng với định dạng H.265 và H.264
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Chế độ ngày đêm (ICR), Chống ngược sáng DWDR, tự động cân bằng trắng (AWB), tự động bù tín hiệu ảnh (AGC), bù sáng (BLC), chống nhiễu (3D-DNR), tầm xa hồng ngoại 30m với công nghệ hồng ngoại thông minh
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ xem hình bằng nhiều công cụ: Web, phần mềm CMS (DSS/PSS) và DMSS
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Ống kính cố định 3.6mm, chuẩn tương thích Onvif 2.4, chuẩn chống nước IP67,  điện áp DC12V hoặc PoE (802.3af), công suất 5,5W </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 1.449.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -39% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            890.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="41424">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhi-lm22-a200-21.45-inch-fhd-va.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_41424_" alt="Màn hình máy tính Dahua DHI-LM22-A200 21.45 inch FHD VA" class="fit-img lazy" />
+                                <span class="icon-new"></span>
+                                <span class="p-icon-holder js-icon-41424">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MODH0005 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhi-lm22-a200-21.45-inch-fhd-va.html" class="p-name">
+                                    <h3>Màn hình máy tính Dahua DHI-LM22-A200 21.45 inch FHD VA</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 2.599.000 đ </del>
+                                    <span class="p-discount"> -29% </span>
+                                    <span class="p-price">
+                                    1.869.000 đ
+                                    </span>
+                                </div>
+                                <div class="p-special-container">
+                                    2 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(41424,'https://anphat.com.vn/media/product/250_41424_', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(41424)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính Dahua DHI-LM22-A200 21.45 inch FHD VA </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!--0-->
+                                            <li>
+                                                <span class="text" style="white-space: pre-line;">🎁 Giá Cực Sốc dành riêng cho chi nhánh Băc Ninh: Từ 10/02/2023 đến hết ngày 28/2/2023 giá  chỉ còn <b><font color ="red"> 1.699.000đ </font></b>.</span>
+                                            </li>
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">🎁Áp dụng từ 01/02 đến 28/02/2023 : Giảm thêm 100.000 VNĐ khi mua cùng PC bất kỳ hoặc Laptop 
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    
+                                                </li>
+                                                
+                                                --->
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> 🎁Áp dụng từ 01/02 đến 28/02/2023 : Giảm thêm 100.000 VNĐ khi mua cùng PC bất kỳ hoặc Laptop 
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                                <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--3-->
+                                            <li>
+                                            </li>
+                                            <!--4-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;"> ... 
+                                            <li>
+                                        </ul>
+                                    </div>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:09
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 21.45 inch 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: VA
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920 x 1080) 
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 2.599.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -29% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            1.869.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="41465">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhl32-s200-31.5-inch-fhd-va-gaming.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_41465_ytuu.jpg" alt="Màn hình máy tính Dahua DHL32-S200 31.5 inch FHD VA Gaming" class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-41465">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MODH0008 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhl32-s200-31.5-inch-fhd-va-gaming.html" class="p-name">
+                                    <h3>Màn hình máy tính Dahua DHL32-S200 31.5 inch FHD VA Gaming</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 9.999.000 đ </del>
+                                    <span class="p-discount"> -31% </span>
+                                    <span class="p-price">
+                                    6.999.000 đ
+                                    </span>
+                                </div>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(41465,'https://anphat.com.vn/media/product/250_41465_ytuu.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(41465)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính Dahua DHL32-S200 31.5 inch FHD VA Gaming </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
+                                    </div>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:09
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 31.5 inch
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: VA 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920 x 1080) 
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 9.999.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -31% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            6.999.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="36356">
+                            <a href="https://www.anphatpc.com.vn/camera-ip-hong-ngoai-2mp-dahua-dh-ipc-hdw1230sp-s4.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_36356_24579adb95d5561eb07e013d9318d0bc.jpg" alt="Camera IP hồng ngoại 2MP Dahua DH-IPC-HDW1230SP-S4" class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-36356">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: CAME0282 </span>
+                                <a href="https://www.anphatpc.com.vn/camera-ip-hong-ngoai-2mp-dahua-dh-ipc-hdw1230sp-s4.html" class="p-name">
+                                    <h3>Camera IP hồng ngoại 2MP Dahua DH-IPC-HDW1230SP-S4</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 1.449.000 đ </del>
+                                    <span class="p-discount"> -39% </span>
+                                    <span class="p-price">
+                                    890.000 đ
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(36356,'https://anphat.com.vn/media/product/250_36356_24579adb95d5561eb07e013d9318d0bc.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(36356)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Camera IP hồng ngoại 2MP Dahua DH-IPC-HDW1230SP-S4 </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải 2 Megapixel cảm biến CMOS 1/2.7”, Max 25/30fps@1080P
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ mã hóa 2 luồng với định dạng H.265 và H.264
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Chế độ ngày đêm (ICR), Chống ngược sáng DWDR, tự động cân bằng trắng (AWB), tự động bù tín hiệu ảnh (AGC), bù sáng (BLC), chống nhiễu (3D-DNR), tầm xa hồng ngoại 30m với công nghệ hồng ngoại thông minh
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Hỗ trợ xem hình bằng nhiều công cụ: Web, phần mềm CMS (DSS/PSS) và DMSS
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Ống kính cố định 3.6mm, chuẩn tương thích Onvif 2.4, chuẩn chống nước IP67,  điện áp DC12V hoặc PoE (802.3af), công suất 5,5W </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 1.449.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -39% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            890.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SẢN PHẨM LIÊN QUAN - cùng giá-->
+                    <div class="custom-nav owl-carousel owl-theme js-product-carousel product-tab-item " id="js-tab-3">
+                        <div class='p-item  js-p-item' data-id="44412">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-e-dra-egm24f75-24-inch-fhd-ips-75hz.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_44412_m__n_h__nh_m__y_t__nh_e_dra_egm24f75_24_inch_fhd_ips_75hz_ap_9_.jpg" alt="Màn hình máy tính E-DRA EGM24F75 24 inch FHD IPS 75Hz" class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-44412">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MOED0004 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-e-dra-egm24f75-24-inch-fhd-ips-75hz.html" class="p-name">
+                                    <h3>Màn hình máy tính E-DRA EGM24F75 24 inch FHD IPS 75Hz</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 2.499.000 đ </del>
+                                    <span class="p-discount"> -21% </span>
+                                    <span class="p-price">
+                                    1.999.000 đ
+                                    </span>
+                                </div>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(44412,'https://anphat.com.vn/media/product/250_44412_m__n_h__nh_m__y_t__nh_e_dra_egm24f75_24_inch_fhd_ips_75hz_ap_9_.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(44412)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính E-DRA EGM24F75 24 inch FHD IPS 75Hz </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
+                                    </div>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Loại màn hình: Màn hình phẳng 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tỉ lệ: 16:9
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 23.8 inch 
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền: IPS
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: FHD (1920x1080)
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 2.499.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -21% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            1.999.000 đ
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='p-item  js-p-item' data-id="23462">
+                            <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-aoc-e2070swn-195.html" class="p-img">
+                                <img data-src="https://anphat.com.vn/media/product/250_23462_produto_aoc_1_serie_70_f_90_mh.jpg" alt="Màn hình máy tính AOC E2070SWN 19.5''" class="fit-img lazy" />
+                                <span class="p-icon-holder js-icon-23462">
+                                    <!-- // icon promotion -->
+                                </span>
+                            </a>
+                            <div class="p-text">
+                                <span class="p-sku" style="font-size: 12px;">Mã SP: MOAO0033 </span>
+                                <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-aoc-e2070swn-195.html" class="p-name">
+                                    <h3>Màn hình máy tính AOC E2070SWN 19.5''</h3>
+                                </a>
+                                <div class="price-container">
+                                    <del class="p-old-price"> 2.799.000 đ </del>
+                                    <span class="p-discount"> -27% </span>
+                                    <span class="p-price">
+                                    2.050.000 đ
+                                    </span>
+                                </div>
+                                <div class="p-special-container">
+                                    1 khuyến mại
+                                </div>
+                                <div class="d-flex align-items-centet justify-content-between">
+                                    <a href="javascript:void(0)" class="p-conpare js-p-compare" onclick="compare_addProduct(23462,'https://anphat.com.vn/media/product/250_23462_produto_aoc_1_serie_70_f_90_mh.jpg', this)">So sánh</a>
+                                    <a href="javascript:void(0)" class="p-add-btn fa fa-shopping-cart" onclick="addProduct(23462)"></a>
+                                </div>
+                            </div>
+                            <div class="p-tooltip">
+                                <p class="tooltip-title"> Màn hình máy tính AOC E2070SWN 19.5'' </p>
+                                <div class="tooltip-content">
+                                    <div class="tooltip-specialOffer">
+                                        <div class="spec-title">
+                                            <span class="title-text"> KHUYẾN MÃI</span>
+                                        </div>
+                                        <ul class="ul">
+                                            <!---                  
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                                </li>
+                                                
+                                                <li>
+                                                    <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
+                                                </li>
+                                                
+                                                --->
+                                            <!--0-->
+                                            <li>
+                                                <span class="text"> ✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--1-->
+                                            <li>
+                                                <span class="text"> ✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
+                                                </span>
+                                            </li>
+                                            <!--2-->
+                                            <li>
+                                            </li>
+                                            <li style="padding-left: 30px;font-size: 20px;">
+                                            <li>
+                                        </ul>
+                                    </div>
+                                    <div class="tooltip-summary" style="white-space: unset">
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Kích thước: 19,5" Wide Screen 170/160 (CR≥10)
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ phân giải: 1600×900@60Hz
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Độ sáng (Max): 200 cd/m2;
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Tấm nền : TN
+                                        </span>
+                                        <span class="item d-block"> <i class="fa fa-check-circle" style="color: #ff9900;margin-right: 5px;"></i>Góc nhìn (Ngang/Dọc) :90/50 º
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <span>
+                                        Giá niêm yết:
+                                        <del class="p-old-price" style="display: inline-block;"> 2.799.000 đ </del>
+                                        </span>
+                                        <span class="p-discount"> -27% </span>
+                                        <p class="p-price" style="margin: 0;">
+                                            <span style="font-size: 14px;color: #000;font-weight: normal;">Giá khuyến mãi:</span>
+                                            2.050.000 đ
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -2331,6 +2334,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
     <!-- popup thong so-->
     <div class="popup-spec" id="pro-spec" style="display: none;">
@@ -2498,6 +2502,46 @@
             <article class="featureContent_caption"></article>
         </article>
     </div>
+
+    @push('js')
+
+    <script type="text/javascript">
+
+        function addToCartRedirect(id) {
+
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+        
+            $.ajax({
+                type: 'POST',
+                url: "{{ route('addCart') }}",
+                data: {
+                    product_id: id,
+                    gift_check:''
+                       
+                },
+                beforeSend: function() {
+                   
+                    $('.loader').show();
+
+                },
+                success: function(result){
+
+                    window.location.href= "{{ route('cart') }}";
+                    
+                }
+            });
+            
+        }
+        
+    </script>
+    
+    
+
+    @endpush
 </section>
 
 @endsection

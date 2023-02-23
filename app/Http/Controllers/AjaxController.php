@@ -665,7 +665,9 @@ class AjaxController extends Controller
         else{
             $price = $data_Product->Price;
         }
-             
+
+        $price = intval($price);
+
         Cart::add(['id' => $id, 'name' => $data_Product->Name,  'qty' => 1, 'price' => $price, 'weight' => '500',  'options' => ['link' => $data_Product->Link, 'gift'=>$gift??'']]);
 
         $data_cart = Cart::content();
@@ -717,6 +719,8 @@ class AjaxController extends Controller
         else{
             $price = $data_Product->Price;
         }
+
+        $price = intval($price);
              
         Cart::add(['id' => $id, 'name' => $data_Product->Name,  'qty' => 1, 'price' => $price, 'weight' => '500', 'options' => ['link' => $data_Product->Link]]);
 
@@ -979,6 +983,7 @@ class AjaxController extends Controller
 
     }
 
+    
 
 
     public function accept_rate(Request $request)
