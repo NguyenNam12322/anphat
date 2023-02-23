@@ -106,10 +106,10 @@ Route::get('sitemap_article.xml', 'sitemapController@sitemapChildBlog');
 
 // Route::get('inCrawl', 'crawlController@allproduct');
 
-// Route::get('/tin-chi-tiet', function () {
-//     return view('frontend.blogdetail');
+Route::get('/buildpc', function () {
+    return view('frontend.buildpc');
     
-// });
+})->name('buildpc');
 
 
 // Route::any('/ckfinder/connector', '\CKSource\CKFinderBridge\Controller\CKFinderController@requestAction')

@@ -253,7 +253,7 @@
                 <!-- icon right -->
                 <div class="header-icon-right d-flex align-items-center justify-content-between">
                     <div class="item clearfix">
-                        <a href="javascript:void(0);" title="Mua hàng online" class="header-icon-phone d-flex" style="align-items:center;">
+                        <!-- <a href="javascript:void(0);" title="Mua hàng online" class="header-icon-phone d-flex" style="align-items:center;">
                             <i class="icon icon-phone"></i>
 
                             <p class="icon-text m-0" style="line-height: 1.2;">
@@ -261,10 +261,8 @@
                               <b><span class="text-15 d-block">0966 454 503</span> </b>
                               <b><span class="text-15 d-block">0862 136 488</span> </b>
                               
-                             
-                              
                             </p>
-                        </a>
+                        </a> -->
 
                         <a href="sieu-thi-gan-nhat.html" title="Hệ thống Showroom" class="header-item-showroom">
                             <i class="icon icon-showroom"></i>
@@ -277,7 +275,7 @@
                     </div>
 
                     <div class="item clearfix">
-                        <a href="buildpc.html" title="Xây dựng máy tính">
+                        <a href="{{ route('buildpc') }}" title="Xây dựng máy tính">
                             <i class="icon icon-buildpc"></i>
 
                             <p class="icon-text m-0 text-12"> Xây dựng <br>Cấu hình PC </p>
