@@ -22,7 +22,7 @@
     </style>
     <main class="bg-fff">
         <!-- Begin menu blog -->
-        <div class="menu_blog">
+        <!-- <div class="menu_blog">
             <ul class="dm_container">
                 <li>
                     <a href="/tu-van-tivi/">
@@ -88,7 +88,7 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        </div> -->
 
 
         <!-- End menu blog -->
