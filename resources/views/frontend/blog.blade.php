@@ -4,16 +4,12 @@
 
     @section('content') 
     @push('style')
-    <link rel="stylesheet" type="text/css" href="{{asset('css/dienmay.css')}}?ver=1"> 
-    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+   
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}?v=8881288.8883.151">
     <link rel="stylesheet" href="{{ asset('css/customs.css') }}?v=245754.75.52928">
     @endpush
    
-     <link rel="stylesheet" type="text/css" href="{{ asset('css/category.css') }}"> 
-
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/categories.css') }}?ver=1"> 
-         <link rel="stylesheet" type="text/css" href="{{ asset('css/dienmay.css') }}?ver=1"> 
+   
     <style type="text/css">
         .header__top-mobile{
             height: 133px;
@@ -23,7 +19,7 @@
     <!-- begin main -->
     <main class="bg-fff">
         <!-- Begin menu blog -->
-        <div class="menu_blog">
+        <!-- <div class="menu_blog">
             <ul class="dm_container">
                 <li>
                     <a href="/tu-van-ti-vi">
@@ -89,7 +85,7 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        </div> -->
         <!-- End menu blog -->
         <div class="blog-list dm_container">
             <div class="row">

@@ -10,8 +10,7 @@
 
 <link rel="stylesheet" type="text/css" href="{{ asset('css/build_pc_v2.css') }}">
 
-
-
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <style type="text/css">
     
@@ -58,18 +57,15 @@
         <div class="clear"></div>
         <div class="build-pc_content" style="margin-top: 0;">
             <h1 style="color: #333; border: none; float: left; margin: 5px 0 15px 0px;font-size: 20px;">Build PC - Xây dựng cấu hình máy tính 2023</h1>
-            <ul class="list-btn-action" style="margin: 0; padding: 0; float: right; border: none;">
+            <!-- <ul class="list-btn-action" style="margin: 0; padding: 0; float: right; border: none;">
                 <li style="width: auto;">
                     <span onclick="openPopupRebuild()" style="padding: 0 20px;">Làm mới <i class="fa fa-undo"></i></span>
                 </li>
-            </ul>
+            </ul> -->
             <div class="clear"></div>
             <ul class="list-btn-action list-btn-action-new" style="margin-top: 0; float: left; border: none;">
                 <li style="width: auto;" class="active"><span onclick="showBuildId(1);changeTab(this);" style="padding: 0 20px;">Cấu hình 1</span></li>
-                <li style="width: auto;"><span onclick="showBuildId(2);changeTab(this);" style="padding: 0 20px;">Cấu hình 2</span></li>
-                <li style="width: auto;"><span onclick="showBuildId(3);changeTab(this);" style="padding: 0 20px;">Cấu hình 3</span></li>
-                <li style="width: auto;"><span onclick="showBuildId(4);changeTab(this);" style="padding: 0 20px;">Cấu hình 4</span></li>
-                <li style="width: auto;"><span onclick="showBuildId(5);changeTab(this);" style="padding: 0 20px;">Cấu hình 5</span></li>
+                
             </ul>
             <div class="clear"></div>
             <hr color="#ddd">
@@ -199,22 +195,7 @@
             </div>
             <div class="modal-body">
                 <div class="popup-main_content">
-                    <div class="sort-paging clear">
-                        <div class="sort-block float_l">
-                            <span>Sắp xếp: </span>
-                            <select onchange="if(this.value != '') { objBuildPCVisual.showProductFilter(this.value) }">
-                                <option value="">Tùy chọn</option>
-                                <option value="https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;other_filter=in-stock">Còn hàng</option>
-                                <option value="https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;sort=new">Mới nhất</option>
-                                <option value="https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;sort=price-asc">Giá tăng dần</option>
-                                <option value="https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;sort=price-desc">Giá giảm dần</option>
-                                <option value="https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;sort=view">Lượt xem</option>
-                                <option value="https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;sort=rating">Đánh giá</option>
-                                <option value="https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;sort=name">Tên A-&gt;Z</option>
-                            </select>
-                        </div>
-                        
-                    </div>
+                    
                     <div class="list-product-select">
                         
                         
@@ -321,9 +302,6 @@
                   style: 'currency',
                   currency: 'VND',
 
-                  // These options are needed to round to whole numbers if that's what you want.
-                  //minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
-                  //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
                 });
 
         
@@ -336,6 +314,8 @@
             }
         });
     }
+
+
 
 
 
