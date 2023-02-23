@@ -177,7 +177,8 @@
             </div>
             <div class="p-list-container d-flex flex-wrap">
 
-                @if(isset($data) && $data->count()>0)
+               
+                @if(!empty($data) && $data->count()>0)
 
                 @foreach($data as $value)
                 <div class="p-item  js-p-item done" data-id="41201">
