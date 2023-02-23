@@ -27,6 +27,13 @@
     .p-img{
         padding-top: 21%;
     }
+    .btn-buy{
+        cursor: pointer;
+        background: red;
+        color: #fff;
+        padding: 5px;
+        border-radius: 6px;
+    }
 </style>
 
 <link rel="stylesheet" type="text/css" href="https://dienmaynguoiviet.vn/css/lib/bootstrap.min.css">
@@ -74,68 +81,68 @@
             <p> </p></span></p>
             <div class="clear"></div>
             <div class="list-drive" id="js-buildpc-layout">
-                <div class="item-drive">
+                <div class="item-drive" id="box3">
                     <span class="d-name">
                         <h3 style="font-size: 14px;border-bottom:none;">1. Bộ vi xử lý</h3>
                     </span>
                     <div class="drive-checked">
-                        <span class="show-popup_select span-last open-selection" id="js-category-info-1025" ><i class="fa fa-plus"></i> Chọn Bộ vi xử lý</span>
+                        <span class="show-popup_select span-last open-selection" id="js-category-info-1025" data-id="3"><i class="fa fa-plus"></i> Chọn Bộ vi xử lý</span>
                         <div id="js-selected-item-1025"></div>
                     </div>
                 </div>
-                <div class="item-drive">
+                <div class="item-drive" id="box4">
                     <span class="d-name">
                         <h3 style="font-size: 14px;border-bottom:none;">2. Bo mạch chủ</h3>
                     </span>
                     <div class="drive-checked">
-                        <span class="show-popup_select span-last open-selection" id="js-category-info-1024" data-info="{&quot;id&quot;:1024,&quot;name&quot;:&quot;Bo mạch chủ&quot;}"><i class="fa fa-plus"></i> Chọn Bo mạch chủ</span>
+                        <span class="show-popup_select span-last open-selection" id="js-category-info-1024" data-id="4"><i class="fa fa-plus"></i> Chọn Bo mạch chủ</span>
                         <div id="js-selected-item-1024"></div>
                     </div>
                 </div>
-                <div class="item-drive">
+                <div class="item-drive" id="box5">
                     <span class="d-name">
                         <h3 style="font-size: 14px;border-bottom:none;">3. RAM</h3>
                     </span>
                     <div class="drive-checked">
-                        <span class="show-popup_select span-last open-selection" id="js-category-info-1234" data-info="{&quot;id&quot;:1234,&quot;name&quot;:&quot;RAM&quot;}"><i class="fa fa-plus"></i> Chọn RAM</span>
+                        <span class="show-popup_select span-last open-selection" id="js-category-info-1234" data-id="5"><i class="fa fa-plus"></i> Chọn RAM</span>
                         <div id="js-selected-item-1234"></div>
                     </div>
                 </div>
                 
-                <div class="item-drive">
+                <div class="item-drive" id="box6">
                     <span class="d-name">
                         <h3 style="font-size: 14px;border-bottom:none;">4. SSD </h3>
                     </span>
                     <div class="drive-checked">
-                        <span class="show-popup_select span-last open-selection" id="js-category-info-1030" data-info="{&quot;id&quot;:1030,&quot;name&quot;:&quot;SSD 1&quot;}"><i class="fa fa-plus"></i> Chọn SSD</span>
+                        <span class="show-popup_select span-last open-selection" id="js-category-info-1030" data-id="6"><i class="fa fa-plus"></i> Chọn SSD</span>
                         <div id="js-selected-item-1030"></div>
                     </div>
                 </div>
                 
-                <div class="item-drive">
+                <div class="item-drive" id="box7">
                     <span class="d-name">
                         <h3 style="font-size: 14px;border-bottom:none;">5. VGA</h3>
                     </span>
                     <div class="drive-checked">
-                        <span class="show-popup_select span-last open-selection" id="js-category-info-1155" data-info="{&quot;id&quot;:1155,&quot;name&quot;:&quot;VGA&quot;}"><i class="fa fa-plus"></i> Chọn VGA</span>
+                        <span class="show-popup_select span-last open-selection" id="js-category-info-1155" data-id="7"><i class="fa fa-plus"></i> Chọn VGA</span>
                         <div id="js-selected-item-1155"></div>
                     </div>
                 </div>
-                <div class="item-drive">
+                <div class="item-drive" id="box8">
                     <span class="d-name">
                         <h3 style="font-size: 14px;border-bottom:none;">6. Nguồn</h3>
                     </span>
                     <div class="drive-checked">
-                        <span class="show-popup_select span-last open-selection" id="js-category-info-1051" data-info="{&quot;id&quot;:1051,&quot;name&quot;:&quot;Nguồn&quot;}"><i class="fa fa-plus"></i> Chọn Nguồn</span>
+                        <span class="show-popup_select span-last open-selection" id="js-category-info-1051" data-id="8"><i class="fa fa-plus"></i> Chọn Nguồn</span>
                         <div id="js-selected-item-1051"></div>
                     </div>
                 </div>
-                <div class="item-drive">
+                <div class="item-drive" id="box9">
                     <span class="d-name">
                         <h3 style="font-size: 14px;border-bottom:none;">7. Vỏ Case</h3>
                     </span>
                     <div class="drive-checked">
-                        <span class="show-popup_select span-last open-selection" id="js-category-info-1050" data-info="{&quot;id&quot;:1050,&quot;name&quot;:&quot;Vỏ Case&quot;}"><i class="fa fa-plus"></i> Chọn Vỏ Case</span>
+                        <span class="show-popup_select span-last open-selection" id="js-category-info-1050" data-id="9"><i class="fa fa-plus"></i> Chọn Vỏ Case</span>
                         <div id="js-selected-item-1050"></div>
                     </div>
                 </div>
@@ -185,13 +192,13 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Chọn sản phẩm</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <div class="popup-main_content  float_r">
+                <div class="popup-main_content">
                     <div class="sort-paging clear">
                         <div class="sort-block float_l">
                             <span>Sắp xếp: </span>
@@ -206,141 +213,10 @@
                                 <option value="https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;sort=name">Tên A-&gt;Z</option>
                             </select>
                         </div>
-                        <div class="paging-block float_r paging-ajax">
-                            <table cellpadding="0" cellspacing="0">
-                                <tbody>
-                                    <tr>
-                                        <td class="pagingIntact"><a>Xem</a></td>
-                                        <td class="pagingSpace"></td>
-                                        <td class="pagingViewed">1</td>
-                                        <td class="pagingSpace"></td>
-                                        <td class="pagingIntact"><a href="javascript:;" onclick="loadAjaxContent('', '/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;storeId=&amp;&amp;page=2')">2</a></td>
-                                        <td class="pagingSpace"></td>
-                                        <td class="pagingIntact"><a href="javascript:;" onclick="loadAjaxContent('', '/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;storeId=&amp;&amp;page=3')">3</a></td>
-                                        <td class="pagingSpace"></td>
-                                        <td class="pagingIntact"><a href="javascript:;" onclick="loadAjaxContent('', '/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;storeId=&amp;&amp;page=4')">4</a></td>
-                                        <td class="pagingSpace"></td>
-                                        <td class="pagingIntact"><a href="javascript:;" onclick="loadAjaxContent('', '/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;storeId=&amp;&amp;page=5')">5</a></td>
-                                        <td class="pagingSpace"></td>
-                                        <td class="pagingIntact"><a href="javascript:;" onclick="loadAjaxContent('', '/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1047&amp;pc_part_id=44432-1024%2C44463-1234&amp;storeId=&amp;&amp;page=2')">&gt;&gt;</a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                        
                     </div>
                     <div class="list-product-select">
-                        <div class="p-item">
-                            <a href="/o-cung-western-digital-red-plus-4tb-3.5-inch-128mb-cache-5400rpm-wd40efzx.html" class="p-img" target="_blank">
-                            <img src="https://anphat.com.vn/media/product/120_44477_46791_wd40efzx_ha2.jpg" alt="Ổ cứng Western Digital Red Plus 4TB 3.5 inch 256MB Cache 5400RPM WD40EFPX">
-                            </a>
-                            <div class="info">
-                                <a href="/o-cung-western-digital-red-plus-4tb-3.5-inch-128mb-cache-5400rpm-wd40efzx.html" class="p-name" target="_blank">Ổ cứng Western Digital Red Plus 4TB 3.5 inch 256MB Cache 5400RPM WD40EFPX</a>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td width="80"><b>Mã SP:</b></td>
-                                            <td>OCWD0245</td>
-                                        </tr>
-                                        <tr>
-                                            <td><b>Bảo hành:</b></td>
-                                            <td>36 tháng</td>
-                                        </tr>
-                                        <tr>
-                                            <td valign="top"><b>Kho hàng:</b></td>
-                                            <td>
-                                                Còn hàng
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <span class="p-price">2.999.000</span>
-                            </div>
-                            <span class="btn-buy js-select-product" data-id="44477">Thêm vào cấu hình <i class="fa fa-angle-right"></i></span>
-                        </div>
-                        <div class="p-item">
-                            <a href="/o-cung-western-digital-red-plus-6tb-3.5-inch-256mb-cache-5400rpm-wd60efpx.html" class="p-img" target="_blank">
-                            <img src="https://anphat.com.vn/media/product/120_44186_" alt="Ổ cứng Western Digital Red Plus 6TB 3.5 inch 256MB Cache 5400RPM WD60EFPX">
-                            </a>
-                            <div class="info">
-                                <a href="/o-cung-western-digital-red-plus-6tb-3.5-inch-256mb-cache-5400rpm-wd60efpx.html" class="p-name" target="_blank">Ổ cứng Western Digital Red Plus 6TB 3.5 inch 256MB Cache 5400RPM WD60EFPX</a>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td width="80"><b>Mã SP:</b></td>
-                                            <td>OCWD0244</td>
-                                        </tr>
-                                        <tr>
-                                            <td><b>Bảo hành:</b></td>
-                                            <td>36 tháng</td>
-                                        </tr>
-                                        <tr>
-                                            <td valign="top"><b>Kho hàng:</b></td>
-                                            <td>
-                                                Còn hàng
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <span class="p-price">4.789.000</span>
-                            </div>
-                            <span class="btn-buy js-select-product" data-id="44186">Thêm vào cấu hình <i class="fa fa-angle-right"></i></span>
-                        </div>
-                        <div class="p-item">
-                            <a href="/o-cung-western-digital-caviar-blue-2tb-256mb-cache-7200rpm-wd20ezbx.html" class="p-img" target="_blank">
-                            <img src="https://anphat.com.vn/media/product/120_43114_417_o_cung_hdd_wd_blue_2tb_wd20ezbx_vcom.jpg" alt="Ổ cứng Western Digital Caviar Blue 2TB 256MB Cache 7200rpm ( WD20EZBX)">
-                            </a>
-                            <div class="info">
-                                <a href="/o-cung-western-digital-caviar-blue-2tb-256mb-cache-7200rpm-wd20ezbx.html" class="p-name" target="_blank">Ổ cứng Western Digital Caviar Blue 2TB 256MB Cache 7200rpm ( WD20EZBX)</a>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td width="80"><b>Mã SP:</b></td>
-                                            <td>OCWD0239</td>
-                                        </tr>
-                                        <tr>
-                                            <td><b>Bảo hành:</b></td>
-                                            <td>24 tháng</td>
-                                        </tr>
-                                        <tr>
-                                            <td valign="top"><b>Kho hàng:</b></td>
-                                            <td>
-                                                Còn hàng
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <span class="p-price">1.469.000</span>
-                            </div>
-                            <span class="btn-buy js-select-product" data-id="43114">Thêm vào cấu hình <i class="fa fa-angle-right"></i></span>
-                        </div>
-                        <div class="p-item">
-                            <a href="/o-cung-western-digital-purple-4tb-256mb-cache-5400rpm-wd42purz.html" class="p-img" target="_blank">
-                            <img src="https://anphat.com.vn/media/product/120_41257_18466_8e89ca7772228b499a6db249096cf5ff__1_.jpg" alt="Ổ cứng Western Digital Purple 4TB 256MB Cache 5400RPM WD42PURZ">
-                            </a>
-                            <div class="info">
-                                <a href="/o-cung-western-digital-purple-4tb-256mb-cache-5400rpm-wd42purz.html" class="p-name" target="_blank">Ổ cứng Western Digital Purple 4TB 256MB Cache 5400RPM WD42PURZ</a>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td width="80"><b>Mã SP:</b></td>
-                                            <td>OCWD0223</td>
-                                        </tr>
-                                        <tr>
-                                            <td><b>Bảo hành:</b></td>
-                                            <td>36 tháng</td>
-                                        </tr>
-                                        <tr>
-                                            <td valign="top"><b>Kho hàng:</b></td>
-                                            <td>
-                                                Còn hàng
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <span class="p-price">2.499.000</span>
-                            </div>
-                            <span class="btn-buy js-select-product" data-id="41257">Thêm vào cấu hình <i class="fa fa-angle-right"></i></span>
-                        </div>
+                        
                         
                     </div>
                 </div> 
@@ -349,7 +225,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+               
             </div>
         </div>
     </div>
@@ -364,23 +240,107 @@
 
    
 
-   
+   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
 
     <!-- Latest compiled and minified Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
      <script type="text/javascript">
 
-
+       
     $('.open-selection').click(function () {
 
-            $('#modal-show-products').modal('show');
+        var id = $(this).attr('data-id');
 
-        })    
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
 
-      
+        $.ajax({
+            type: 'POST',
+            url: "{{ route('show-product-click') }}",
+            data: {
+                id: id,
+                   
+            },
+           
+            success: function(result){
+
+                $('.list-product-select').html('');
     
-  
+                $('.list-product-select').append(result);
+
+                jQuery.noConflict(); 
+                $('#modal-show-products').modal('show'); 
+
+                
+            }
+        });
+
+        
+
+    }) ;
+
+
+    
+    function addPd(group_id, product_id) {
+
+
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+
+        $.ajax({
+            type: 'POST',
+            url: "{{ route('add-info-pc') }}",
+            data: {
+                product_id: product_id,
+                group_id:group_id,
+                   
+            },
+           
+            success: function(result){
+
+                $('#box'+group_id+' .drive-checked').remove();
+                $('#box'+group_id).append(result);
+
+                sum = 0;
+
+                $( ".sum_price" ).each(function( index ) {
+
+                    sum += parseInt($( this ).text().replaceAll('.', ''));
+                  
+                });
+
+                const formatter = new Intl.NumberFormat('vi', {
+                  style: 'currency',
+                  currency: 'VND',
+
+                  // These options are needed to round to whole numbers if that's what you want.
+                  //minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+                  //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+                });
+
+        
+                $('.total-price-config').text(formatter.format(sum));
+
+                jQuery.noConflict(); 
+                $('#modal-show-products').modal('hide'); 
+
+                
+            }
+        });
+    }
+
+
+
+
+
 </script>
 
 

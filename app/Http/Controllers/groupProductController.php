@@ -437,4 +437,39 @@ class groupProductController extends AppBaseController
 
 
     }
+
+    public function showGroupProducts(Request $request)
+    {
+        $id = $request->id;
+
+        $group = $this->groupProductRepository->find($id);
+
+        $id_group = json_decode($group->product_id, true);
+
+        $product = '';
+
+        if(!empty($id_group)){
+
+            $product = product::whereIn('id', $id_group)->get();
+
+            return view('frontend.listgrouppd', compact('product', 'id'));
+
+        }
+        
+    }
+
+    public function getInfoProduct(Request $request)
+    {
+        $id = $request->product_id;
+
+        $group_id = $request->group_id;
+
+        $dataGroup = groupProduct::find($group_id);
+
+        $data = product::find($id);
+
+        return view('frontend.data_show_select_pc', compact('data', 'dataGroup'));
+
+
+    }
 }

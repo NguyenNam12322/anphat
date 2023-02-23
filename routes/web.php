@@ -104,6 +104,13 @@ Route::get('update-order-flash-deal', 'flashdealController@dealOrder')->name('or
 
 Route::get('sitemap_article.xml', 'sitemapController@sitemapChildBlog');
 
+Route::post('show-product-click', 'groupProductController@showGroupProducts')->name('show-product-click');
+
+Route::post('add-info-pc', 'groupProductController@getInfoProduct')->name('add-info-pc');
+
+
+
+
 // Route::get('inCrawl', 'crawlController@allproduct');
 
 Route::get('/buildpc', function () {
