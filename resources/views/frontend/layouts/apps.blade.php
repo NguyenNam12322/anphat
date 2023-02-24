@@ -468,11 +468,11 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <!-- <div class="item">
                     <p class="title">CHẤP NHẬN THANH TOÁN</p>
 
                     <div class="icon icon-payment" style="margin-top: 6px;"></div>
-                </div>
+                </div> -->
 
                 <div class="item">
                     <p class="title">MỜI BẠN NHẬP EMAIL ĐỂ NHẬN THÔNG TIN KHUYẾN MÃI</p>
@@ -480,7 +480,7 @@
                     <div class="newsletter-form">
                         <form>
                             <input type="text" name="" id="js-email_newsletter" placeholder="Nhập email của bạn"/>
-                            <button type="button" onclick="subscribe_newsletter('#js-email_newsletter')" class="submit-newsletter"> GỬI </button>
+                            <button type="button" onclick="subscribe_newsletter()" class="submit-newsletter"> GỬI </button>
                         </form>
                     </div>
                 </div>
@@ -589,7 +589,7 @@
                     </div>
                 </div>
 
-                <div class="col-3">
+               <!--  <div class="col-3">
                     <div class="item">
                         <p class="glo-title"> TỔNG ĐÀI HỖ TRỢ </p>
 
@@ -615,7 +615,7 @@
                               <li class="email">Email: dung@anphatpc.com.vn</b> </li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
        </div>
     </div>
@@ -1515,6 +1515,9 @@
 </script>
 
 
+
+
+
 <script>
     function ajaxLoadProduct(){
         $(".js-box-container").each(function(){
@@ -1534,6 +1537,15 @@
             }   
         });  
     }  
+
+    function subscribe_newsletter() {
+
+        alert('Chức năng đang xây dựng xin vui lòng quay lại sau!')
+        
+    }
+
+
+    
 </script>
 
 
