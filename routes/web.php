@@ -130,6 +130,12 @@ Route::get('/add-property-filter', 'mainController@filterAdd')->name('add-proper
 
 Route::post('filter-search-client', 'Frontend\filterController@filter')->name('client-search');
 
+
+Route::get('crawl-hacom', 'crawlController@crawlProductHacom');
+
+
+Route::get('crawl-link-product', 'crawlController@crawlLink');
+
 // Route::get('/cache-clear', function () {
 //      \Artisan::call('key:generate');
 //       \Artisan::call('config:clear');

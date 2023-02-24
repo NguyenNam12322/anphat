@@ -796,6 +796,67 @@ class crawlController extends Controller
         echo "thanh cong";
 
     }
+
+
+    public function crawlProductHacom()
+    {
+
+        $data = DB::table('crawl_link')->select('link')->get();
+
+        foreach ($data as $key => $value) {
+
+            $url = 'https://hacom.vn'.$value->link;
+
+            $html = file_get_html(trim($url));
+
+           
+            $price =  str_replace('.', '',  html_entity_decode($html->find('#js-pd-price',0)));
+
+            $groupProductId = 0;
+
+            $sku = strip_tags($html->find('.sku',0));
+
+            $name =  strip_tags($html->find('.product_detail-title h1',0));  
+
+            $content  = html_entity_decode($html->find('#tab1',0));
+
+            $Specifications  = html_entity_decode($html->find('#tab2',0));
+
+            $salient_features = html_entity_decode($html->find('#js-tskt-item',0));
+
+            $link = str_replace('https://hacom.vn/', '', $url);
+
+            $data = ['Name' => $name, 'ProductSku'=>$sku, 'Price'=>$price, 'Link'=>$link, 'Detail'=>$content,  'Salient_Features'=>$salient_features, 'Specifications'=>$Specifications, 'Quantily'=>5];
+
+
+            $create = DB::table('product1')->insert($data);
+
+
+        }
+    
+        echo "tạo  thành công";
+    }
+
+
+    public function crawlLink()
+    {
+        $html = file_get_html('https://hacom.vn/vo-case');
+
+
+        $link = $html->find('.cate-list-prod .p-img a');
+
+
+        foreach($link as $bigDiv) {
+
+           $insert = ['link'=>$bigDiv->href, 'group_id' => 9];
+
+           DB::table('crawl_link')->insert($insert);
+           
+           
+        }
+        echo "thanh cong";
+        
+    }
     public function crawlProductEdit()
     {
 
