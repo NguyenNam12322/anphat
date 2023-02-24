@@ -3,6 +3,7 @@
 @section('content') 
 
 
+
 <section class="product-page">
     <div class="container">
         <div id="breadcrumb">
@@ -13,12 +14,18 @@
                     </a>  
                     <meta itemprop="position" content="1" />
                 </li>
+
+                @if(isset($ar_list))
                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <a href="may-tinh-may-chu.html" itemprop="item" class="nopad-l">
-                    <span itemprop="name">Máy tính - Máy chủ</span>
+                    <a href="{{ route('details', $ar_list[0]['link']) }}" itemprop="item" class="nopad-l">
+
+
+                    <span itemprop="name">{{ $ar_list[0]['name'] }}</span>
                     </a>
                     <meta itemprop="position" content="2" />
                 </li>
+
+                @endif
                <!--  <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                     <a href="may-tinh-workstation-may-tram_dm1469.html" itemprop="item" class="nopad-l">
                     <span itemprop="name">Máy trạm Workstation</span>

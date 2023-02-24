@@ -19,12 +19,10 @@
                     </a>  
                     <meta itemprop="position" content="1" />
                 </li>
+               
                 <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-                    <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh.html-1" itemprop="item"> <span itemprop="name"> Màn Hình Máy Tính </span> </a>
-                    <meta itemprop="position" content="2" />
-                </li>
-                <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-                    <a href="https://www.anphatpc.com.vn/man-hinh-may-tinh-dahua-dhi-lm24-a200-23.6-inch-fhd-va.html" itemprop="item"> <span itemprop="name"> Màn hình máy tính Dahua DHI-LM24-A200 23.6 inch FHD VA </span> </a>
+                    <a href="{{ route('details', $data->Link) }}" itemprop="item"> 
+                        <span itemprop="name">{{  $data->Name }} </span> </a>
                     <meta itemprop="position" content="2" />
                 </li>
             </ol>
@@ -63,10 +61,10 @@
                     <span class="name"> Hình sản phẩm </span>
                     </a>
                     
-                    <a href="javascript:void(0)" class="blue text-center" data-fancybox="" data-src="#pro-spec">
+                   <!--  <a href="javascript:void(0)" class="blue text-center" data-fancybox="" data-src="#pro-spec">
                     <i class="fa fa-exclamation-circle d-block" style="transform: rotate(180deg);"></i>
                     Xem thông số kỹ thuật
-                    </a>
+                    </a> -->
                 </div>
                 <!-- <div class="product-spec-group mb-4 font-300">
                     <div class="item-content position-relative">
@@ -513,7 +511,7 @@
                     
                   
                     <table>
-                            @if(!empty($datas->manuPrice))
+                            @if(!empty($data->manuPrice))
                             
                             <tbody><tr>
                                 <td width="135px" class="font-500"> Giá niêm yết: </td>
@@ -526,10 +524,10 @@
                             
 
                             <tr>
-                                <td width="135px" class="font-500"> Giá {{ !empty($datas->manuPrice)?'khuyến mại':'' }} : </td>
+                                <td width="135px" class="font-500"> Giá {{ !empty($data->manuPrice)?'khuyến mại':'' }} : </td>
                                 <td>
                                     <b style="color: #ce0707" class="text-18 js-pro-total-price" data-price="6689000">
-                                        {{ @number_format($datas->Price , 0, ',', '.')}}đ 
+                                        {{  @str_replace(',' ,'.', number_format($data->Price))  }} đ 
                                       
                                     </b>
                                     
@@ -596,10 +594,7 @@
                     </a>
                     <!-- End Button trả góp -->
                 </div>
-                <p class="blue icon-payment-container">
-                    <b>Chấp nhận thanh toán:</b>
-                    <i class="icon icon-payment"></i>
-                </p>
+                
             </div>
             <div class="product-detail-info-right">
                 <div class="store-address-container">

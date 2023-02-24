@@ -79,6 +79,8 @@
     else{
          $nameRoute = '';
     }
+
+    $group = Cache::get('groups');
    
 
   ?>
@@ -542,12 +544,12 @@
                         <p class="glo-title"> THÔNG TIN CHUNG </p>
 
                         <div>
-                            <a href="gioi-thieu.html"> Giới thiệu về An Phát </a>
-                            <a href="tin-tuc.html"> Tin tức </a>
-                            <a href="tuyen-dung.html"> Tin Tuyển Dụng </a>
-                            <a href="lien-he.html"> Liên hệ - góp ý </a>
-                            <a href="phong-du-an-va-khach-hang-doanh-nghiep.html"> Khách hàng doanh nghiệp </a>
-                            <a href="buildpc.html"> Xây dựng cấu hình PC V1 </a>
+                            <a href="javascript:void(0)"> Giới thiệu về An Phát </a>
+                            <a href="javascript:void(0)"> Tin tức </a>
+                            <a href="javascript:void(0)"> Tin Tuyển Dụng </a>
+                            <a href="javascript:void(0)"> Liên hệ - góp ý </a>
+                            <a href="javascript:void(0)"> Khách hàng doanh nghiệp </a>
+                            <a href="javascript:void(0)"> Xây dựng cấu hình PC V1 </a>
                             <!--
                             <a href="http://online.gov.vn/Home/WebDetails/7166">
                                 <img src="/template/anphat_2020v2/images/bct.png" alt="Bộ công thương"/>
@@ -562,12 +564,12 @@
                         <p class="glo-title"> HỖ TRỢ KHÁCH HÀNG </p>
 
                         <div>
-                            <a href="huong-dan-dat-hang.html"> Hướng dẫn mua hàng trực tuyến </a>
-                            <a href="cach-thuc-thanh-toan.html"> Hướng dẫn thanh toán </a>
-                            <a href="mua-tra-gop.html"> Hướng dẫn mua hàng trả góp </a>
-                            <a href="#"> In hoá đơn điện tử </a>
-                            <a href="tra-bao-hanh.html"> Tra cứu bảo hành </a>
-                            <a href="indexe26a.html?show_version=mobile" class="ver_mobile"> Xem giao diện bản Mobile </a>
+                            <a href="javascript:void(0)"> Hướng dẫn mua hàng trực tuyến </a>
+                            <a href="javascript:void(0)"> Hướng dẫn thanh toán </a>
+                            <a href="javascript:void(0)"> Hướng dẫn mua hàng trả góp </a>
+                            <a href="javascript:void(0)"> In hoá đơn điện tử </a>
+                            <a href="javascript:void(0)"> Tra cứu bảo hành </a>
+                           
                         </div>
                     </div>
                 </div>
@@ -577,12 +579,12 @@
                         <p class="glo-title"> CHÍNH SÁCH CHUNG </p>
 
                         <div>
-                            <a href="giao-hang.html"> Chính sách vận chuyển </a>
-                            <a href="trung-tam-bao-hanh.html"> Chính sách bảo hành </a>
-                            <a href="phong-du-an-va-khach-hang-doanh-nghiep.html"> Chính sách cho doanh nghiệp </a>
+                            <a href="javascript:void(0)"> Chính sách vận chuyển </a>
+                            <a href="javascript:void(0)"> Chính sách bảo hành </a>
+                            <a href="javascript:void(0)"> Chính sách cho doanh nghiệp </a>
                             <!--<a href=""> Chính sách hàng chính hãng </a>-->
-                            <a href="chinh-sach-kiem-hang.html"> Chính sách kiểm hàng </a>
-                            <a href="chinh-sach-bao-mat.html"> Bảo mật thông tin khách hàng </a>
+                            <a href="javascript:void(0)"> Chính sách kiểm hàng </a>
+                            <a href="javascript:void(0)"> Bảo mật thông tin khách hàng </a>
                         </div>
                     </div>
                 </div>
