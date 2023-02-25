@@ -440,6 +440,86 @@
 
 </script>
 
+@push('js')
+
+<script type="text/javascript">
+
+
+    function removeItem(id){
+
+
+        price = parseInt($('#box'+id+' .sum_price').text().replaceAll('.',''));
+
+
+        
+
+        totalprice =   parseInt($('.total-price-config').text().replaceAll('&nbsp₫', '').replaceAll('.',''));
+
+        console.log(totalprice);
+
+        console.log(price);
+
+
+        totalprices = totalprice - price;
+
+
+        const formatter = new Intl.NumberFormat('vi', {
+          style: 'currency',
+          currency: 'VND',
+
+        });
+        $('.total-price-config').text(formatter.format(totalprices));
+
+        const data_ar = [];
+
+        data_ar[3] ='Chọn Bộ vi xử lý';
+        data_ar[4] ='Chọn Bo mạch chủ';
+        data_ar[5] ='Chọn Ram';
+        data_ar[6] ='Chọn SSD';
+        data_ar[7] ='Chọn VGA';
+        data_ar[8] ='Chọn Nguồn';
+        data_ar[9] ='Chọn Vỏ case';
+
+       
+        $('#box'+id+ ' .drive-checked').html('<span class="show-popup_select span-last open-selection" id="js-category-info-1024" data-id="'+id+'" onclick="runs('+id+')"><i class="fa fa-plus"></i> '+data_ar[id]+'</span>');
+
+    }
+    
+    
+    function runs(id) {
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+
+        $.ajax({
+            type: 'POST',
+            url: "{{ route('show-product-click') }}",
+            data: {
+                id: id,
+                   
+            },
+           
+            success: function(result){
+
+                $('.list-product-select').html('');
+    
+                $('.list-product-select').append(result);
+
+                jQuery.noConflict(); 
+                $('#modal-show-products').modal('show'); 
+
+                
+            }
+        });
+     } 
+
+
+</script>
+
+@endpush
+
 
 
 
