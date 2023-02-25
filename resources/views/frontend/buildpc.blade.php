@@ -37,6 +37,9 @@
     .modal-body{
         display: flex;
     }
+    .list-filter ul{
+        padding: 0 !important;
+    }
 </style>
 
 <link rel="stylesheet" type="text/css" href="https://dienmaynguoiviet.vn/css/lib/bootstrap.min.css">
@@ -199,126 +202,7 @@
             </div>
 
 
-            <div class="modal-body">
-
-                <div class="popup-main_filter w-40 float_l">
-                    <h4>Lọc sản phẩm theo</h4>
-                    <div class="list-filter">
-                        <div class="gr-filter brand">
-                            <!--
-                                -->
-                            <h5 class="title-filter">
-                                Hãng sản xuất <!--<span class="show-filter"><i class="fas fa-caret-right"></i></span>-->
-                            </h5>
-                            <ul>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=6')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=6')"><span class="value-filter">Acer (4)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=8')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=8')"><span class="value-filter">Samsung (33)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=37')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=37')"><span class="value-filter">Adata (12)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=223')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=223')"><span class="value-filter">Apacer (6)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=138')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=138')"><span class="value-filter">Corsair (4)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=53')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=53')"><span class="value-filter">Gigabyte (10)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=262')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=262')"><span class="value-filter">Hikvsion (2)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=304')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=304')"><span class="value-filter">HPE (1)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=51')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=51')"><span class="value-filter">Intel (2)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=43')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=43')"><span class="value-filter">Kingmax (13)</span></a>
-                                </li>
-                            </ul>
-                           
-                        </div>
-
-                        <div class="gr-filter brand">
-                            <!--
-                                -->
-                            <h5 class="title-filter">
-                                Hãng sản xuất <!--<span class="show-filter"><i class="fas fa-caret-right"></i></span>-->
-                            </h5>
-                            <ul>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=6')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=6')"><span class="value-filter">Acer (4)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=8')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=8')"><span class="value-filter">Samsung (33)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=37')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=37')"><span class="value-filter">Adata (12)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=223')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=223')"><span class="value-filter">Apacer (6)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=138')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=138')"><span class="value-filter">Corsair (4)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=53')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=53')"><span class="value-filter">Gigabyte (10)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=262')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=262')"><span class="value-filter">Hikvsion (2)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=304')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=304')"><span class="value-filter">HPE (1)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=51')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=51')"><span class="value-filter">Intel (2)</span></a>
-                                </li>
-                                <li>
-                                    <input type="checkbox" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=43')"> 
-                                    <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=43')"><span class="value-filter">Kingmax (13)</span></a>
-                                </li>
-                            </ul>
-                           
-                        </div>
-                       
-                    </div>
-
-
-                    <!--list-filter-->
-                </div>
-                <div class="popup-main_content w-60 float_r">
-                    
-                    <div class="list-product-select">
-                        
-                        
-                    </div>
-                </div> 
-
+            <div class="modal-body modal-1">
 
             </div>
             <div class="modal-footer">
@@ -367,9 +251,9 @@
            
             success: function(result){
 
-                $('.list-product-select').html('');
+                $('.modal-1').html('');
     
-                $('.list-product-select').append(result);
+                $('.modal-1').append(result);
 
                 jQuery.noConflict(); 
                 $('#modal-show-products').modal('show'); 
@@ -451,14 +335,7 @@
         price = parseInt($('#box'+id+' .sum_price').text().replaceAll('.',''));
 
 
-        
-
         totalprice =   parseInt($('.total-price-config').text().replaceAll('&nbsp₫', '').replaceAll('.',''));
-
-        console.log(totalprice);
-
-        console.log(price);
-
 
         totalprices = totalprice - price;
 
@@ -513,7 +390,15 @@
                 
             }
         });
-     } 
+    } 
+
+    function checked_box(id) {
+        var checked = $('#checked_box_'+id).is(':checked'); 
+
+        alert(checked);
+
+
+    }
 
 
 </script>

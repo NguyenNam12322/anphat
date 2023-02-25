@@ -12,6 +12,7 @@ use App\Models\metaSeo;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 use Flash;
+use App\Models\filter;
 use Response;
 
 use App\Models\groupProduct;
@@ -444,6 +445,8 @@ class groupProductController extends AppBaseController
 
         $group = $this->groupProductRepository->find($id);
 
+        $filter = filter::where('group_product_id', $id)->select('name', 'id')->get();
+
         $id_group = json_decode($group->product_id, true);
 
         $product = '';
@@ -452,7 +455,7 @@ class groupProductController extends AppBaseController
 
             $product = product::whereIn('id', $id_group)->get();
 
-            return view('frontend.listgrouppd', compact('product', 'id'));
+            return view('frontend.listgrouppd', compact('product', 'id', 'filter'));
 
         }
         
