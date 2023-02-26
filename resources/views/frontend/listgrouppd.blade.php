@@ -3,33 +3,6 @@
         <h4>Lọc sản phẩm theo</h4>
         <div class="list-filter">
 
-            <?php 
-                $data = $filter_product = DB::table('filters')->select('value','id')->where('group_product_id', $id)->get()->toArray();
-
-                dd($data);
-
-                $ar =[];
-
-                if(isset($data) && count($data)>0 ){
-
-                    foreach ($data as $key => $val) {
-
-                        // if(!empty($val->id)){
-                        //     $ar[$val->id] = json_decode($val->value, true)[$val->id]??'';
-                            
-                        // }
-
-                        echo $val->id;
-
-                       
-                    }
-
-                }
-
-               
-
-            ?>
-            
             @if(isset($filter) && $filter->count()>0)
             @foreach($filter as $value)
             <div class="gr-filter brand">
@@ -48,7 +21,7 @@
                     @foreach($property as $val)
 
                     <li> 
-                        <input type="checkbox" id="checked_box_{{ $val->id }}" onclick="checked_box({{ $val->id }})"> 
+                        <input type="checkbox" id="checked_box_{{ $val->id }}" onclick="checked_box({{ $id }},  {{ $value->id }}, {{ $val->id }})"> 
                         <a href="javascript:void(0)" onclick="objBuildPCVisual.showProductFilter('https://www.anphatpc.com.vn/ajax/get_json.php?action=pcbuilder&amp;action_type=get-product-category&amp;category_id=1030&amp;brand=6')">
                             <span class="value-filter">{{ $val->name }}</span>
                         </a> 

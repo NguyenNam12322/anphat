@@ -166,6 +166,8 @@ Route::post('add-cart-fast', 'AjaxController@addCartFast')->name('addcartfast');
 
 Route::post('order-product', 'Frontend\orderController@orderProduct')->name('order');
 
+Route::post('product-selected-click-checkbox', 'groupProductController@filterPDInCheckbox')->name('product-selected-click-checkbox');
+
 Route::post('remove-cart', 'AjaxController@removeProductCart')->name('removeCart');
 
 Route::post('show-cart', 'AjaxController@showProductCart')->name('showCart');

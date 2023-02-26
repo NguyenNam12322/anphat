@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Auth;
 use Flash;
 use App\Models\filter;
 use Response;
+use DB;
 
 use App\Models\groupProduct;
 
@@ -212,6 +213,51 @@ class groupProductController extends AppBaseController
 
         return view('group_products.product_selected_group_product', compact('id'));
         
+    }
+
+    public function filterPDInCheckbox(Request $request)
+    {
+        $groupProduct_id = $request->group_id;
+
+        $filterId = $request->filter_id;
+
+        $propertyId = $request->propertyId;
+
+        $data = $filter_product = DB::table('filters')->select('value','id')->where('group_product_id', $groupProduct_id)->get()->toArray();
+
+        $ar =[];
+
+        if(isset($data) && count($data)>0 ){
+            foreach ($data as $key => $val) {
+
+                if(!empty($val->id)){
+                    $ar[$val->id] = json_decode($val->value, true);
+                    
+                }
+            }
+        }
+
+
+       if(count($ar)>0){
+
+            
+
+            if(!empty($ar[$filterId][$propertyId])){
+
+                $product_id = $ar[$filterId][$propertyId];
+
+                $product =  product::whereIn('id', $product_id)->get();
+
+               $filter = filter::where('group_product_id', $groupProduct_id)->select('name', 'id')->get();
+
+               $id = $groupProduct_id;
+
+               return view('frontend.list_checked_product', compact('product','id'));
+
+            }
+
+       }
+
     }
 
     public function find_Parent($id)
