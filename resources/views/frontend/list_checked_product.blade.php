@@ -2,6 +2,10 @@
             
     @if($product->count()>0)
 
+    
+
+    <input type="hidden" name="product_save" id="product_save" value="{{ $product_id_convert }}">
+
     @foreach($product as $value)
     <div class="p-item">
         <a href="{{ route('details', $value->Link) }}" class="p-img" target="_blank">

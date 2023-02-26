@@ -395,9 +395,11 @@
     function checked_box(group_id, filter_id, propertyId) {
         var checked = $('#checked_box_'+propertyId).is(':checked'); 
 
-      
+        
 
         if(checked ===true){
+
+            console.log($('#product_save').val());
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -410,7 +412,8 @@
                 data: {
                     group_id: group_id,
                     filter_id:filter_id,   
-                    propertyId:propertyId
+                    propertyId:propertyId,
+                    product_save: $('#product_save').val()??'',
                 },
                
                 success: function(result){

@@ -223,6 +223,17 @@ class groupProductController extends AppBaseController
 
         $propertyId = $request->propertyId;
 
+        
+
+        if(!empty($request->product_save)){
+            $product_search = json_decode($request->product_save);
+
+        }
+        else{
+            $product_search = [];
+        }
+
+
         $data = $filter_product = DB::table('filters')->select('value','id')->where('group_product_id', $groupProduct_id)->get()->toArray();
 
         $ar =[];
@@ -240,11 +251,25 @@ class groupProductController extends AppBaseController
 
        if(count($ar)>0){
 
-            
-
             if(!empty($ar[$filterId][$propertyId])){
 
                 $product_id = $ar[$filterId][$propertyId];
+
+                // if(!empty($product_search)){
+                //     dd($product_search);
+                // }    
+
+                foreach ($product_id as $value) {
+                   array_push($product_search, $value);
+                }
+
+            }
+
+            // trường hợp tồn tại product lưu lại khi tick thì vẫn in ra sản phẩm đã tick
+
+            if(isset($product_search) && count($product_search)){
+
+                $product_id = array_unique($product_search);
 
                 $product =  product::whereIn('id', $product_id)->get();
 
@@ -252,11 +277,13 @@ class groupProductController extends AppBaseController
 
                $id = $groupProduct_id;
 
-               return view('frontend.list_checked_product', compact('product','id'));
+               $product_id_convert = json_encode($product_id);
 
+               return view('frontend.list_checked_product', compact('product','id', 'product_id_convert'));
             }
-
+            
        }
+
 
     }
 
