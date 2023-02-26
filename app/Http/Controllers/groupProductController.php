@@ -287,6 +287,72 @@ class groupProductController extends AppBaseController
 
     }
 
+
+    public function removeFilterCheckbox(Request $request)
+    {
+
+        // Xử lý dữ liệu lấy từ DB
+        $groupProduct_id = $request->group_id;
+
+        $filterId = $request->filter_id;
+
+        $propertyId = $request->propertyId;
+
+        
+
+        if(!empty($request->product_save)){
+            $product_search = json_decode($request->product_save);
+
+        }
+        else{
+            $product_search = [];
+        }
+
+
+        $data = $filter_product = DB::table('filters')->select('value','id')->where('group_product_id', $groupProduct_id)->get()->toArray();
+
+        $ar =[];
+
+        if(isset($data) && count($data)>0 ){
+            foreach ($data as $key => $val) {
+
+                if(!empty($val->id)){
+                    $ar[$val->id] = json_decode($val->value, true);
+                    
+                }
+            }
+        }
+
+        // end xử lý dữ liệu
+
+        // tạo 1 mảng mới để xóa dữ liệu chung
+
+        $product_searchs = [];
+
+        if(count($ar)>0){
+
+            $product_id = $ar[$filterId][$propertyId];
+
+            foreach ($product_id as $value) {
+               array_push($product_searchs, $value);
+            }
+
+        } 
+
+        $product = array_diff($product_search, $product_searchs);
+
+        $product =  product::whereIn('id', $product_id)->get();
+
+
+
+        $id = $groupProduct_id;
+
+        $product_id_convert = json_encode($product_id);
+
+        return view('frontend.list_checked_product', compact('product','id', 'product_id_convert'));
+
+    }
+
     public function find_Parent($id)
     {
 

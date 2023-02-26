@@ -399,7 +399,6 @@
 
         if(checked ===true){
 
-            console.log($('#product_save').val());
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -409,6 +408,38 @@
             $.ajax({
                 type: 'POST',
                 url: "{{ route('product-selected-click-checkbox') }}",
+                data: {
+                    group_id: group_id,
+                    filter_id:filter_id,   
+                    propertyId:propertyId,
+                    product_save: $('#product_save').val()??'',
+                },
+               
+                success: function(result){
+
+                    $('.popup-main_content').html('');
+        
+                    $('.popup-main_content').append(result);
+
+                    jQuery.noConflict(); 
+                    $('#modal-show-products').modal('show'); 
+
+                    
+                }
+            });
+        }
+
+        else{
+
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+
+            $.ajax({
+                type: 'POST',
+                url: "{{ route('remove-filter-checkbox') }}",
                 data: {
                     group_id: group_id,
                     filter_id:filter_id,   

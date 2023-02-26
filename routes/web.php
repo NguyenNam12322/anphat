@@ -108,7 +108,7 @@ Route::post('show-product-click', 'groupProductController@showGroupProducts')->n
 
 Route::post('add-info-pc', 'groupProductController@getInfoProduct')->name('add-info-pc');
 
-
+Route::post('remove-filter-checkbox', 'groupProductController@removeFilterCheckbox')->name('remove-filter-checkbox');
 
 
 // Route::get('inCrawl', 'crawlController@allproduct');
