@@ -60,6 +60,15 @@ class crawlController extends Controller
         echo "thanh cong";
 
     }
+
+
+    public function postCrawlToTableDB(Request $request)
+    {
+        
+        $data = DB::table('product1')->where('id', 1)->get()->first();
+        dd($data);
+
+    }
     public function sosanh()
     {
 
