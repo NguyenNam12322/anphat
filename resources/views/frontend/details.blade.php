@@ -8,6 +8,15 @@
     .header-menu-holder{
         display: none;
     }
+
+    .pro-info-design{
+        height: 460px;
+        overflow: hidden
+    }
+
+    .product-info-container{
+        height: 520px;
+    }
 </style>
 <section class="product-detail-page">
     <div class="container">
@@ -443,7 +452,7 @@
                 </div>
             </div>
             <!-- pro-info-center -->
-            <div class="pro-info-center">
+            <div class="pro-info-center pro-info-design">
                 <h1 class="pro-name js-product-name"> {{ $data->Name }} </h1>
                 <div style="border-bottom: 1px solid #edeef2;margin-bottom: 7px;padding-bottom: 3px;font-size: 13px;">
                     <span>
@@ -459,44 +468,46 @@
                     <a href="javascript:void(0)" class="js-p-compare blue" id="js-pd-item" onclick="compare_addProduct(41446,'https://anphat.com.vn/media/product/250_41446_dhi_lm24_a200.jpg', this)" ><i class="fa fa-plus-circle"></i> So sánh</a>
                 </div>
                 <div class="pro-info-summary">
-                    <!--0-->
-                    <span class="item ">
+
+                    {!! $data->Salient_Features !!}
+                   
+                   <!--  <span class="item ">
                     <i class="fa fa-check-circle"></i>Loại màn hình: Màn hình phẳng
                     </span>
-                    <!--1-->
+                    
                     <span class="item ">
                     <i class="fa fa-check-circle"></i>Tỉ lệ: 16:09
                     </span>
-                    <!--2-->
+                    
                     <span class="item ">
                     <i class="fa fa-check-circle"></i>Kích thước: 23.6 inch
                     </span>
-                    <!--3-->
+                    
                     <span class="item ">
                     <i class="fa fa-check-circle"></i>Tấm nền: VA 
                     </span>
-                    <!--4-->
+                    
                     <span class="item hide">
                     <i class="fa fa-check-circle"></i>Độ phân giải: FHD (1920 x 1080) 
                     </span>
-                    <!--5-->
+                   
                     <span class="item hide">
                     <i class="fa fa-check-circle"></i>Tốc độ làm mới: max 75Hz
                     </span>
-                    <!--6-->
+                    
                     <span class="item hide">
                     <i class="fa fa-check-circle"></i>Thời gian đáp ứng: 6.5ms
                     </span>
-                    <!--7-->
+                   
                     <span class="item hide">
                     <i class="fa fa-check-circle"></i>Cổng kết nối: VGA, HDMI
                     </span>
-                    <!--8-->
+                   
                     <span class="item hide">
                     <i class="fa fa-check-circle"></i>Phụ kiện: Cáp nguồn, cáp HDMI
-                    </span>
+                    </span> -->
                 </div>
-                <p><a href="javascript:void(0)" id="js-viewmore-summary" class="red">Xem thêm ></a></p>
+                <!-- <p><a href="javascript:void(0)" id="js-viewmore-summary" class="red">Xem thêm ></a></p> -->
                 <div class="store-address-container">
                     <b class="d-block mb-2"> 
                     Bảo hành: 36 Tháng, chế độ bảo hành 1 đổi 1 trong 12 tháng đầu 
@@ -507,21 +518,20 @@
                     
                     <div class="spec-count" id="js-promotion-price-countdown">
            
-        </div>
+                </div>
                     
                   
                     <table>
-                            @if(!empty($data->manuPrice))
+
+                        @if(!empty($data->manuPrice))
                             
-                            <tbody><tr>
+                        <tbody>
+                            <tr>
                                 <td width="135px" class="font-500"> Giá niêm yết: </td>
                                 <td> 
                                     <del style="color: #888888;" class="font-500"> {{ @number_format($datas->manuPrice , 0, ',', '.')}} đ </del>
                                 </td>
                             </tr>
-
-                            @endif
-                            
 
                             <tr>
                                 <td width="135px" class="font-500"> Giá {{ !empty($data->manuPrice)?'khuyến mại':'' }} : </td>
@@ -534,7 +544,9 @@
                                 </td>
                             </tr>
         
-                    </tbody></table>
+                        </tbody>
+                         @endif
+                    </table>
                 </div>
 
                 <!-- <div class="pro-special-offer-container">
@@ -636,9 +648,9 @@
             <div class="item item-desc js-static-container">
                 <p class="title"> MÔ TẢ SẢN PHẨM </p>
                 {!! $data->Detail   !!}         
-                <div class="text-center btn-html-content">
+                <!-- <div class="text-center btn-html-content">
                     <a href="javascript:void(0)" class="js-showless-buttons">Xem thêm <i class="fa fa-angle-double-up"></i></a>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="pro-video-art-container d-flex justify-content-between container">

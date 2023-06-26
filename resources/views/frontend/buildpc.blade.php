@@ -72,6 +72,7 @@
             <div class="clear"></div>
             <ul class="list-btn-action list-btn-action-new" style="margin-top: 0; float: left; border: none;">
                 <li style="width: auto;" class="active"><span onclick="showBuildId(1);changeTab(this);" style="padding: 0 20px;">Cấu hình 1</span></li>
+                <li style="width: auto;" class="active"><span onclick="showBuildId(1);changeTab(this);" style="padding: 0 20px;">Cấu hình 2</span></li>
                 
             </ul>
             <div class="clear"></div>
