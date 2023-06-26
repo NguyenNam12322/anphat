@@ -12,10 +12,30 @@
             Kho hàng: Còn hàng
             </span>
             <span class="d-price">{{  str_replace(',' ,'.', number_format($data->Price))  }} </span>
-            <i>x</i> <span class="d-price">1</span><i>=</i>
-            <span class="sum_price">{{  str_replace(',' ,'.', number_format($data->Price))  }} </span>
+            <i>x</i> <input class="count-p" type="number" value="1" min="1" max="50" data="{{ $data->Price }}" data-id="{{ $data->id }}"><i>=</i>
+            <span class="sum_price show_price_{{ $data->id }}">{{  str_replace(',' ,'.', number_format($data->Price))  }} </span>
             
             <span class="btn-action_seclect delete_select"><i class="fa fa-trash remove-item" data-id="{{ $dataGroup->id }}" onclick="removeItem({{ $dataGroup->id }})"></i></span>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    
+    $('.count-p').change(function () {
+        
+        let price_get = $(this).attr('data');
+        let total_sum = parseInt($(this).val())*price_get;
+
+        const formatter = new Intl.NumberFormat('vi', {
+          style: 'currency',
+          currency: 'VND',
+
+        });
+        
+        const id = $(this).attr('data-id');
+
+        $('.show_price_'+id).text(formatter.format(total_sum));
+        // alert($(this).val())
+    })
+</script>

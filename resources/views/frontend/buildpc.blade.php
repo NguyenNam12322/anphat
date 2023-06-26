@@ -294,9 +294,9 @@
 
                 sum = 0;
 
-                $( ".sum_price" ).each(function( index ) {
+                $(".sum_price").each(function( index ) {
 
-                    sum += parseInt($( this ).text().replaceAll('.', ''));
+                    sum += parseInt($(this).text().replaceAll('.', ''));
                   
                 });
 
@@ -317,18 +317,13 @@
         });
     }
 
-
-
-
-
-
-
 </script>
 
 @push('js')
 
 <script type="text/javascript">
 
+     
 
     function removeItem(id){
 
