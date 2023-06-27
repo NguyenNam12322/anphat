@@ -343,6 +343,8 @@
           currency: 'VND',
 
         });
+
+        $('#price_hide_all').val(totalprices);
         $('.total-price-config').text(formatter.format(totalprices));
 
         const data_ar = [];

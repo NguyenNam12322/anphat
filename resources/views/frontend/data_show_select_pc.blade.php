@@ -28,6 +28,7 @@
         
         let price_get = $(this).attr('data');
         let total_sum = parseInt($(this).val())*price_get;
+        const one_price = parseInt($(this).val());
 
         const formatter = new Intl.NumberFormat('vi', {
           style: 'currency',
@@ -37,11 +38,13 @@
         
         const id = $(this).attr('data-id');
 
+        const price_all = parseInt($('#price_hide_all').val());
+
         $('.show_price_'+id).text(formatter.format(total_sum));
 
-        console.log($('.total-price-config').text());
+        total_price = total_sum - price_get + price_all;
+        
+        $('.total-price-config').text(formatter.format(total_price));
 
-        // $('')
-        // alert($(this).val())
     })
 </script>
