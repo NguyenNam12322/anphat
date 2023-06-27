@@ -16,6 +16,8 @@
             <span class="sum_price show_price_{{ $data->id }}">{{  str_replace(',' ,'.', number_format($data->Price))  }} </span>
             
             <span class="btn-action_seclect delete_select"><i class="fa fa-trash remove-item" data-id="{{ $dataGroup->id }}" onclick="removeItem({{ $dataGroup->id }})"></i></span>
+
+            <input type="hidden" name="price-hide" id="price_hide_all" value="">
         </div>
     </div>
 </div>
@@ -36,6 +38,10 @@
         const id = $(this).attr('data-id');
 
         $('.show_price_'+id).text(formatter.format(total_sum));
+
+        console.log($('.total-price-config').text());
+
+        // $('')
         // alert($(this).val())
     })
 </script>

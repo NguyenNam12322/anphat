@@ -306,6 +306,8 @@
 
                 });
 
+                $('#price_hide_all').val(sum);
+
         
                 $('.total-price-config').text(formatter.format(sum));
 
