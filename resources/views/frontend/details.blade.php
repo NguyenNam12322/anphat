@@ -10,7 +10,7 @@
     }
 
     .pro-info-design{
-        height: 460px;
+        height: 360px;
         overflow: hidden
     }
 
@@ -452,142 +452,73 @@
                 </div>
             </div>
             <!-- pro-info-center -->
-            <div class="pro-info-center pro-info-design">
-                <h1 class="pro-name js-product-name"> {{ $data->Name }} </h1>
-                <div style="border-bottom: 1px solid #edeef2;margin-bottom: 7px;padding-bottom: 3px;font-size: 13px;">
-                    <span>
-                    <b>Mã SP: </b><span class="js-product-sku">{{  $data->ProductSku }}</span>
-                    </span>
-                    <span style="margin-left: 20px;">
-                    <i class="icon-star star-0"></i>
-                    0 đánh giá
-                    </span>
-                    <span style="margin: 0 20px;">
-                    Lượt xem: 14.440
-                    </span>
-                    <a href="javascript:void(0)" class="js-p-compare blue" id="js-pd-item" onclick="compare_addProduct(41446,'https://anphat.com.vn/media/product/250_41446_dhi_lm24_a200.jpg', this)" ><i class="fa fa-plus-circle"></i> So sánh</a>
-                </div>
-                <div class="pro-info-summary">
+            <div class="pro-info-center pro-info-designs">
+                <div class="pro-info-design">
+                     <h1 class="pro-name js-product-name"> {{ $data->Name }} </h1>
+                    <div style="border-bottom: 1px solid #edeef2;margin-bottom: 7px;padding-bottom: 3px;font-size: 13px;">
+                        <span>
+                        <b>Mã SP: </b><span class="js-product-sku">{{  $data->ProductSku }}</span>
+                        </span>
+                        <span style="margin-left: 20px;">
+                        <i class="icon-star star-0"></i>
+                        0 đánh giá
+                        </span>
+                        <span style="margin: 0 20px;">
+                        Lượt xem: 14.440
+                        </span>
+                        <a href="javascript:void(0)" class="js-p-compare blue" id="js-pd-item" onclick="compare_addProduct(41446,'https://anphat.com.vn/media/product/250_41446_dhi_lm24_a200.jpg', this)" ><i class="fa fa-plus-circle"></i> So sánh</a>
+                    </div>
+                    <div class="pro-info-summary">
 
-                    {!! $data->Salient_Features !!}
-                   
-                   <!--  <span class="item ">
-                    <i class="fa fa-check-circle"></i>Loại màn hình: Màn hình phẳng
-                    </span>
-                    
-                    <span class="item ">
-                    <i class="fa fa-check-circle"></i>Tỉ lệ: 16:09
-                    </span>
-                    
-                    <span class="item ">
-                    <i class="fa fa-check-circle"></i>Kích thước: 23.6 inch
-                    </span>
-                    
-                    <span class="item ">
-                    <i class="fa fa-check-circle"></i>Tấm nền: VA 
-                    </span>
-                    
-                    <span class="item hide">
-                    <i class="fa fa-check-circle"></i>Độ phân giải: FHD (1920 x 1080) 
-                    </span>
-                   
-                    <span class="item hide">
-                    <i class="fa fa-check-circle"></i>Tốc độ làm mới: max 75Hz
-                    </span>
-                    
-                    <span class="item hide">
-                    <i class="fa fa-check-circle"></i>Thời gian đáp ứng: 6.5ms
-                    </span>
-                   
-                    <span class="item hide">
-                    <i class="fa fa-check-circle"></i>Cổng kết nối: VGA, HDMI
-                    </span>
-                   
-                    <span class="item hide">
-                    <i class="fa fa-check-circle"></i>Phụ kiện: Cáp nguồn, cáp HDMI
-                    </span> -->
-                </div>
-                <!-- <p><a href="javascript:void(0)" id="js-viewmore-summary" class="red">Xem thêm ></a></p> -->
-                <div class="store-address-container">
-                    <b class="d-block mb-2"> 
-                    Bảo hành: 36 Tháng, chế độ bảo hành 1 đổi 1 trong 12 tháng đầu 
-                    </b>
-                </div>
-
-                <div class="pro_info-price-container">
-                    
-                    <div class="spec-count" id="js-promotion-price-countdown">
-           
-                </div>
-                    
+                        {!! $data->Salient_Features !!}
+                       
+                       
+                    </div>
                   
-                    <table>
+                    <div class="store-address-container">
+                        <b class="d-block mb-2"> 
+                        Bảo hành: 36 Tháng, chế độ bảo hành 1 đổi 1 trong 12 tháng đầu 
+                        </b>
+                    </div>
 
-                        @if(!empty($data->manuPrice))
-                            
-                        <tbody>
-                            <tr>
-                                <td width="135px" class="font-500"> Giá niêm yết: </td>
-                                <td> 
-                                    <del style="color: #888888;" class="font-500"> {{ @number_format($datas->manuPrice , 0, ',', '.')}} đ </del>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td width="135px" class="font-500"> Giá {{ !empty($data->manuPrice)?'khuyến mại':'' }} : </td>
-                                <td>
-                                    <b style="color: #ce0707" class="text-18 js-pro-total-price" data-price="6689000">
-                                        {{  @str_replace(',' ,'.', number_format($data->Price))  }} đ 
-                                      
-                                    </b>
-                                    
-                                </td>
-                            </tr>
-        
-                        </tbody>
-                         @endif
-                    </table>
-                </div>
-
-                <!-- <div class="pro-special-offer-container">
-                    <div class="spec-title d-flex align-items-center justify-content-between">
-                        <div class="spec-price font-weight-bold">
-                            KHUYẾN MÃI 
+                    <div class="pro_info-price-container">
+                        
+                        <div class="spec-count" id="js-promotion-price-countdown">
+               
                         </div>
                         
-                    </div>
-                    <ul class="ul">
-                        <li>
-                            <span class="text" style="white-space: pre-line;">✦ HOT Giảm ngay 5% giá treo màn hình đa năng khi mua cùng màn hình bất kỳ<a href="https://www.anphatpc.com.vn/gia-treo-man-hinh_dm2241.html?sort=price-desc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp HDMI Vention cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-hdmi.html?brand=206&amp;sort=price-asc" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="text" style="white-space: pre-line;">✦ Giảm 10% cáp Displayport cao cấp khi mua kèm màn hình<a href="https://www.anphatpc.com.vn/cap-displayport.html" target="_blank"> <font color="DodgerBlue">Xem chi tiết</font> </a></span>
-                        </li>
-                    </ul>
-                </div> -->
+                        <table>
 
-                <br/>
-              <!--   <div class="pd-addon-group" style="margin:15px 0;border: 0 !important">
-                    <p style="color: #428bca;"><b>Dịch vụ bảo hành (tùy chọn) <a href="https://www.anphatpc.com.vn/bao-hanh-mo-uu-dai-rong.html" target="_blank"> <font color="Red">Xem chi tiết</font> </a></b></p>
-                    <div class="d-flex flex-wrap">
-                        <label class="item">
-                            <p class="title">Thêm 1 năm bảo hành (BHMR0073) <span class="price">(+179.000 ₫)</span></p>
-                            <i class="checkbox-square"></i>
-                            <input type="checkbox" value="77" data-price="179000" class="js-addon-select">                       
-                        </label>
-                        <label class="item">
-                            <p class="title">Thêm 2 năm bảo hành (BHMR0101) <span class="price">(+249.000 ₫)</span></p>
-                            <i class="checkbox-square"></i>
-                            <input type="checkbox" value="100" data-price="249000" class="js-addon-select">                       
-                        </label>
+                            @if(!empty($data->manuPrice))
+                                
+                            <tbody>
+                                <tr>
+                                    <td width="135px" class="font-500"> Giá niêm yết: </td>
+                                    <td> 
+                                        <del style="color: #888888;" class="font-500"> {{ @number_format($datas->manuPrice , 0, ',', '.')}} đ </del>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td width="135px" class="font-500"> Giá {{ !empty($data->manuPrice)?'khuyến mại':'' }} : </td>
+                                    <td>
+                                        <b style="color: #ce0707" class="text-18 js-pro-total-price" data-price="6689000">
+                                            {{  @str_replace(',' ,'.', number_format($data->Price))  }} đ 
+                                          
+                                        </b>
+                                        
+                                    </td>
+                                </tr>
+            
+                            </tbody>
+                             @endif
+                        </table>
                     </div>
-                </div> -->
-                <!-- button -->
+
+                </div>
+               
+                <br/>
+            
                 <div class="pro-button-container d-flex flex-wrap text-center justify-content-between">
                     <!-- Button Mua hàng -->
                     <a href="javascript:void(0)" class="w-100 btn-buyNow js-buy-now" onclick="addToCartRedirect({{ $data->id }})">
@@ -636,9 +567,9 @@
             </div>
         </div>
         <style type="text/css">
-            .overflow-hidden{
+            /*.overflow-hidden{
             height: 600px !important;
-            }
+            }*/
             .js-showless-button{
             display: none !important;
             }
