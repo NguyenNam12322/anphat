@@ -73,13 +73,27 @@
             <!-- pro images-left -->
             <div class="pro-image-gallery">
                 <div class="box-anh-sp" id="js-box-anh">
-                   
+                    
                     <div class="owl-carousel owl-theme owl-2019 custom-nav owl-loaded owl-drag">
-                        <div class="item" style="text-align:center"><img src="https://anphat.com.vn/media/product/43427_laptop_dell_inspiron_15_3520_70296960__co__1_.jpg"> </div>
-                        <div class="item" style="text-align:center"><img src="https://anphat.com.vn/media/product/43427_laptop_dell_inspiron_15_3520_70296960__co__1_.jpg"> </div>
-                        <div class="item" style="text-align:center"><img src="https://anphat.com.vn/media/product/43427_laptop_dell_inspiron_15_3520_70296960__co__1_.jpg"> </div>
+                        <div class="item" style="text-align:center">
+                            <img src="{{ asset($data->Image) }}"> 
+                        </div>
+
+                         <?php 
+
+                            $images = App\Models\image::where('product_id', $data->id)->select('image')->get()
+                        ?>
+                        @if(!empty($images) && $images->count()>0)
+                        @foreach($images as $image)
                        
+                         <div class="item" style="text-align:center">
+                            <img src="{{ asset($data->Image) }}"> 
+                        </div>
+                        @endforeach
+                        @endif
                     </div>
+
+                   
               
   
                 </div>
