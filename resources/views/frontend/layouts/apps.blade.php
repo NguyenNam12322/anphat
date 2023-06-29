@@ -6,7 +6,7 @@
 
 <head>
   
-    <title>An Phát Computer Showroom máy tính được yêu thích nhất 2023 - anphatpc.com.vn</title>
+    <title>site máy tính </title>
     <meta name="keywords" content="máy tính, pc chơi game, linh kiện máy tính, PC đồ họa, máy tính đồng bộ, mini pc, gaming laptop, màn hình máy tính, máy in, máy in canon, máy in hp, máy hủy tài liệu, máy chấm công, gaming gear, ghế chơi game, w"/>
     <meta name="description" content="An Phát Computer cung cấp hàng CHÍNH HÃNG - Giá tốt nhất thị trường. Bảo hành nhanh chóng, khuyến mại lớn, trả góp 0%. Máy tính đồng bộ, máy tính chơi game, gaming laptop, máy in, máy chiếu, máy hủy tài liệu, máy chấm công, thiết bị văn phòng, linh kiện hi-end, thiết bị cho game thủ. Cửa hàng máy tính An Phát Computer, anphatpc, anphatpc.com.vn"/>
     
@@ -232,8 +232,8 @@
             <div class="d-flex flex-wrap align-items-center header-main">
                 <h1 class="m-0">
                 <a href="{{ route('homeFe') }}" class="logo"> 
-                    <img src="anphat.com.vn/media/banner/logo_logo-web-t4.png" alt="An Phát" class="logo-img"/> 
-                    <img data-src="anphat.com.vn/media/banner/logo_logo-web-t4.png" alt="An Phát" class="logo-img-fixed lazy"/>
+                    <img src="{{  asset('anphat.com.vn/media/banner/logo_logo-web-t4.png')  }}" alt="An Phát" class="logo-img"/> 
+                    <img data-src="{{  asset('anphat.com.vn/media/banner/logo_logo-web-t4.png')  }}" alt="An Phát" class="logo-img-fixed lazy"/>
                 </a>
                 </h1>
 

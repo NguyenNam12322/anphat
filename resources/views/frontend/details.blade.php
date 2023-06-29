@@ -63,13 +63,7 @@
                 <!--  
                     -->
                 <div class="image-type-container clearfix list-image-title">
-                    <a href="javascript:void(0)" onclick="openBoxGallery(this);" data-id="anh_sp" data-name="Hình sản phẩm" class="js-img-type current">
-                    <span class="img">
-                    <img src="https://anphat.com.vn/media/product/75_43427_laptop_dell_inspiron_15_3520_70296960__co__1_.jpg" alt="Hình sản phẩm" class="fit-img">
-                    </span>
-                    <span class="name"> Hình sản phẩm </span>
-                    </a>
-                    
+                   
                    <!--  <a href="javascript:void(0)" class="blue text-center" data-fancybox="" data-src="#pro-spec">
                     <i class="fa fa-exclamation-circle d-block" style="transform: rotate(180deg);"></i>
                     Xem thông số kỹ thuật
@@ -445,11 +439,11 @@
                         </table>
                     </div>
                     <a href="javascript:void(0)" class="blue item-button" data-fancybox="" data-src="#pro-spec"> XEM THÊM THÔNG SỐ <i class="fa fa-angle-double-down"></i></a>
-                </div> -->
-                <div class="d-flex align-items-center justify-content-center">
+                </div>  -->
+                <!-- <div class="d-flex align-items-center justify-content-center">
                     <div class="fb-like fb_iframe_widget" style="height: 19px;margin-right: 10px;" data-href="https://www.anphatpc.com.vn/laptop-dell-inspiron-15-3520-70296960.html" data-width="" data-layout="button" data-action="like" data-size="small" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=173939288101609&amp;container_width=0&amp;href=https%3A%2F%2Fwww.anphatpc.com.vn%2Flaptop-dell-inspiron-15-3520-70296960.html&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;size=small&amp;width="><span style="vertical-align: bottom; width: 60px; height: 28px;"><iframe name="f2dea30428025e8" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v11.0/plugins/like.php?action=like&amp;app_id=173939288101609&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3d368c91bd69d%26domain%3Dwww.anphatpc.com.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.anphatpc.com.vn%252Ff32b38984f36b4%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.anphatpc.com.vn%2Flaptop-dell-inspiron-15-3520-70296960.html&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;size=small&amp;width=" style="border: none; visibility: visible; width: 60px; height: 28px;" class=""></iframe></span></div>
                     <div class="fb-share-button fb_iframe_widget" data-href="https://www.anphatpc.com.vn/laptop-dell-inspiron-15-3520-70296960.html" data-layout="button" data-size="small" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=173939288101609&amp;container_width=47&amp;href=https%3A%2F%2Fwww.anphatpc.com.vn%2Flaptop-dell-inspiron-15-3520-70296960.html&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;size=small"><span style="vertical-align: bottom; width: 67px; height: 20px;"><iframe name="f2f3221810ffe78" width="1000px" height="1000px" data-testid="fb:share_button Facebook Social Plugin" title="fb:share_button Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v11.0/plugins/share_button.php?app_id=173939288101609&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df25ff925069b24%26domain%3Dwww.anphatpc.com.vn%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.anphatpc.com.vn%252Ff32b38984f36b4%26relation%3Dparent.parent&amp;container_width=47&amp;href=https%3A%2F%2Fwww.anphatpc.com.vn%2Flaptop-dell-inspiron-15-3520-70296960.html&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;size=small" style="border: none; visibility: visible; width: 67px; height: 20px;" class=""></iframe></span></div>
-                </div>
+                </div> -->
             </div>
             <!-- pro-info-center -->
             <div class="pro-info-center pro-info-designs">
