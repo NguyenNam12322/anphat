@@ -20,6 +20,36 @@
     .product-info-container{
         height: 520px;
     }
+    .bg-content::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#fff));
+        background: linear-gradient(transparent, #fff);
+        height: 300px;
+    }
+
+    .pro-desc-spec-container{
+        position: relative;
+    }
+
+    .btn-html-content a {
+        width: 125px;
+        line-height: 40px;
+        height: 40px;
+        border: 1px solid #546ce8;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 50px;
+        display: none;
+        margin: auto;
+        color: #546ce8;
+    }
+    .bg-content{
+        height: 650px;
+    }
 </style>
 <section class="product-detail-page">
     <div class="container">
@@ -568,7 +598,7 @@
             }
         </style>
         <!-- mô tả + thông số + video + tin liên quan -->
-        <div class="pro-desc-spec-container bg-white clearfix">
+        <div class="pro-desc-spec-container bg-white clearfix  overflow-hidden  bg-content">
             <div class="item item-desc js-static-container">
                 <p class="title"> MÔ TẢ SẢN PHẨM </p>
                 {!! $data->Detail   !!}         
@@ -576,7 +606,13 @@
                     <a href="javascript:void(0)" class="js-showless-buttons">Xem thêm <i class="fa fa-angle-double-up"></i></a>
                 </div> -->
             </div>
+            <div class="text-center btn-html-content">
+                <a href="javascript:void(0)" class="js-showmore-button" style="display: block;">XEM THÊM <i class="fa fa-angle-double-down"></i></a>
+                <a href="javascript:void(0)" class="js-showless-button">THU GỌN <i class="fa fa-angle-double-up"></i></a>
+            </div>
         </div>
+        
+
         <div class="pro-video-art-container d-flex justify-content-between container">
             <div class="item item-left  h-100">
                 <div class="pro-comment-container bg-white d-none">
@@ -2740,6 +2776,15 @@
             });
             
         }
+
+        $('.js-showmore-button').click(function () {
+            
+             $('.pro-desc-spec-container').removeClass('bg-content');
+             $('.pro-desc-spec-container').removeClass('bg-white');
+             $('.pro-desc-spec-container').removeClass('clearfix');
+              $('.pro-desc-spec-container').removeClass('overflow-hidden');
+            $('.js-showmore-button').hide();
+        })
         
     </script>
     
