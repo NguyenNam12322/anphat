@@ -192,7 +192,7 @@
         <div class="container position-relative">
             
             
-            <a href="laptop-acer-gaming_dm1675.html?id=2306" target='_blank' rel='nofollow'><img border=0 src="anphat.com.vn/media/banner/03_Feb0953a2e81e3e6e2613a00ff78e899e84.jpg" width='1920' height='60' alt=""/></a>
+            <a href="laptop-acer-gaming_dm1675.html?id=2306" target='_blank' rel='nofollow'><img border=0 src="/anphat.com.vn/media/banner/03_Feb0953a2e81e3e6e2613a00ff78e899e84.jpg" width='1920' height='60' alt=""/></a>
             
             
             <a href="javascript:void(0)" onclick="$('.header-banner').slideUp(200)" class="close-banner">X</a>
@@ -232,8 +232,8 @@
             <div class="d-flex flex-wrap align-items-center header-main">
                 <h1 class="m-0">
                 <a href="{{ route('homeFe') }}" class="logo"> 
-                    <img src="{{  asset('anphat.com.vn/media/banner/logo_logo-web-t4.png')  }}" alt="An Phát" class="logo-img"/> 
-                    <img data-src="{{  asset('anphat.com.vn/media/banner/logo_logo-web-t4.png')  }}" alt="An Phát" class="logo-img-fixed lazy"/>
+                    <img src="{{  asset('/anphat.com.vn/media/banner/logo_logo-web-t4.png')  }}" alt="An Phát" class="logo-img"/> 
+                    <img data-src="{{  asset('/anphat.com.vn/media/banner/logo_logo-web-t4.png')  }}" alt="An Phát" class="logo-img-fixed lazy"/>
                 </a>
                 </h1>
 
@@ -318,7 +318,7 @@
                             <div class="item bg-white" data-id="395">
                                 <a href="{{ route('details', $groupss->link) }}" class="pro-cate-1"> 
                                     <span class="cat-thumb-item" style="width: 35px;text-align: center"> 
-                                        <img src="anphat.com.vn/media/category/cat_b706c0f50035bddb63ca6e91efef7703.png" alt="Laptop - Tablet - Mobile"/> 
+                                        <img src="/anphat.com.vn/media/category/cat_b706c0f50035bddb63ca6e91efef7703.png" alt="Laptop - Tablet - Mobile"/> 
                                     </span>
               
                                     <span class="title" title="Laptop - Tablet - Mobile">{{ $groupss->name }}</span>
@@ -428,7 +428,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="chuong-trinh-khuyen-mai.html" class="bg"><img src="anphat.com.vn/media/lib/30-01-2023/chuong-trinh-khuyen-mai.png" /> Khuyến mãi Hot </a>
+                        <a href="chuong-trinh-khuyen-mai.html" class="bg"><img src="/anphat.com.vn/media/lib/30-01-2023/chuong-trinh-khuyen-mai.png" /> Khuyến mãi Hot </a>
                         <a href="trung-tam-bao-hanh.html" class="bg-icon icon-package"> Đổi trả miễn phí </a>
                         <a href="giao-hang.html" class="bg-icon icon-delivery"> Miễn phí vận chuyển </a>
                     </div> -->
