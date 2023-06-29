@@ -552,13 +552,13 @@
                 <p><b>Trợ giúp</b></p>
                 <div style="line-height:25px;">
                     <ul class="ul">
-                        <li> <i class="fa fa-check"></i> <a href="https://www.anphatpc.com.vn/tin-khuyen-mai/huong-dan-dat-hang-flash-sale_idtin5339.html" target="blank">Hướng dẫn đặt hàng Flash Sale</a> </li>
-                        <li> <i class="fa fa-check"></i> <a href="https://www.anphatpc.com.vn/huong-dan-dat-hang.html" target="blank">Hướng dẫn mua hàng</a> </li>
-                        <li> <i class="fa fa-check"></i> <a href="https://www.anphatpc.com.vn/trung-tam-bao-hanh.html" target="blank">Chính sách bảo hành đổi trả</a> </li>
-                        <li> <i class="fa fa-check"></i> <a href="https://www.anphatpc.com.vn/mua-tra-gop.html"target="blank">Chính sách mua trả góp</a> </li>
-                        <li> <i class="fa fa-check"></i> <a href="https://www.anphatpc.com.vn/giao-hang.html" target="blank">Chính sách giao hàng</a> </li>
-                        <li> <i class="fa fa-check"></i> <a href="https://www.anphatpc.com.vn/chinh-sach-bao-hanh-tan-nha.html" target="blank">Chính sách bảo hành tận nhà</a> </li>
-                        <li> <i class="fa fa-check"></i> <a href="https://www.anphatpc.com.vn/phong-du-an-va-khach-hang-doanh-nghiep.html" target="blank">Hỗ trợ khách hàng dự án, doanh nghiệp </a> </li>
+                        <li> <i class="fa fa-check"></i> <a href="#" target="blank">Hướng dẫn đặt hàng Flash Sale</a> </li>
+                        <li> <i class="fa fa-check"></i> <a href="#" target="blank">Hướng dẫn mua hàng</a> </li>
+                        <li> <i class="fa fa-check"></i> <a href="#" target="blank">Chính sách bảo hành đổi trả</a> </li>
+                        <li> <i class="fa fa-check"></i> <a href="#"target="blank">Chính sách mua trả góp</a> </li>
+                        <li> <i class="fa fa-check"></i> <a href="#" target="blank">Chính sách giao hàng</a> </li>
+                        <li> <i class="fa fa-check"></i> <a href="#" target="blank">Chính sách bảo hành tận nhà</a> </li>
+                        <li> <i class="fa fa-check"></i> <a href="#" target="blank">Hỗ trợ khách hàng dự án, doanh nghiệp </a> </li>
                     </ul>
                 </div>
                 <br>
