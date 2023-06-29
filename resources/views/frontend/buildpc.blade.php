@@ -331,10 +331,16 @@
 
         price = parseInt($('#box'+id+' .sum_price').text().replaceAll('.',''));
 
+        one_price = parseInt($('#box'+id+' .d-price').text().replaceAll('.',''));
+
 
         totalprice =   parseInt($('.total-price-config').text().replaceAll('&nbsp₫', '').replaceAll('.',''));
 
-        totalprices = totalprice - price;
+        qualtity = parseInt($('#box'+id+' .count-p').val());
+
+        console.log(price);
+
+        totalprices = totalprice - (one_price*qualtity);
 
 
         const formatter = new Intl.NumberFormat('vi', {
