@@ -3,6 +3,9 @@
 
 @section('content') 
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
 <style type="text/css">
     
     .header-menu-holder{
@@ -40,19 +43,15 @@
             <!-- pro images-left -->
             <div class="pro-image-gallery">
                 <div class="box-anh-sp" id="js-box-anh">
-                    <div class="owl-carousel owl-2019 custom-nav owl-loaded owl-drag" id="list-image-slider">
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 3570px;">
-                                <div class="owl-item active" style="width: 500px; margin-right: 10px;">
-                                    <div class="item" style="text-align:center"><img src="https://anphat.com.vn/media/product/43427_laptop_dell_inspiron_15_3520_70296960__co__1_.jpg"> </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fa fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-chevron-right"></i></button></div>
-                        <div class="owl-dots disabled"></div>
-                        <div class="owl-thumbs"></div>
+                   
+                    <div class="owl-carousel owl-theme owl-2019 custom-nav owl-loaded owl-drag">
+                        <div class="item" style="text-align:center"><img src="https://anphat.com.vn/media/product/43427_laptop_dell_inspiron_15_3520_70296960__co__1_.jpg"> </div>
+                        <div class="item" style="text-align:center"><img src="https://anphat.com.vn/media/product/43427_laptop_dell_inspiron_15_3520_70296960__co__1_.jpg"> </div>
+                        <div class="item" style="text-align:center"><img src="https://anphat.com.vn/media/product/43427_laptop_dell_inspiron_15_3520_70296960__co__1_.jpg"> </div>
+                       
                     </div>
+              
+  
                 </div>
                 <a href="javascript:void(0)" class="box-gallery d-block text-center blue text-12" id="box-open-gallery" onclick="openBoxGallery(this);" data-id="anh_sp">
                     <i class="fa fa-search-plus"></i> 
@@ -2699,6 +2698,18 @@
     @push('js')
 
     <script type="text/javascript">
+
+        $(function() {
+          // Owl Carousel
+          var owl = $(".owl-carousel");
+          owl.owlCarousel({
+            items: 1,
+            margin: 10,
+            loop: true,
+            nav: true,
+            dots:false
+          });
+        });
 
         function addToCartRedirect(id) {
 
