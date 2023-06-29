@@ -333,9 +333,9 @@
                         </div>
                     </div>
 
-                    <!-- <div class="menu-text-right d-flex align-items-center justify-content-between font-weight-light text-13">
-                        <a href="san-pham-da-xem.html" target="_blank" class="header-history"> Sản phẩm bạn đã xem </a>
-                        <a href="deal.html" class="bg-icon icon-flash"> Flash sale </a>
+                    <div class="menu-text-right d-flex align-items-center justify-content-between font-weight-light text-13">
+                        <a href="{{ route('viewer') }}" target="_blank" class="header-history"> Sản phẩm bạn đã xem </a>
+                        <!-- <a href="deal.html" class="bg-icon icon-flash"> Flash sale </a>
                         <div class="header-support-container" style="line-height: 38px;">
                             <a href="javascript:void(0)" class="bg-icon icon-support"> Tư vấn bán hàng </a>
                          
@@ -430,8 +430,8 @@
                         </div>
                         <a href="chuong-trinh-khuyen-mai.html" class="bg"><img src="/anphat.com.vn/media/lib/30-01-2023/chuong-trinh-khuyen-mai.png" /> Khuyến mãi Hot </a>
                         <a href="trung-tam-bao-hanh.html" class="bg-icon icon-package"> Đổi trả miễn phí </a>
-                        <a href="giao-hang.html" class="bg-icon icon-delivery"> Miễn phí vận chuyển </a>
-                    </div> -->
+                        <a href="giao-hang.html" class="bg-icon icon-delivery"> Miễn phí vận chuyển </a> -->
+                    </div>
                 </div>
             </div>
         </div>

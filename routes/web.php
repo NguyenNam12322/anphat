@@ -74,7 +74,10 @@ Route::post('add-lienhe','lienheController@addLienhe')->name('addlienhe');
 
 Route::get('/result.php', 'mainController@resultAlepay');
 
-
+Route::get('/viewer', function () {
+    return view('frontend.viewer');
+    
+})->name('viewer');
 
 
 Route::post('alepay-pay','payController@payAlepay')->name('alepay');
