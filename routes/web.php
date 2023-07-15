@@ -12,7 +12,9 @@
 */
 
 
+Route::get('get-link-anphat', 'crawlController@getLinkAnPhat');
 
+Route::get('crawl-an-phat', 'crawlController@crawlAnPhat');
 
 Route::get('/tin-khuyen-mai/', 'Frontend\blogController@index')->middleware('cache.headers:public;max_age=14400;etag')->name('tin');
 
